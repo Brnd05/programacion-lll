@@ -1,6 +1,8 @@
 ﻿//Listas
 //Crear una lista de nombres
 
+using ColeccionesGenericas;
+
 List<string> nombres = new List<string>();
 
 //Agregar nombres a la lista
@@ -57,4 +59,29 @@ Console.WriteLine($"Ateniendo a: {clientes.Dequeue()}");
 //Recorrer cola
 foreach (var cliente in clientes)
 { Console.WriteLine(cliente); }
+
+Console.WriteLine(":::::::::::::::::::::::::: GESTION DE COLA ::::::::::::::::::::::::::::::::::::");
+Console.WriteLine();
+
+var biblioteca = new Biblioteca();
+
+//Uso de List <T>
+biblioteca.AgregarLibro(new Libro { Id = 1, Titulo = "Programacion con C#" });
+biblioteca.AgregarLibro(new Libro { Id = 2, Titulo = "MySQL para Todos" });
+biblioteca.AgregarLibro(new Libro { Id = 3, Titulo = "El Principito" });
+
+biblioteca.MostrarLibros();
+
+//Uso de Stack<T>
+biblioteca.SeleccionarLibro(2);
+biblioteca.SeleccionarLibro(3);
+biblioteca.VolverAtras();
+
+//uso de queue
+biblioteca.AgregarUsuaioACola("Carlos");
+biblioteca.AgregarUsuaioACola("Crissia");
+biblioteca.AgregarUsuaioACola("Anderson");
+biblioteca.AtenderUsuario();
+biblioteca.AtenderUsuario();
+
 Console.Read();

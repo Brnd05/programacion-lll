@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\serializacionjson\\serializacionjson\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|solutionrelative:serializacionjson\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\serializacionjson\\serializacionjson\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|solutionrelative:serializacionjson\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\serializacionjson\\serializacionjson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|solutionrelative:serializacionjson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\serializacionjson\\serializacionjson\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|solutionrelative:serializacionjson\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\serializacionjson\\serializacionjson\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|solutionrelative:serializacionjson\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\serializacionjson\\serializacionjson\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14FC18D-8B97-4CA2-B5DB-FF2A635995A3}|SerializacionJSON\\SerializacionJSON.csproj|solutionrelative:serializacionjson\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\bin\\Debug\\net9.0\\estudiantes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SerializacionJSON\\bin\\Debug\\net9.0\\estudiantes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Pedido.cs",
+              "RelativeDocumentMoniker": "SerializacionJSON\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Pedido.cs",
+              "RelativeToolTip": "SerializacionJSON\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T13:25:10.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Cliente.cs",
+              "RelativeDocumentMoniker": "SerializacionJSON\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Cliente.cs",
+              "RelativeToolTip": "SerializacionJSON\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T13:23:50.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Producto.cs",
+              "RelativeDocumentMoniker": "SerializacionJSON\\Producto.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Producto.cs",
+              "RelativeToolTip": "SerializacionJSON\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T13:16:29.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Usuario.cs",
+              "RelativeDocumentMoniker": "SerializacionJSON\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Usuario.cs",
+              "RelativeToolTip": "SerializacionJSON\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T13:08:42.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "estudiantes.json",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\bin\\Debug\\net9.0\\estudiantes.json",
+              "RelativeDocumentMoniker": "SerializacionJSON\\bin\\Debug\\net9.0\\estudiantes.json",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\bin\\Debug\\net9.0\\estudiantes.json",
+              "RelativeToolTip": "SerializacionJSON\\bin\\Debug\\net9.0\\estudiantes.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T13:06:32.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Estudiante.cs",
+              "RelativeDocumentMoniker": "SerializacionJSON\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Estudiante.cs",
+              "RelativeToolTip": "SerializacionJSON\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:38:25.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Program.cs",
+              "RelativeDocumentMoniker": "SerializacionJSON\\Program.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\SerializacionJSON\\SerializacionJSON\\Program.cs",
+              "RelativeToolTip": "SerializacionJSON\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:37:11.959Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

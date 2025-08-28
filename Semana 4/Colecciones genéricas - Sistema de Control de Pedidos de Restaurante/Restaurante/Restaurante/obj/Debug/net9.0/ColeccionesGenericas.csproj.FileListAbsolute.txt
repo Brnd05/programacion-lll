@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\bin\Debug\net9.0\ColeccionesGenericas.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\bin\Debug\net9.0\ColeccionesGenericas.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\bin\Debug\net9.0\ColeccionesGenericas.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\bin\Debug\net9.0\ColeccionesGenericas.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\bin\Debug\net9.0\ColeccionesGenericas.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\refint\ColeccionesGenericas.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ColeccionesGenericas.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 4\Colecciones genéricas - Sistema de Control de Pedidos de Restaurante\Restaurante\Restaurante\obj\Debug\net9.0\ref\ColeccionesGenericas.dll

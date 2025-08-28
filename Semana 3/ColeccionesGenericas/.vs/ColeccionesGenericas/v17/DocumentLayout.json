@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|solutionrelative:coleccionesgenericas\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 3\\coleccionesgenericas\\coleccionesgenericas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|solutionrelative:coleccionesgenericas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 3\\coleccionesgenericas\\coleccionesgenericas\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|solutionrelative:coleccionesgenericas\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 3\\coleccionesgenericas\\coleccionesgenericas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|solutionrelative:coleccionesgenericas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 3\\coleccionesgenericas\\coleccionesgenericas\\coleccionesgenericas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DC8FB3E-E0BC-4DCE-AFDC-B172C135600E}|ColeccionesGenericas\\ColeccionesGenericas.csproj|solutionrelative:coleccionesgenericas\\coleccionesgenericas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColeccionesGenericas.csproj",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 3\\ColeccionesGenericas\\ColeccionesGenericas\\ColeccionesGenericas.csproj",
+              "RelativeDocumentMoniker": "ColeccionesGenericas\\ColeccionesGenericas.csproj",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 3\\ColeccionesGenericas\\ColeccionesGenericas\\ColeccionesGenericas.csproj",
+              "RelativeToolTip": "ColeccionesGenericas\\ColeccionesGenericas.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-21T12:07:50.477Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,33 +48,33 @@
               "RelativeDocumentMoniker": "ColeccionesGenericas\\Biblioteca.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 3\\ColeccionesGenericas\\ColeccionesGenericas\\Biblioteca.cs",
               "RelativeToolTip": "ColeccionesGenericas\\Biblioteca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T13:22:46.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 3\\ColeccionesGenericas\\ColeccionesGenericas\\Libro.cs",
               "RelativeDocumentMoniker": "ColeccionesGenericas\\Libro.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 3\\ColeccionesGenericas\\ColeccionesGenericas\\Libro.cs",
               "RelativeToolTip": "ColeccionesGenericas\\Libro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T13:16:36.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 3\\ColeccionesGenericas\\ColeccionesGenericas\\Program.cs",
               "RelativeDocumentMoniker": "ColeccionesGenericas\\Program.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 3\\ColeccionesGenericas\\ColeccionesGenericas\\Program.cs",
               "RelativeToolTip": "ColeccionesGenericas\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T12:28:32.936Z",
               "EditorCaption": ""

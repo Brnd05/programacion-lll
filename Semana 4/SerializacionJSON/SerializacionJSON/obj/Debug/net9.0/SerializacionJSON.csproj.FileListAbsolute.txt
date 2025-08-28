@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\bin\Debug\net9.0\SerializacionJSON.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\bin\Debug\net9.0\SerializacionJSON.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\bin\Debug\net9.0\SerializacionJSON.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\bin\Debug\net9.0\SerializacionJSON.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\bin\Debug\net9.0\SerializacionJSON.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\refint\SerializacionJSON.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\SerializacionJSON.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 4\SerializacionJSON\SerializacionJSON\obj\Debug\net9.0\ref\SerializacionJSON.dll
