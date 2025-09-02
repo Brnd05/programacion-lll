@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\bin\Debug\net9.0\PrestamosLibross.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\bin\Debug\net9.0\PrestamosLibross.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\bin\Debug\net9.0\PrestamosLibross.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\bin\Debug\net9.0\PrestamosLibross.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\bin\Debug\net9.0\PrestamosLibross.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\refint\PrestamosLibross.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\PrestamosLibross.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\PrestamosLibross\PrestamosLibross\obj\Debug\net9.0\ref\PrestamosLibross.dll

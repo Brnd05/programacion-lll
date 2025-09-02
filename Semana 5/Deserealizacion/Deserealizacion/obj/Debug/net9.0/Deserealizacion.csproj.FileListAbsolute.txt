@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\bin\Debug\net9.0\Deserealizacion.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\bin\Debug\net9.0\Deserealizacion.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\bin\Debug\net9.0\Deserealizacion.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\bin\Debug\net9.0\Deserealizacion.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\bin\Debug\net9.0\Deserealizacion.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\refint\Deserealizacion.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\Deserealizacion.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\Deserealizacion\Deserealizacion\obj\Debug\net9.0\ref\Deserealizacion.dll

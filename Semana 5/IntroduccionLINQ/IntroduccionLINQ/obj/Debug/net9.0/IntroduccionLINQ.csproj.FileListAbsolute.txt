@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\bin\Debug\net9.0\IntroduccionLINQ.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\bin\Debug\net9.0\IntroduccionLINQ.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\bin\Debug\net9.0\IntroduccionLINQ.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\bin\Debug\net9.0\IntroduccionLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\bin\Debug\net9.0\IntroduccionLINQ.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\refint\IntroduccionLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\IntroduccionLINQ.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 6\IntroduccionLINQ\IntroduccionLINQ\obj\Debug\net9.0\ref\IntroduccionLINQ.dll

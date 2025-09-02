@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\PrestamosLibros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5C6A23-CD0B-456F-8499-E7CAC99A81F0}|PrestamosLibros\\PrestamosLibros.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 5\\prestamoslibros\\prestamoslibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5C6A23-CD0B-456F-8499-E7CAC99A81F0}|PrestamosLibros\\PrestamosLibros.csproj|solutionrelative:prestamoslibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\PrestamosLibros\\PrestamosLibros\\Program.cs",
+              "RelativeDocumentMoniker": "PrestamosLibros\\Program.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\PrestamosLibros\\PrestamosLibros\\Program.cs",
+              "RelativeToolTip": "PrestamosLibros\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T13:11:06.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
