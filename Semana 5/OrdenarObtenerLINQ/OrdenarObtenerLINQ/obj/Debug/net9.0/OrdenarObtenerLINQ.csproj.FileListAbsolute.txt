@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\bin\Debug\net9.0\OrdenarObtenerLINQ.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\bin\Debug\net9.0\OrdenarObtenerLINQ.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\bin\Debug\net9.0\OrdenarObtenerLINQ.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\bin\Debug\net9.0\OrdenarObtenerLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\bin\Debug\net9.0\OrdenarObtenerLINQ.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\refint\OrdenarObtenerLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\OrdenarObtenerLINQ.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 5\OrdenarObtenerLINQ\OrdenarObtenerLINQ\obj\Debug\net9.0\ref\OrdenarObtenerLINQ.dll
