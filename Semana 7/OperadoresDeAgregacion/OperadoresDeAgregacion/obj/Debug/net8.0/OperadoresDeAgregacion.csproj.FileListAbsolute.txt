@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\bin\Debug\net8.0\OperadoresDeAgregacion.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\bin\Debug\net8.0\OperadoresDeAgregacion.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\bin\Debug\net8.0\OperadoresDeAgregacion.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\bin\Debug\net8.0\OperadoresDeAgregacion.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\bin\Debug\net8.0\OperadoresDeAgregacion.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\refint\OperadoresDeAgregacion.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\OperadoresDeAgregacion.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 7\OperadoresDeAgregacion\OperadoresDeAgregacion\obj\Debug\net8.0\ref\OperadoresDeAgregacion.dll

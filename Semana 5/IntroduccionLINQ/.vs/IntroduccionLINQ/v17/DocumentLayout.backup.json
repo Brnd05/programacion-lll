@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 6\\IntroduccionLINQ\\",
+  "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\IntroduccionLINQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73F9EF00-A937-43A8-B24B-9F6A614B15D9}|IntroduccionLINQ\\IntroduccionLINQ.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 6\\introduccionlinq\\introduccionlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F9EF00-A937-43A8-B24B-9F6A614B15D9}|IntroduccionLINQ\\IntroduccionLINQ.csproj|solutionrelative:introduccionlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\IntroduccionLINQ\\IntroduccionLINQ\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntroduccionLINQ\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F9EF00-A937-43A8-B24B-9F6A614B15D9}|IntroduccionLINQ\\IntroduccionLINQ.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 6\\introduccionlinq\\introduccionlinq\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F9EF00-A937-43A8-B24B-9F6A614B15D9}|IntroduccionLINQ\\IntroduccionLINQ.csproj|solutionrelative:introduccionlinq\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\IntroduccionLINQ\\IntroduccionLINQ\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntroduccionLINQ\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 6\\IntroduccionLINQ\\IntroduccionLINQ\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\IntroduccionLINQ\\IntroduccionLINQ\\Producto.cs",
               "RelativeDocumentMoniker": "IntroduccionLINQ\\Producto.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 6\\IntroduccionLINQ\\IntroduccionLINQ\\Producto.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\IntroduccionLINQ\\IntroduccionLINQ\\Producto.cs",
               "RelativeToolTip": "IntroduccionLINQ\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T12:58:33.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T12:58:33.565Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 6\\IntroduccionLINQ\\IntroduccionLINQ\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\IntroduccionLINQ\\IntroduccionLINQ\\Program.cs",
               "RelativeDocumentMoniker": "IntroduccionLINQ\\Program.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 6\\IntroduccionLINQ\\IntroduccionLINQ\\Program.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 5\\IntroduccionLINQ\\IntroduccionLINQ\\Program.cs",
               "RelativeToolTip": "IntroduccionLINQ\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAEEAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T12:17:50.565Z",
               "EditorCaption": ""
