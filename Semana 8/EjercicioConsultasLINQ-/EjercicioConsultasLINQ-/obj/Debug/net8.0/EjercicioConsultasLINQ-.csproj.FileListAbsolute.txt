@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\bin\Debug\net8.0\EjercicioConsultasLINQ-.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\bin\Debug\net8.0\EjercicioConsultasLINQ-.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\bin\Debug\net8.0\EjercicioConsultasLINQ-.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\bin\Debug\net8.0\EjercicioConsultasLINQ-.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\bin\Debug\net8.0\EjercicioConsultasLINQ-.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\refint\EjercicioConsultasLINQ-.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\EjercicioConsultasLINQ-.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 8\EjercicioConsultasLINQ-\EjercicioConsultasLINQ-\obj\Debug\net8.0\ref\EjercicioConsultasLINQ-.dll

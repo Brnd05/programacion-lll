@@ -1,6 +1,17 @@
 {
-  "Libros": null,
-  "Prestamo": null,
-  "SiguienteLibroId": 1,
+  "Libros": [
+    {
+      "Id": 1,
+      "Nombre": "ff",
+      "Prestado": false
+    },
+    {
+      "Id": 2,
+      "Nombre": "Libre",
+      "Prestado": false
+    }
+  ],
+  "Prestamo": [],
+  "SiguienteLibroId": 3,
   "SiguientePrestamoId": 1
 }

@@ -27,8 +27,8 @@ namespace PrestamosLibross
         #endregion
         //Guardar en un archivo json
         class Data {
-        public List<Libros> Libros { get; set; }
-            public List<Prestamo> Prestamo { get; set; }
+            public List<Libros> Libros { get; set; } = new ();
+            public List<Prestamo> Prestamo { get; set; } = new ();
 
             public int SiguienteLibroId { get; set; } = 1;
             public int SiguientePrestamoId { get; set; } = 1;
@@ -109,7 +109,7 @@ namespace PrestamosLibross
             }
 
             var libro = new Libros { Id = BD.SiguienteLibroId++, Nombre = nombre };
-            BD.Libros.Add(Libro);
+            BD.Libros.Add(libro);
             GuardarArchivo();
             Console.WriteLine($"Libro {libro.Id} agregado.");
 
@@ -117,7 +117,7 @@ namespace PrestamosLibross
 
         static void PrestarLibro()
         {
-            var disponible = BD.Libros.Where(libro => 1l.Prestado).ToList();
+            var disponible = BD.Libros.Where(libro => libro.Prestado).ToList();
             if (disponible.Count == 0)
             {
                 Console.WriteLine("No hay libros disponibles");
@@ -131,13 +131,13 @@ namespace PrestamosLibross
             }
 
             Console.WriteLine("Id libro: ");
-            If(!int.TryParse(Console.ReadLine(), out int idLibro))
+            if(!int.TryParse(Console.ReadLine(), out int idLibro))
             {
                 Console.WriteLine("Dato invalido");
                 return;
             }
 
-            var libro = disponibles.FirstOrDefault(l => l.Id == idLibro);
+            var libro = disponible.FirstOrDefault(l => l.Id == idLibro);
             if (libro == null)
             {
                 Console.WriteLine("No encontrado");
@@ -157,12 +157,12 @@ namespace PrestamosLibross
                 Id = BD.SiguientePrestamoId++,
                 LibroId = libro.Id,
                 Usuario = usuario
-            }
+            };
 
             libro.Prestado = true;
             BD.Prestamo.Add(p);
 
-            GuardarArchivo
+            GuardarArchivo();
                 Console.WriteLine($"Se ha prestado el libro: {libro.Nombre}");
         }
 
@@ -175,10 +175,48 @@ namespace PrestamosLibross
                 return;
             }
 
-            Console.WriteLine("Prestamos activos")
+            Console.WriteLine("Prestamos activos");
             foreach (var p in activos)
             {
                 var libro = BD.Libros.First(l => l.Id == p.LibroId);
+                Console.WriteLine($"{libro.Id} {libro.Nombre} {p.Usuario} {p.FechaPrestamo:g}");
+
+            }
+            Console.WriteLine("Id prestamo a devolver: ");
+            if(!int.TryParse(Console.ReadLine(), out int idPrestamo))
+            {
+                Console.WriteLine("Dato invalido");
+                return;
+            }
+
+            var prestamo = activos.FirstOrDefault(x => x.Id == idPrestamo);
+            if (prestamo == null ) { Console.WriteLine("Prestamo no encontrado");}
+            prestamo.FechaDevolucion = DateTime.Now;
+
+            BD.Libros.First(l => l.Id == prestamo.LibroId).Prestado = false;
+
+            GuardarArchivo();
+            Console.WriteLine("Devolucion registrada.");
+        }
+
+        static void Mostrar()
+        {
+            Console.WriteLine("Informacion Libro:");
+            foreach (var item in BD.Libros)
+            {
+                Console.WriteLine($"{item.Id} {item.Nombre} {(item.Prestado ? "Prestado" : "Dísponible")}");
+            }
+
+            Console.WriteLine("Informacion Prestamo: ");
+            foreach (var p in  BD.Prestamo)
+            {
+                var libro = BD.Libros.FirstOrDefault(l => l.Id == p.LibroId)?.Nombre;
+
+
+                var estado = p.Activo ? "Activo" : $"Devuelto {p.FechaDevolucion}";
+
+
+                Console.WriteLine($"{p.Id} {libro} {p.Usuario} {p.Usuario} {estado}");
             }
         }
     }
