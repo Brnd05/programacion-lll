@@ -19,7 +19,6 @@ var productos = new List<(int Id, string Nombre, decimal Precio, string Categori
 
     (8, "Mesa", 230.00m, "Hogar"),
 
-    (9, "Escritorio", 599.99m, "Hogar")
 
 };
 
@@ -52,7 +51,6 @@ foreach (var nom in SoloNomnbre)
 {
     Console.WriteLine (nom);
 }
-
 // Uso de First y FirstOrDefault
 var PrimeroPorPrecio = productos.OrderBy(p => p.Precio).First();
 Console.WriteLine($"Primer producto: {PrimeroPorPrecio}");
