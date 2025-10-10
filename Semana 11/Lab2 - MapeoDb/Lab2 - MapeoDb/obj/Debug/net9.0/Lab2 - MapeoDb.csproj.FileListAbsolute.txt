@@ -1,0 +1,6 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 11\Lab2 - MapeoDb\Lab2 - MapeoDb\obj\Debug\net9.0\Lab2 - MapeoDb.csproj.AssemblyReference.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 11\Lab2 - MapeoDb\Lab2 - MapeoDb\obj\Debug\net9.0\Lab2 - MapeoDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 11\Lab2 - MapeoDb\Lab2 - MapeoDb\obj\Debug\net9.0\Lab2 - MapeoDb.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 11\Lab2 - MapeoDb\Lab2 - MapeoDb\obj\Debug\net9.0\Lab2 - MapeoDb.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 11\Lab2 - MapeoDb\Lab2 - MapeoDb\obj\Debug\net9.0\Lab2 - MapeoDb.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 11\Lab2 - MapeoDb\Lab2 - MapeoDb\obj\Debug\net9.0\Lab2 - MapeoDb.sourcelink.json

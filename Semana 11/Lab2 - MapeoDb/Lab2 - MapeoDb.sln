@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2 - MapeoDb", "Lab2 - MapeoDb\Lab2 - MapeoDb.csproj", "{AD3C8DCF-C9A5-4A64-BBB1-D06B25C19A00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD3C8DCF-C9A5-4A64-BBB1-D06B25C19A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3C8DCF-C9A5-4A64-BBB1-D06B25C19A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3C8DCF-C9A5-4A64-BBB1-D06B25C19A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3C8DCF-C9A5-4A64-BBB1-D06B25C19A00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77DCA986-693A-4FCB-A9C1-C8C6B3CFBC68}
+	EndGlobalSection
+EndGlobal
