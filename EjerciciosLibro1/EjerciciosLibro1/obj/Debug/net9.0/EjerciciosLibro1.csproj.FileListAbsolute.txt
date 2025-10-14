@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\bin\Debug\net9.0\EjerciciosLibro1.exe
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\bin\Debug\net9.0\EjerciciosLibro1.deps.json
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\bin\Debug\net9.0\EjerciciosLibro1.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\bin\Debug\net9.0\EjerciciosLibro1.dll
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\bin\Debug\net9.0\EjerciciosLibro1.pdb
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.dll
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\refint\EjerciciosLibro1.dll
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.pdb
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\EjerciciosLibro1.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\EjerciciosLibro1\EjerciciosLibro1\obj\Debug\net9.0\ref\EjerciciosLibro1.dll

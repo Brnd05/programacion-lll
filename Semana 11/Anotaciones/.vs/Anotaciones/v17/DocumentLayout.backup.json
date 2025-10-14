@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{E6D3C7BB-6313-4873-B56F-3FB59F8B91ED}|Anotaciones\\Anotaciones.csproj|solutionrelative:anotaciones\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Anotaciones\\Anotaciones\\Migrations\\20251009130520_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Anotaciones\\Migrations\\20251009130520_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6D3C7BB-6313-4873-B56F-3FB59F8B91ED}|Anotaciones\\Anotaciones.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\anotaciones\\anotaciones\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6D3C7BB-6313-4873-B56F-3FB59F8B91ED}|Anotaciones\\Anotaciones.csproj|solutionrelative:anotaciones\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Anotaciones\\Anotaciones\\Migrations\\20251009130520_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Anotaciones\\Migrations\\20251009130520_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6D3C7BB-6313-4873-B56F-3FB59F8B91ED}|Anotaciones\\Anotaciones.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\anotaciones\\anotaciones\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "20251009130520_MigracionInicial.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Anotaciones\\Anotaciones\\Migrations\\20251009130520_MigracionInicial.cs",
               "RelativeDocumentMoniker": "Anotaciones\\Migrations\\20251009130520_MigracionInicial.cs",
@@ -55,9 +55,9 @@
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Anotaciones\\Anotaciones\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Anotaciones\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Anotaciones\\Anotaciones\\Models\\AppDbContext.cs*",
-              "RelativeToolTip": "Anotaciones\\Models\\AppDbContext.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Anotaciones\\Anotaciones\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Anotaciones\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T12:51:29.01Z",
               "EditorCaption": ""
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Anotaciones\\Anotaciones\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "Anotaciones\\Models\\Categoria.cs",
