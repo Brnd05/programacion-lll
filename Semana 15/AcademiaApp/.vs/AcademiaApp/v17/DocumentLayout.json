@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.presentacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|solutionrelative:academiaapp.presentacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.presentacion\\academiaapp.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|solutionrelative:academiaapp.presentacion\\academiaapp.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48BBD9C3-7DE5-43CA-92A1-DB9EEDFC0B48}|AcademiaApp.Data\\AcademiaApp.Data.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.data\\academiadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48BBD9C3-7DE5-43CA-92A1-DB9EEDFC0B48}|AcademiaApp.Data\\AcademiaApp.Data.csproj|solutionrelative:academiaapp.data\\academiadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.business\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|solutionrelative:academiaapp.business\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.business\\carreraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|solutionrelative:academiaapp.business\\carreraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.business\\academiaapp.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|solutionrelative:academiaapp.business\\academiaapp.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentacion.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentacion.csproj|solutionrelative:academiaapp.presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.business\\icarrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|solutionrelative:academiaapp.business\\icarrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.business\\iestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|solutionrelative:academiaapp.business\\iestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.business\\carreraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610C78DB-94E8-45FE-A879-92613D56AED7}|AcademiaApp.Business\\AcademiaApp.Business.csproj|solutionrelative:academiaapp.business\\carreraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48BBD9C3-7DE5-43CA-92A1-DB9EEDFC0B48}|AcademiaApp.Data\\AcademiaApp.Data.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.data\\academiaapp.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{48BBD9C3-7DE5-43CA-92A1-DB9EEDFC0B48}|AcademiaApp.Data\\AcademiaApp.Data.csproj|solutionrelative:academiaapp.data\\academiaapp.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.presentacion\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|solutionrelative:academiaapp.presentacion\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.presentacion\\components\\pages\\academia.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AE7FC53B-0629-44FD-871F-FD3244560E69}|AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj|solutionrelative:academiaapp.presentacion\\components\\pages\\academia.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607425EC-62AC-4F84-9665-CD0BF8C932BA}|AcademiaApp.Models\\AcademiaApp.Models.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607425EC-62AC-4F84-9665-CD0BF8C932BA}|AcademiaApp.Models\\AcademiaApp.Models.csproj|solutionrelative:academiaapp.models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{607425EC-62AC-4F84-9665-CD0BF8C932BA}|AcademiaApp.Models\\AcademiaApp.Models.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 15\\academiaapp\\academiaapp.models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,68 +42,42 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Carrera.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Models\\Carrera.cs",
-              "RelativeDocumentMoniker": "AcademiaApp.Models\\Carrera.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Models\\Carrera.cs",
-              "RelativeToolTip": "AcademiaApp.Models\\Carrera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T03:05:22.87Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEstudiante.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\IEstudiante.cs",
-              "RelativeDocumentMoniker": "AcademiaApp.Business\\IEstudiante.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\IEstudiante.cs",
-              "RelativeToolTip": "AcademiaApp.Business\\IEstudiante.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T21:32:19.112Z",
+              "DocumentIndex": 5,
+              "Title": "Academia.razor",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
+              "RelativeDocumentMoniker": "AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
+              "RelativeToolTip": "AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T04:51:41.811Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\appsettings.json",
-              "RelativeDocumentMoniker": "AcademiaApp.Presentacion\\appsettings.json",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\appsettings.json",
-              "RelativeToolTip": "AcademiaApp.Presentacion\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-06T04:41:05.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AcademiaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Data\\AcademiaDbContext.cs",
-              "RelativeDocumentMoniker": "AcademiaApp.Data\\AcademiaDbContext.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Data\\AcademiaDbContext.cs",
-              "RelativeToolTip": "AcademiaApp.Data\\AcademiaDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "AcademiaApp.Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Program.cs",
+              "RelativeToolTip": "AcademiaApp.Presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T04:28:13.21Z",
+              "WhenOpened": "2025-11-06T09:09:02.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EstudianteService.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\EstudianteService.cs",
-              "RelativeDocumentMoniker": "AcademiaApp.Business\\EstudianteService.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\EstudianteService.cs",
-              "RelativeToolTip": "AcademiaApp.Business\\EstudianteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T04:25:05.717Z",
+              "DocumentIndex": 0,
+              "Title": "AcademiaApp.Presentation.csproj",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj",
+              "RelativeDocumentMoniker": "AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj",
+              "RelativeToolTip": "AcademiaApp.Presentacion\\AcademiaApp.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T08:56:16.617Z",
               "EditorCaption": ""
             },
             {
@@ -130,74 +88,49 @@
               "RelativeDocumentMoniker": "AcademiaApp.Business\\CarreraService.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\CarreraService.cs",
               "RelativeToolTip": "AcademiaApp.Business\\CarreraService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T04:25:16.737Z",
+              "WhenOpened": "2025-11-06T08:27:53.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AcademiaApp.Business.csproj",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\AcademiaApp.Business.csproj",
-              "RelativeDocumentMoniker": "AcademiaApp.Business\\AcademiaApp.Business.csproj",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\AcademiaApp.Business.csproj",
-              "RelativeToolTip": "AcademiaApp.Business\\AcademiaApp.Business.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-06T04:21:13.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ICarrera.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\ICarrera.cs",
               "RelativeDocumentMoniker": "AcademiaApp.Business\\ICarrera.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Business\\ICarrera.cs",
               "RelativeToolTip": "AcademiaApp.Business\\ICarrera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T21:33:37.148Z",
+              "WhenOpened": "2025-11-06T08:25:19.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AcademiaApp.Data.csproj",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Data\\AcademiaApp.Data.csproj",
-              "RelativeDocumentMoniker": "AcademiaApp.Data\\AcademiaApp.Data.csproj",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Data\\AcademiaApp.Data.csproj",
-              "RelativeToolTip": "AcademiaApp.Data\\AcademiaApp.Data.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-06T04:27:42.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Academia.razor",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
-              "RelativeDocumentMoniker": "AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
-              "RelativeToolTip": "AcademiaApp.Presentacion\\Components\\Pages\\Academia.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "AcademiaApp.Presentacion\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Presentacion\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "AcademiaApp.Presentacion\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T04:51:41.811Z",
+              "WhenOpened": "2025-11-06T08:13:50.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Models\\Estudiante.cs",
               "RelativeDocumentMoniker": "AcademiaApp.Models\\Estudiante.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 15\\AcademiaApp\\AcademiaApp.Models\\Estudiante.cs",
               "RelativeToolTip": "AcademiaApp.Models\\Estudiante.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T03:04:43.793Z"
+              "WhenOpened": "2025-11-05T03:04:43.793Z",
+              "EditorCaption": ""
             }
           ]
         }

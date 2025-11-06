@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AcademiaApp.Data\AcademiaApp.Data.csproj" />
     <ProjectReference Include="..\AcademiaApp.Models\AcademiaApp.Models.csproj" />
   </ItemGroup>
 

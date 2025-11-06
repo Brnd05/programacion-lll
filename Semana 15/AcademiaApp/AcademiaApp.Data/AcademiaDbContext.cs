@@ -6,7 +6,7 @@ namespace AcademiaApp.Data
     public class AcademiaDbContext : DbContext
     {
 
-        public AcademiaDbContext(DbContextOptions options) : base(options)
+        public AcademiaDbContext(DbContextOptions<AcademiaDbContext> options) : base(options)
         {
         }
 
@@ -18,7 +18,7 @@ namespace AcademiaApp.Data
           modelBuilder.Entity<Carrera>()
                 .Property(c => c.Nombre)
                 .IsRequired()
-                .HasMaxLength(200);
+                .HasMaxLength(100);
 
          modelBuilder.Entity<Estudiante>()
                .Property(e => e.Nombre)
@@ -27,8 +27,7 @@ namespace AcademiaApp.Data
 
         modelBuilder.Entity<Estudiante>()
                 .Property(e => e.Carnet)
-                .IsRequired()
-                .HasMaxLength(20);
+                .IsRequired();
 
         modelBuilder.Entity<Estudiante>()
                 .HasOne(e => e.Carrera)

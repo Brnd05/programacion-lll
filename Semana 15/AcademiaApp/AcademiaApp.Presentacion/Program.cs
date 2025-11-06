@@ -1,4 +1,7 @@
-using AcademiaApp.Presentacion.Components;
+using AcademiaApp.Presentation.Components;
+using AcademiaApp.Data;
+using AcademiaApp.Business;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+//EF Core con SQL Server
+builder.Services.AddDbContext<AcademiaDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSQLServer"))
+    );
+
+
+//Logica de negocio
+builder.Services.AddScoped<ICarrera, CarreraService>();
+builder.Services.AddScoped<IEstudiante, EstudianteService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

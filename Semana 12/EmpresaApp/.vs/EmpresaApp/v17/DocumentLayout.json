@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28442FF4-EB29-4D37-8F32-44B6C7B37C34}|EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 12\\empresaapp\\empresaapp.presentacion\\empresaapp.presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28442FF4-EB29-4D37-8F32-44B6C7B37C34}|EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj|solutionrelative:empresaapp.presentacion\\empresaapp.presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28442FF4-EB29-4D37-8F32-44B6C7B37C34}|EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 12\\empresaapp\\empresaapp.presentacion\\components\\pages\\empleados.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28442FF4-EB29-4D37-8F32-44B6C7B37C34}|EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj|solutionrelative:empresaapp.presentacion\\components\\pages\\empleados.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8642036-CEB8-46B9-99A8-FE42A1F1FCF8}|EmpresaApp.Business\\EmpresaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 12\\empresaapp\\empresaapp.business\\departamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8642036-CEB8-46B9-99A8-FE42A1F1FCF8}|EmpresaApp.Business\\EmpresaApp.Business.csproj|solutionrelative:empresaapp.business\\departamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8642036-CEB8-46B9-99A8-FE42A1F1FCF8}|EmpresaApp.Business\\EmpresaApp.Business.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 12\\empresaapp\\empresaapp.business\\idepartamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8642036-CEB8-46B9-99A8-FE42A1F1FCF8}|EmpresaApp.Business\\EmpresaApp.Business.csproj|solutionrelative:empresaapp.business\\idepartamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleados.razor",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Presentacion\\Components\\Pages\\Empleados.razor",
+              "RelativeDocumentMoniker": "EmpresaApp.Presentacion\\Components\\Pages\\Empleados.razor",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Presentacion\\Components\\Pages\\Empleados.razor",
+              "RelativeToolTip": "EmpresaApp.Presentacion\\Components\\Pages\\Empleados.razor",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T07:10:32.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmpresaApp.Presentacion.csproj",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj",
+              "RelativeDocumentMoniker": "EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj",
+              "RelativeToolTip": "EmpresaApp.Presentacion\\EmpresaApp.Presentacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T05:16:46.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Business\\DepartamentoService.cs",
+              "RelativeDocumentMoniker": "EmpresaApp.Business\\DepartamentoService.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Business\\DepartamentoService.cs",
+              "RelativeToolTip": "EmpresaApp.Business\\DepartamentoService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:23:02.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IDepartamentoService.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Business\\IDepartamentoService.cs",
               "RelativeDocumentMoniker": "EmpresaApp.Business\\IDepartamentoService.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 12\\EmpresaApp\\EmpresaApp.Business\\IDepartamentoService.cs",
               "RelativeToolTip": "EmpresaApp.Business\\IDepartamentoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T04:19:10.508Z",
               "EditorCaption": ""

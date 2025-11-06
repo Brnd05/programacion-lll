@@ -18,7 +18,7 @@ namespace AcademiaApp.Models
 
         public int CarreraId { get; set; }
 
-        public Carrera? Carrera { get; set; }
+        public Carrera? Carrera { get; set; } = null!;
 
     }
 }
