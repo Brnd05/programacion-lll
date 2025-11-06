@@ -18,13 +18,7 @@
     </div>
     <button type="submit">Guardar</button>
 </EditForm>
-<ul>
-    @foreach (var c in carreras)
-    {
-        <li>@c.Nombre</li>
 
-    }
-</ul>
 
 <h5>Nuevo estudiante</h5>
 <EditForm Model = "nuevoEstudiante" OnValidSubmit="GuardarEstudiante">
@@ -50,7 +44,8 @@
         </InputSelect>
         
     </div>
-    <button type="submit">Guardar</button>
+          <button type="submit">Guardar</button>
+
 </EditForm>
 
 <table>

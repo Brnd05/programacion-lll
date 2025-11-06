@@ -25,6 +25,8 @@ namespace AcademiaApp.Business
                 Carnet = carnet,
                 CarreraId = carreraId
             });
+
+            await _db.SaveChangesAsync();
         }
 
         public async Task <List<Estudiante>> ListarEstudianteAsync()

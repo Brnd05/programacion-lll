@@ -27,6 +27,7 @@ namespace AcademiaApp.Data
 
         modelBuilder.Entity<Estudiante>()
                 .Property(e => e.Carnet)
+                .HasMaxLength(8)
                 .IsRequired();
 
         modelBuilder.Entity<Estudiante>()
