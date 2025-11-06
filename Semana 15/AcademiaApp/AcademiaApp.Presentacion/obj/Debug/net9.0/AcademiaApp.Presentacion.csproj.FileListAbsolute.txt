@@ -1,8 +1,0 @@
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\AcademiaApp.Presentacion.csproj.AssemblyReference.cache
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\AcademiaApp.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\AcademiaApp.Presentacion.AssemblyInfoInputs.cache
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\AcademiaApp.Presentacion.AssemblyInfo.cs
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\AcademiaApp.Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\AcademiaApp.Presentacion.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Presentacion\obj\Debug\net9.0\AcademiaApp.Presentacion.sourcelink.json
