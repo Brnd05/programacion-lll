@@ -57,7 +57,8 @@ namespace EmpresaApp.Business
 
         public async Task<List<Empleado>> ListarEmpleadoAsync()
         {
-            var empleados = await _db.Empleados.OrderBy(x=>x.Nombre).ToListAsync();
+            var empleados = await _db.Empleados.OrderBy(x=>x.Nombre)
+                .ToListAsync();
 
             return empleados;
         }

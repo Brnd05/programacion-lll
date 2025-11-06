@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AcademiaApp.Business/1.0.0": {
+        "dependencies": {
+          "AcademiaApp.Models": "1.0.0"
+        },
+        "runtime": {
+          "AcademiaApp.Business.dll": {}
+        }
+      },
+      "AcademiaApp.Models/1.0.0": {
+        "runtime": {
+          "AcademiaApp.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcademiaApp.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcademiaApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

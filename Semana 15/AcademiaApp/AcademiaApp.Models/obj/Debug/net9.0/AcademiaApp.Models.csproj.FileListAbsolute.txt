@@ -1,0 +1,12 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\bin\Debug\net9.0\AcademiaApp.Models.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\bin\Debug\net9.0\AcademiaApp.Models.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\bin\Debug\net9.0\AcademiaApp.Models.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\AcademiaApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\AcademiaApp.Models.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\AcademiaApp.Models.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\AcademiaApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\AcademiaApp.Models.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\AcademiaApp.Models.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\refint\AcademiaApp.Models.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\AcademiaApp.Models.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 15\AcademiaApp\AcademiaApp.Models\obj\Debug\net9.0\ref\AcademiaApp.Models.dll
