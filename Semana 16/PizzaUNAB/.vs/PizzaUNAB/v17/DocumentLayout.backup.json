@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|solutionrelative:pizzaunab.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|solutionrelative:pizzaunab.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADC2249-BBC4-461C-81EF-A2F083A1994D}|PizzaUNAB.Application\\PizzaUNAB.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.application\\dtos\\pedidodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADC2249-BBC4-461C-81EF-A2F083A1994D}|PizzaUNAB.Application\\PizzaUNAB.Application.csproj|solutionrelative:pizzaunab.application\\dtos\\pedidodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.domain\\entities\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|solutionrelative:pizzaunab.domain\\entities\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.domain\\entities\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|solutionrelative:pizzaunab.domain\\entities\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.domain\\pizzaunab.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|solutionrelative:pizzaunab.domain\\pizzaunab.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADC2249-BBC4-461C-81EF-A2F083A1994D}|PizzaUNAB.Application\\PizzaUNAB.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADC2249-BBC4-461C-81EF-A2F083A1994D}|PizzaUNAB.Application\\PizzaUNAB.Application.csproj|solutionrelative:pizzaunab.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97297E50-01A5-4AB8-9BCF-CFEF93799F7B}|PizzaUNAB.Infraestructure\\PizzaUNAB.Infraestructure.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97297E50-01A5-4AB8-9BCF-CFEF93799F7B}|PizzaUNAB.Infraestructure\\PizzaUNAB.Infraestructure.csproj|solutionrelative:pizzaunab.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 16\\pizzaunab\\pizzaunab.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCED22B-9BED-49FE-833F-00BAA86603E1}|PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj|solutionrelative:pizzaunab.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\DTOs\\PedidoDtos.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Application\\DTOs\\PedidoDtos.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\DTOs\\PedidoDtos.cs",
+              "RelativeToolTip": "PizzaUNAB.Application\\DTOs\\PedidoDtos.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:25:00.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidoItem.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\PedidoItem.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Domain\\Entities\\PedidoItem.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\PedidoItem.cs",
+              "RelativeToolTip": "PizzaUNAB.Domain\\Entities\\PedidoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:05:16.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Domain\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\Pedido.cs",
+              "RelativeToolTip": "PizzaUNAB.Domain\\Entities\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:55:50.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Domain\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\Cliente.cs",
+              "RelativeToolTip": "PizzaUNAB.Domain\\Entities\\Cliente.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:51:38.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\Pizza.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Domain\\Entities\\Pizza.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Entities\\Pizza.cs",
+              "RelativeToolTip": "PizzaUNAB.Domain\\Entities\\Pizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:44:32.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PizzaUNAB.Domain",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj",
+              "RelativeDocumentMoniker": "PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj",
+              "RelativeToolTip": "PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-13T12:43:01.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Infraestructure\\Class1.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Infraestructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Infraestructure\\Class1.cs",
+              "RelativeToolTip": "PizzaUNAB.Infraestructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:26:39.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\Class1.cs",
+              "RelativeToolTip": "PizzaUNAB.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:25:39.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "PizzaUNAB.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\Class1.cs",
+              "RelativeToolTip": "PizzaUNAB.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:23:33.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
