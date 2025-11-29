@@ -1,0 +1,95 @@
+﻿@page "/pizzas"
+@using PizzaUNAB.Application.DTOs
+@using Microsoft.AspNetCore.Components.Forms
+@inject PizzaUNAB.Application.Contracts.IPizzaService PizzaService
+
+<h3>Pizzas</h3>
+
+@if (list is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <button class="btn btn-primary" @onclick="Nuevo">Nueva Pizza</button>
+    <table class="table mt-3">
+        <thead><tr><th>Id</th><th>Nombre</th><th>Precio</th><th>Stock</th><th></th></tr></thead>
+        <tbody>
+            @foreach (var p in list)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Nombre</td>
+                    <td>@p.Precio</td>
+                    <td>@p.Stock</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary" @onclick="() => Editar(p.Id)">Editar</button>
+                        <button class="btn btn-sm btn-danger ms-1" @onclick="() => Eliminar(p.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (showForm)
+{
+    <EditForm Model="form" OnValidSubmit="@Guardar">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-2">
+            <label>Nombre</label>
+            <InputText class="form-control" @bind-Value="form.Nombre" />
+        </div>
+        <div class="mb-2">
+            <label>Precio</label>
+            <InputNumber class="form-control" @bind-Value="form.Precio" />
+        </div>
+        <div class="mb-2">
+            <label>Stock</label>
+            <InputNumber class="form-control" @bind-Value="form.Stock" />
+        </div>
+
+        <button class="btn btn-success" type="submit">Guardar</button>
+        <button class="btn btn-light ms-2" type="button" @onclick="Cancelar">Cancelar</button>
+    </EditForm>
+}
+
+@code {
+    List<PizzaDto>? list;
+    bool showForm; int? editId; 
+    PizzaUpdateDto form = new();
+
+    protected override async Task OnInitializedAsync() => await Cargar();
+    async Task Cargar() => list = await PizzaService.GetAllAsync();
+
+    void Nuevo() { editId = null; form = new PizzaUpdateDto(); showForm = true; }
+
+    async Task Editar(int id)
+    {
+        var p = await PizzaService.GetByIdAsync(id);
+        if (p is null) return;
+        editId = id;
+        form = new PizzaUpdateDto { Nombre = p.Nombre, Precio = p.Precio, Stock = p.Stock };
+        showForm = true;
+    }
+
+    async Task Guardar()
+    {
+        if (editId is null)
+            await PizzaService.CreateAsync(new PizzaCreateDto { Nombre = form.Nombre, Precio = form.Precio, Stock = form.Stock });
+        else
+            await PizzaService.UpdateAsync(editId.Value, form);
+
+        showForm = false;
+        await Cargar();
+    }
+
+    async Task Eliminar(int id) { 
+        await PizzaService.DeleteAsync(id); 
+        await Cargar();
+    }
+
+    void Cancelar() => showForm = false;
+}

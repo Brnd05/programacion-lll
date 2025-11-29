@@ -1,0 +1,185 @@
+﻿@page "/pedidos"
+@inject PizzaUNAB.Application.Contracts.IPedidoService PedidoService
+@inject PizzaUNAB.Application.Contracts.IClienteService ClienteService
+@inject PizzaUNAB.Application.Contracts.IPizzaService PizzaService
+@using PizzaUNAB.Application.DTOs
+@using PizzaUNAB.Domain.Entities
+
+<h3>Pedidos</h3>
+
+<div class="card p-3 mb-3">
+    <h5>Nuevo pedido</h5>
+    <div class="row g-2">
+        <div class="col-md-4">
+            <label>Cliente</label>
+            <select class="form-select" @bind="clienteId">
+                <option value="0">-- Seleccione --</option>
+                @foreach (var c in clientes)
+                {
+                    <option value="@c.Id">@c.Nombre</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3 align-self-end">
+            <button class="btn btn-primary" @onclick="CrearBorrador">Crear borrador</button>
+        </div>
+    </div>
+    @if (!string.IsNullOrWhiteSpace(error))
+    {
+        <div class="alert alert-danger mt-2">@error</div>
+    }
+</div>
+
+@if (pedidoId > 0)
+{
+    <div class="card p-3 mb-3">
+        <h5>Agregar ítem al pedido #@pedidoId</h5>
+        <div class="row g-2">
+            <div class="col-md-5">
+                <label>Pizza</label>
+                <select class="form-select" @bind="itemPizzaId">
+                    <option value="0">-- Seleccione --</option>
+                    @foreach (var p in pizzas)
+                    {
+                        <option value="@p.Id">@($"{p.Nombre} - ${p.Precio} (Stock {p.Stock})")</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label>Cantidad</label>
+                <input class="form-control" type="number" min="1" @bind="itemCantidad" />
+            </div>
+            <div class="col-md-3 align-self-end">
+                <button class="btn btn-secondary" @onclick="AgregarItem">Agregar</button>
+            </div>
+        </div>
+    </div>
+
+    @if (detalle is not null)
+    {
+        <div class="card p-3 mb-3">
+            <h5>Detalle (Estado: @detalle.Estado) — Total: $@detalle.Total</h5>
+            @if (detalle.Items.Count == 0)
+            {
+                <p>Sin ítems.</p>
+            }
+            else
+            {
+                <table class="table">
+                    <thead><tr><th>Pizza</th><th>Cant.</th><th>PU</th><th>Subtotal</th></tr></thead>
+                    <tbody>
+                        @foreach (var i in detalle.Items)
+                        {
+                            <tr>
+                                <td>@i.PizzaNombre</td>
+                                <td>@i.Cantidad</td>
+                                <td>@i.PrecioUnitario</td>
+                                <td>@i.Subtotal</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            <button class="btn btn-success me-2" @onclick="Confirmar">Confirmar</button>
+        </div>
+    }
+}
+
+<div class="card p-3">
+    <h5>Pedidos recientes</h5>
+    @if (resumenes is null)
+    {
+        <p>Cargando...</p>
+    }
+    else if (resumenes.Count == 0)
+    {
+
+        <p>Sin pedidos.</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead><tr><th>Id</th><th>Cliente</th><th>Fecha</th><th>Estado</th><th>Total</th></tr></thead>
+            <tbody>
+                @foreach (var r in resumenes)
+                {
+                    <tr>
+                        <td>@r.Id</td>
+                        <td>@r.ClienteNombre</td>
+                        <td>@r.FechaUtc.ToString("g")</td>
+                        <td>@r.Estado</td>
+                        <td>@r.Total</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    List<ClienteDto> clientes = new();
+    List<PizzaDto> pizzas = new();
+    List<PedidoResumenDto>? resumenes;
+
+    int clienteId;
+    int pedidoId;
+    int itemPizzaId;
+    int itemCantidad = 1;
+    PedidoDetalleDto? detalle;
+    string? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        clientes = await ClienteService.GetAllAsync();
+        pizzas = await PizzaService.GetAllAsync();
+        await CargarResumenes();
+    }
+
+    async Task CargarResumenes() => resumenes = await PedidoService.ListarAsync();
+
+    async Task CrearBorrador()
+    {
+        error = null;
+        try
+        {
+            if (clienteId <= 0) throw new InvalidOperationException("Seleccione un cliente.");
+            pedidoId = await PedidoService.CrearBorradorAsync(clienteId);
+            await CargarDetalle();
+        }
+        catch (Exception ex) { error = ex.Message; }
+    }
+
+    async Task CargarDetalle()
+    {
+        detalle = await PedidoService.ObtenerDetalleAsync(pedidoId);
+    }
+
+    async Task AgregarItem()
+    {
+        error = null;
+        try
+        {
+            if (pedidoId <= 0) throw new InvalidOperationException("Cree un borrador.");
+            if (itemPizzaId <= 0) throw new InvalidOperationException("Seleccione una pizza.");
+            if (itemCantidad <= 0) throw new InvalidOperationException("Cantidad inválida.");
+
+            await PedidoService.AgregarItemAsync(pedidoId, itemPizzaId, itemCantidad);
+            pizzas = await PizzaService.GetAllAsync(); 
+            await CargarDetalle();
+        }
+        catch (Exception ex) { error = ex.Message; }
+    }
+
+    async Task Confirmar()
+    {
+        error = null;
+        try
+        {
+            await PedidoService.ConfirmarAsync(pedidoId);
+            pizzas = await PizzaService.GetAllAsync(); 
+            await CargarDetalle();
+            await CargarResumenes();
+        }
+        catch (Exception ex) { error = ex.Message; }
+    }
+}
