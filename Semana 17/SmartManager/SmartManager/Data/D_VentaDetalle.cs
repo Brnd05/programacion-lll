@@ -1,0 +1,50 @@
+﻿
+using SmartManager.Data;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SmartManager.Data
+{
+    public class D_VentaDetalle
+    {
+        public DataTable ListarVentaDetalle(string cBusquedaVentaDetalle)
+        {
+            SqlDataReader Resultado;
+            DataTable Tabla = new DataTable();
+            SqlConnection SqlCon = new SqlConnection();
+
+            try
+            {
+                SqlCon = Conexion.crearInstancia().CrearConexion();
+                SqlCommand comando = new SqlCommand("SP_LISTAR_VentaDetalle", SqlCon);
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.Add("cBusquedaVentaDetalle", SqlDbType.VarChar).Value = cBusquedaVentaDetalle;
+                SqlCon.Open();
+                Resultado = comando.ExecuteReader();
+                Tabla.Load(Resultado);
+                return Tabla;
+            }
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show(ex.Message);
+                throw ex;
+            }
+
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open)
+                {
+                    SqlCon.Close();
+                }
+               
+            }
+        }
+    }
+}

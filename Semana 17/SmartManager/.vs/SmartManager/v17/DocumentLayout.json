@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\presentation\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\presentation\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentaDetalle.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\VentaDetalle.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Presentation\\VentaDetalle.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\VentaDetalle.cs",
+              "RelativeToolTip": "SmartManager\\Presentation\\VentaDetalle.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAlwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T05:30:51.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VentaDetalle.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\VentaDetalle.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Presentation\\VentaDetalle.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\VentaDetalle.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SmartManager\\Presentation\\VentaDetalle.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T05:12:25.424Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

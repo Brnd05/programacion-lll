@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\models\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\models\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\migrations\\20251010050102_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\migrations\\20251010050102_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\migrations\\20251010050102_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\migrations\\20251010050102_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\models\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\models\\appdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 11\\lab2codefirst\\lab2codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6281969-D82D-4B2C-8FEF-6FBC3D4E81F4}|Lab2CodeFirst\\Lab2CodeFirst.csproj|solutionrelative:lab2codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Program.cs",
               "RelativeDocumentMoniker": "Lab2CodeFirst\\Program.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Program.cs",
               "RelativeToolTip": "Lab2CodeFirst\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T04:19:44.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "Lab2CodeFirst\\Models\\Doctor.cs",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Especialidad.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Models\\Especialidad.cs",
               "RelativeDocumentMoniker": "Lab2CodeFirst\\Models\\Especialidad.cs",
@@ -87,14 +87,14 @@
               "RelativeDocumentMoniker": "Lab2CodeFirst\\Migrations\\20251010050102_MigracionInicial.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Migrations\\20251010050102_MigracionInicial.cs",
               "RelativeToolTip": "Lab2CodeFirst\\Migrations\\20251010050102_MigracionInicial.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwFUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T05:01:03.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Models\\Paciente.cs",
               "RelativeDocumentMoniker": "Lab2CodeFirst\\Models\\Paciente.cs",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Cita.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Models\\Cita.cs",
               "RelativeDocumentMoniker": "Lab2CodeFirst\\Models\\Cita.cs",
@@ -120,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "AppDb.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Models\\AppDb.cs",
               "RelativeDocumentMoniker": "Lab2CodeFirst\\Models\\AppDb.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Models\\AppDb.cs",
               "RelativeToolTip": "Lab2CodeFirst\\Models\\AppDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T04:22:18.966Z",
               "EditorCaption": ""
