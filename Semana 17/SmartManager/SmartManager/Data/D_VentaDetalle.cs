@@ -1,5 +1,4 @@
-﻿
-using SmartManager.Data;
+﻿using SmartManager.Data;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -32,18 +31,51 @@ namespace SmartManager.Data
             }
             catch (Exception ex)
             {
-                
                 MessageBox.Show(ex.Message);
                 throw ex;
             }
-
             finally
             {
                 if (SqlCon.State == ConnectionState.Open)
                 {
                     SqlCon.Close();
                 }
-               
+            }
+        }
+
+        public string InsertarVentaDetalle(int id_venta, int id_producto, int cantidad, decimal precio_unitario)
+        {
+            SqlDataReader Resultado;
+            DataTable Tabla = new DataTable();
+            SqlConnection SqlCon = new SqlConnection();
+
+            try
+            {
+                SqlCon = Conexion.crearInstancia().CrearConexion();
+                SqlCommand comando = new SqlCommand("sp_InsertarVentaDetalle", SqlCon);
+                comando.CommandType = CommandType.StoredProcedure;
+
+                comando.Parameters.Add("@id_venta", SqlDbType.Int).Value = id_venta;
+                comando.Parameters.Add("@id_producto", SqlDbType.Int).Value = id_producto;
+                comando.Parameters.Add("@cantidad", SqlDbType.Int).Value = cantidad;
+                comando.Parameters.Add("@precio_unitario", SqlDbType.SmallMoney).Value = precio_unitario;
+
+                SqlCon.Open();
+                int filas = comando.ExecuteNonQuery();
+
+                return filas > 0 ? "Inserción de detalle de venta exitosa." : "No se insertó ningún detalle de venta.";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                throw ex;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open)
+                {
+                    SqlCon.Close();
+                }
             }
         }
     }

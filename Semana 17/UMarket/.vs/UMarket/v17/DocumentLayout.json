@@ -3,80 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.domain\\entities\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|solutionrelative:umarket.domain\\entities\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.domain\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|solutionrelative:umarket.domain\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|solutionrelative:umarket.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.domain\\entities\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|solutionrelative:umarket.domain\\entities\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.domain\\entities\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|solutionrelative:umarket.domain\\entities\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A70501F-104E-4613-9DCA-FBA4A6BB885F}|UMarket.Infraestructure\\UMarket.Infraestructure.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.infraestructure\\umarket.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2A70501F-104E-4613-9DCA-FBA4A6BB885F}|UMarket.Infraestructure\\UMarket.Infraestructure.csproj|solutionrelative:umarket.infraestructure\\umarket.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.domain\\umarket.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|solutionrelative:umarket.domain\\umarket.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\dtos\\ventadetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\dtos\\ventadetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\contracts\\iventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\contracts\\iventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\contracts\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\contracts\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\contracts\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\contracts\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\contracts\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\contracts\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.application\\umarket.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{29EF6703-4FC8-49FF-814F-A2A7EFF453C6}|UMarket.Application\\UMarket.Application.csproj|solutionrelative:umarket.application\\umarket.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.domain\\umarket.domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3EE9B4D1-1C47-404E-8D85-68CE2AFADC57}|UMarket.Domain\\UMarket.Domain.csproj|solutionrelative:umarket.domain\\umarket.domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A70501F-104E-4613-9DCA-FBA4A6BB885F}|UMarket.Infraestructure\\UMarket.Infraestructure.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\umarket\\umarket.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A70501F-104E-4613-9DCA-FBA4A6BB885F}|UMarket.Infraestructure\\UMarket.Infraestructure.csproj|solutionrelative:umarket.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 126,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "UMarket.Application\\DTOs\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\ProductoDTO.cs",
+              "RelativeToolTip": "UMarket.Application\\DTOs\\ProductoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:48:25.892Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -99,255 +40,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VentaDetalleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\VentaDetalleDTO.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\DTOs\\VentaDetalleDTO.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\VentaDetalleDTO.cs",
-              "RelativeToolTip": "UMarket.Application\\DTOs\\VentaDetalleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:48:37.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VentaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\VentaDTO.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\DTOs\\VentaDTO.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\VentaDTO.cs",
-              "RelativeToolTip": "UMarket.Application\\DTOs\\VentaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:47:55.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\ProductoDTO.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\DTOs\\ProductoDTO.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\ProductoDTO.cs",
-              "RelativeToolTip": "UMarket.Application\\DTOs\\ProductoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:48:25.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VentaDetalle.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\VentaDetalle.cs",
-              "RelativeDocumentMoniker": "UMarket.Domain\\Entities\\VentaDetalle.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\VentaDetalle.cs",
-              "RelativeToolTip": "UMarket.Domain\\Entities\\VentaDetalle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T20:25:54.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Venta.cs",
-              "RelativeDocumentMoniker": "UMarket.Domain\\Entities\\Venta.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Venta.cs",
-              "RelativeToolTip": "UMarket.Domain\\Entities\\Venta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:33:53.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "UMarket.Domain\\Entities\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Usuario.cs",
-              "RelativeToolTip": "UMarket.Domain\\Entities\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T20:25:17.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Producto.cs",
-              "RelativeDocumentMoniker": "UMarket.Domain\\Entities\\Producto.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Producto.cs",
-              "RelativeToolTip": "UMarket.Domain\\Entities\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T20:24:04.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Categorias.cs",
-              "RelativeDocumentMoniker": "UMarket.Domain\\Entities\\Categorias.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\Entities\\Categorias.cs",
-              "RelativeToolTip": "UMarket.Domain\\Entities\\Categorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T20:39:33.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UMarket.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
-              "RelativeDocumentMoniker": "UMarket.Domain\\UMarket.Domain.csproj",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
-              "RelativeToolTip": "UMarket.Domain\\UMarket.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-18T20:21:54.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UMarket.Infraestructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Infraestructure\\UMarket.Infraestructure.csproj",
-              "RelativeDocumentMoniker": "UMarket.Infraestructure\\UMarket.Infraestructure.csproj",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Infraestructure\\UMarket.Infraestructure.csproj",
-              "RelativeToolTip": "UMarket.Infraestructure\\UMarket.Infraestructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-18T20:22:26.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\DTOs\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\UsuarioDTO.cs",
-              "RelativeToolTip": "UMarket.Application\\DTOs\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:47:36.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IVentaService.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\IVentaService.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\Contracts\\IVentaService.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\IVentaService.cs",
-              "RelativeToolTip": "UMarket.Application\\Contracts\\IVentaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:05:26.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ICategoriaService.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\ICategoriaService.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\Contracts\\ICategoriaService.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\ICategoriaService.cs",
-              "RelativeToolTip": "UMarket.Application\\Contracts\\ICategoriaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:05:52.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\IProductoService.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\Contracts\\IProductoService.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\IProductoService.cs",
-              "RelativeToolTip": "UMarket.Application\\Contracts\\IProductoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:46:52.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\Contracts\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\Contracts\\IUsuarioService.cs",
-              "RelativeToolTip": "UMarket.Application\\Contracts\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:46:23.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoriaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\CategoriaDTO.cs",
-              "RelativeDocumentMoniker": "UMarket.Application\\DTOs\\CategoriaDTO.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\DTOs\\CategoriaDTO.cs",
-              "RelativeToolTip": "UMarket.Application\\DTOs\\CategoriaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T12:48:09.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UMarket.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\UMarket.Application.csproj",
-              "RelativeDocumentMoniker": "UMarket.Application\\UMarket.Application.csproj",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Application\\UMarket.Application.csproj",
-              "RelativeToolTip": "UMarket.Application\\UMarket.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-20T12:45:36.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UMarket.Domain",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
-              "RelativeDocumentMoniker": "UMarket.Domain\\UMarket.Domain.csproj",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
-              "RelativeToolTip": "UMarket.Domain\\UMarket.Domain.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-20T12:16:26.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Infraestructure\\Class1.cs",
-              "RelativeDocumentMoniker": "UMarket.Infraestructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Infraestructure\\Class1.cs",
-              "RelativeToolTip": "UMarket.Infraestructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T20:13:56.911Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 288,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

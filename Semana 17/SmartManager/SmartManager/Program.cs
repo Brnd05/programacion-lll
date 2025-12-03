@@ -16,7 +16,7 @@ namespace SmartManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VentaDetalle());
+            Application.Run(new SmartManager());
         }
     }
 }
