@@ -158,7 +158,7 @@ namespace SmartManager.Data
             {
                 sqlCon = Conexion.crearInstancia().CrearConexion();
 
-                using (SqlCommand comando = new SqlCommand("sp_MostrarProductosPorCategoria", sqlCon))
+                using (SqlCommand comando = new SqlCommand("sp_MostrarProductosPorCat", sqlCon))
                 {
                     comando.CommandType = CommandType.StoredProcedure;
                     comando.Parameters.Add("@id_categoria", SqlDbType.Int).Value = idCategoria;
@@ -183,6 +183,10 @@ namespace SmartManager.Data
                             decimal precio = Convert.ToDecimal(row["precio_producto"]);
 
                             row["DisplayText"] = $"{idProd} - {nombre} | Stock: {stock} | Precio: {precio:C2}";
+                        }
+                        foreach (DataRow row in tabla.Rows)
+                        {
+                            row["nombre_producto"] = row["nombre_producto"].ToString() + " - $" + row["precio_producto"].ToString();
                         }
 
                         return tabla;

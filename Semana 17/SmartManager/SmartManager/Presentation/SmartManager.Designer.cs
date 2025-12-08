@@ -37,7 +37,7 @@ namespace SmartManager
             this.cmbCorreoCliente = new Guna.UI2.WinForms.Guna2ComboBox();
             this.dgwVentasDetalle = new Guna.UI2.WinForms.Guna2DataGridView();
             this.cmbVentaDetalleCategoria = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmbVentaDetalleProducto = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -62,18 +62,18 @@ namespace SmartManager
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cmbActualizarCategoria = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtActualizarCategoria = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cmbActualizarCategoriaProducto = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2NumericUpDown4 = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.guna2NumericUpDown5 = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.nudActualizarUnidadesProducto = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.nudActualizarProductoPrecio = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.txtActualizarNombreProducto = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ComboBox9 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2ComboBox10 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmbEliminarProducto = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmbProductoActualizarProducto = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cmbClienteActualizar = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox12 = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -82,9 +82,9 @@ namespace SmartManager
             this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.nudPrecioUnitarioDetalleVenta = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnActualizarProducto = new Guna.UI2.WinForms.Guna2Button();
+            this.btnActualizarCategoria = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEliminarProducto = new Guna.UI2.WinForms.Guna2Button();
             this.btnEliminarCategoria = new Guna.UI2.WinForms.Guna2Button();
             this.btnGuardarProducto = new Guna.UI2.WinForms.Guna2Button();
             this.btnGuardarCategoria = new Guna.UI2.WinForms.Guna2Button();
@@ -99,8 +99,8 @@ namespace SmartManager
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProductoPrecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudUnidadesProducto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudActualizarUnidadesProducto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudActualizarProductoPrecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPrecioUnitarioDetalleVenta)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,7 +116,7 @@ namespace SmartManager
             this.cmbCorreoCliente.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbCorreoCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbCorreoCliente.ItemHeight = 30;
-            this.cmbCorreoCliente.Location = new System.Drawing.Point(225, 57);
+            this.cmbCorreoCliente.Location = new System.Drawing.Point(325, 57);
             this.cmbCorreoCliente.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cmbCorreoCliente.Name = "cmbCorreoCliente";
             this.cmbCorreoCliente.Size = new System.Drawing.Size(215, 36);
@@ -188,35 +188,37 @@ namespace SmartManager
             this.cmbVentaDetalleCategoria.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbVentaDetalleCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbVentaDetalleCategoria.ItemHeight = 30;
-            this.cmbVentaDetalleCategoria.Location = new System.Drawing.Point(87, 235);
+            this.cmbVentaDetalleCategoria.Location = new System.Drawing.Point(51, 235);
             this.cmbVentaDetalleCategoria.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cmbVentaDetalleCategoria.Name = "cmbVentaDetalleCategoria";
             this.cmbVentaDetalleCategoria.Size = new System.Drawing.Size(211, 36);
             this.cmbVentaDetalleCategoria.TabIndex = 7;
+            this.cmbVentaDetalleCategoria.SelectedIndexChanged += new System.EventHandler(this.cmbVentaDetalleCategoria_SelectedIndexChanged);
             // 
-            // guna2ComboBox3
+            // cmbVentaDetalleProducto
             // 
-            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox3.BorderColor = System.Drawing.Color.Gray;
-            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox3.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox3.ItemHeight = 30;
-            this.guna2ComboBox3.Location = new System.Drawing.Point(87, 281);
-            this.guna2ComboBox3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.Size = new System.Drawing.Size(211, 36);
-            this.guna2ComboBox3.TabIndex = 8;
+            this.cmbVentaDetalleProducto.BackColor = System.Drawing.Color.Transparent;
+            this.cmbVentaDetalleProducto.BorderColor = System.Drawing.Color.Gray;
+            this.cmbVentaDetalleProducto.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbVentaDetalleProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbVentaDetalleProducto.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmbVentaDetalleProducto.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbVentaDetalleProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbVentaDetalleProducto.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbVentaDetalleProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbVentaDetalleProducto.ItemHeight = 30;
+            this.cmbVentaDetalleProducto.Location = new System.Drawing.Point(51, 281);
+            this.cmbVentaDetalleProducto.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.cmbVentaDetalleProducto.Name = "cmbVentaDetalleProducto";
+            this.cmbVentaDetalleProducto.Size = new System.Drawing.Size(353, 36);
+            this.cmbVentaDetalleProducto.TabIndex = 8;
+            this.cmbVentaDetalleProducto.SelectedIndexChanged += new System.EventHandler(this.cmbVentaDetalleProducto_SelectedIndexChanged);
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(309, 249);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(274, 249);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(125, 17);
@@ -227,7 +229,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(288, 37);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(382, 37);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(96, 17);
@@ -238,12 +240,12 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(310, 287);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(416, 290);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(168, 17);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(52, 17);
             this.guna2HtmlLabel3.TabIndex = 11;
-            this.guna2HtmlLabel3.Text = "Cantidad y producto a comprar";
+            this.guna2HtmlLabel3.Text = "Producto";
             // 
             // txtBuscarVentaDetalle
             // 
@@ -484,6 +486,7 @@ namespace SmartManager
             this.cmbEliminarCategoria.Name = "cmbEliminarCategoria";
             this.cmbEliminarCategoria.Size = new System.Drawing.Size(197, 36);
             this.cmbEliminarCategoria.TabIndex = 44;
+            this.cmbEliminarCategoria.SelectedIndexChanged += new System.EventHandler(this.cmbEliminarCategoria_SelectedIndexChanged);
             // 
             // guna2HtmlLabel5
             // 
@@ -524,6 +527,7 @@ namespace SmartManager
             this.cmbEliminarCategoriaProducto.Name = "cmbEliminarCategoriaProducto";
             this.cmbEliminarCategoriaProducto.Size = new System.Drawing.Size(175, 36);
             this.cmbEliminarCategoriaProducto.TabIndex = 47;
+            this.cmbEliminarCategoriaProducto.SelectedIndexChanged += new System.EventHandler(this.cmbEliminarCategoriaProducto_SelectedIndexChanged);
             // 
             // guna2HtmlLabel11
             // 
@@ -562,25 +566,26 @@ namespace SmartManager
             this.cmbActualizarCategoria.Name = "cmbActualizarCategoria";
             this.cmbActualizarCategoria.Size = new System.Drawing.Size(197, 36);
             this.cmbActualizarCategoria.TabIndex = 58;
+            this.cmbActualizarCategoria.SelectedIndexChanged += new System.EventHandler(this.cmbActualizarCategoria_SelectedIndexChanged);
             // 
-            // guna2TextBox7
+            // txtActualizarCategoria
             // 
-            this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox7.DefaultText = "Cambie el nombre de la categoria";
-            this.guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Location = new System.Drawing.Point(606, 544);
-            this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2TextBox7.Name = "guna2TextBox7";
-            this.guna2TextBox7.PlaceholderText = "";
-            this.guna2TextBox7.SelectedText = "";
-            this.guna2TextBox7.Size = new System.Drawing.Size(197, 36);
-            this.guna2TextBox7.TabIndex = 59;
+            this.txtActualizarCategoria.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtActualizarCategoria.DefaultText = "Cambie el nombre de la categoria";
+            this.txtActualizarCategoria.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtActualizarCategoria.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtActualizarCategoria.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtActualizarCategoria.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtActualizarCategoria.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtActualizarCategoria.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtActualizarCategoria.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtActualizarCategoria.Location = new System.Drawing.Point(606, 544);
+            this.txtActualizarCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtActualizarCategoria.Name = "txtActualizarCategoria";
+            this.txtActualizarCategoria.PlaceholderText = "";
+            this.txtActualizarCategoria.SelectedText = "";
+            this.txtActualizarCategoria.Size = new System.Drawing.Size(197, 36);
+            this.txtActualizarCategoria.TabIndex = 59;
             // 
             // guna2HtmlLabel13
             // 
@@ -598,7 +603,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel14.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(157, 10);
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(249, 10);
             this.guna2HtmlLabel14.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
             this.guna2HtmlLabel14.Size = new System.Drawing.Size(87, 17);
@@ -609,7 +614,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel15.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel15.Location = new System.Drawing.Point(960, 204);
+            this.guna2HtmlLabel15.Location = new System.Drawing.Point(973, 205);
             this.guna2HtmlLabel15.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
             this.guna2HtmlLabel15.Size = new System.Drawing.Size(125, 17);
@@ -620,7 +625,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel16.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel16.Location = new System.Drawing.Point(863, 202);
+            this.guna2HtmlLabel16.Location = new System.Drawing.Point(885, 200);
             this.guna2HtmlLabel16.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
             this.guna2HtmlLabel16.Size = new System.Drawing.Size(36, 17);
@@ -639,112 +644,116 @@ namespace SmartManager
             this.cmbActualizarCategoriaProducto.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbActualizarCategoriaProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbActualizarCategoriaProducto.ItemHeight = 30;
-            this.cmbActualizarCategoriaProducto.Location = new System.Drawing.Point(859, 37);
+            this.cmbActualizarCategoriaProducto.Location = new System.Drawing.Point(863, 35);
             this.cmbActualizarCategoriaProducto.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cmbActualizarCategoriaProducto.Name = "cmbActualizarCategoriaProducto";
             this.cmbActualizarCategoriaProducto.Size = new System.Drawing.Size(175, 36);
             this.cmbActualizarCategoriaProducto.TabIndex = 68;
+            this.cmbActualizarCategoriaProducto.SelectedIndexChanged += new System.EventHandler(this.cmbActualizarCategoriaProducto_SelectedIndexChanged);
             // 
-            // guna2NumericUpDown4
+            // nudActualizarUnidadesProducto
             // 
-            this.guna2NumericUpDown4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2NumericUpDown4.Location = new System.Drawing.Point(960, 161);
-            this.guna2NumericUpDown4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2NumericUpDown4.Name = "guna2NumericUpDown4";
-            this.guna2NumericUpDown4.Size = new System.Drawing.Size(74, 36);
-            this.guna2NumericUpDown4.TabIndex = 67;
-            this.guna2NumericUpDown4.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.nudActualizarUnidadesProducto.BackColor = System.Drawing.Color.Transparent;
+            this.nudActualizarUnidadesProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nudActualizarUnidadesProducto.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nudActualizarUnidadesProducto.Location = new System.Drawing.Point(973, 162);
+            this.nudActualizarUnidadesProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nudActualizarUnidadesProducto.Name = "nudActualizarUnidadesProducto";
+            this.nudActualizarUnidadesProducto.Size = new System.Drawing.Size(74, 36);
+            this.nudActualizarUnidadesProducto.TabIndex = 67;
+            this.nudActualizarUnidadesProducto.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
             // 
-            // guna2NumericUpDown5
+            // nudActualizarProductoPrecio
             // 
-            this.guna2NumericUpDown5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2NumericUpDown5.Location = new System.Drawing.Point(859, 161);
-            this.guna2NumericUpDown5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2NumericUpDown5.Name = "guna2NumericUpDown5";
-            this.guna2NumericUpDown5.Size = new System.Drawing.Size(74, 36);
-            this.guna2NumericUpDown5.TabIndex = 66;
-            this.guna2NumericUpDown5.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.nudActualizarProductoPrecio.BackColor = System.Drawing.Color.Transparent;
+            this.nudActualizarProductoPrecio.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nudActualizarProductoPrecio.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nudActualizarProductoPrecio.Location = new System.Drawing.Point(874, 162);
+            this.nudActualizarProductoPrecio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nudActualizarProductoPrecio.Name = "nudActualizarProductoPrecio";
+            this.nudActualizarProductoPrecio.Size = new System.Drawing.Size(74, 36);
+            this.nudActualizarProductoPrecio.TabIndex = 66;
+            this.nudActualizarProductoPrecio.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
             // 
-            // guna2TextBox8
+            // txtActualizarNombreProducto
             // 
-            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox8.DefaultText = "(Opcional)";
-            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Location = new System.Drawing.Point(859, 122);
-            this.guna2TextBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2TextBox8.Name = "guna2TextBox8";
-            this.guna2TextBox8.PlaceholderText = "";
-            this.guna2TextBox8.SelectedText = "";
-            this.guna2TextBox8.Size = new System.Drawing.Size(173, 36);
-            this.guna2TextBox8.TabIndex = 65;
+            this.txtActualizarNombreProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtActualizarNombreProducto.DefaultText = "(Opcional)";
+            this.txtActualizarNombreProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtActualizarNombreProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtActualizarNombreProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtActualizarNombreProducto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtActualizarNombreProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtActualizarNombreProducto.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtActualizarNombreProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtActualizarNombreProducto.Location = new System.Drawing.Point(874, 122);
+            this.txtActualizarNombreProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtActualizarNombreProducto.Name = "txtActualizarNombreProducto";
+            this.txtActualizarNombreProducto.PlaceholderText = "";
+            this.txtActualizarNombreProducto.SelectedText = "";
+            this.txtActualizarNombreProducto.Size = new System.Drawing.Size(173, 36);
+            this.txtActualizarNombreProducto.TabIndex = 65;
             // 
             // guna2HtmlLabel17
             // 
             this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel17.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel17.Location = new System.Drawing.Point(897, 10);
+            this.guna2HtmlLabel17.Location = new System.Drawing.Point(897, 12);
             this.guna2HtmlLabel17.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
             this.guna2HtmlLabel17.Size = new System.Drawing.Size(109, 17);
             this.guna2HtmlLabel17.TabIndex = 64;
             this.guna2HtmlLabel17.Text = "Actualizar producto";
             // 
-            // guna2ComboBox9
+            // cmbEliminarProducto
             // 
-            this.guna2ComboBox9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox9.BorderColor = System.Drawing.Color.Gray;
-            this.guna2ComboBox9.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox9.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ComboBox9.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox9.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox9.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox9.ItemHeight = 30;
-            this.guna2ComboBox9.Location = new System.Drawing.Point(1183, 83);
-            this.guna2ComboBox9.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2ComboBox9.Name = "guna2ComboBox9";
-            this.guna2ComboBox9.Size = new System.Drawing.Size(175, 36);
-            this.guna2ComboBox9.TabIndex = 71;
+            this.cmbEliminarProducto.BackColor = System.Drawing.Color.Transparent;
+            this.cmbEliminarProducto.BorderColor = System.Drawing.Color.Gray;
+            this.cmbEliminarProducto.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbEliminarProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEliminarProducto.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmbEliminarProducto.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbEliminarProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbEliminarProducto.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbEliminarProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbEliminarProducto.ItemHeight = 30;
+            this.cmbEliminarProducto.Location = new System.Drawing.Point(1183, 83);
+            this.cmbEliminarProducto.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.cmbEliminarProducto.Name = "cmbEliminarProducto";
+            this.cmbEliminarProducto.Size = new System.Drawing.Size(175, 36);
+            this.cmbEliminarProducto.TabIndex = 71;
+            this.cmbEliminarProducto.SelectedIndexChanged += new System.EventHandler(this.cmbEliminarProducto_SelectedIndexChanged);
             // 
-            // guna2ComboBox10
+            // cmbProductoActualizarProducto
             // 
-            this.guna2ComboBox10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox10.BorderColor = System.Drawing.Color.Gray;
-            this.guna2ComboBox10.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox10.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ComboBox10.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox10.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox10.ItemHeight = 30;
-            this.guna2ComboBox10.Location = new System.Drawing.Point(859, 79);
-            this.guna2ComboBox10.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2ComboBox10.Name = "guna2ComboBox10";
-            this.guna2ComboBox10.Size = new System.Drawing.Size(175, 36);
-            this.guna2ComboBox10.TabIndex = 72;
+            this.cmbProductoActualizarProducto.BackColor = System.Drawing.Color.Transparent;
+            this.cmbProductoActualizarProducto.BorderColor = System.Drawing.Color.Gray;
+            this.cmbProductoActualizarProducto.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbProductoActualizarProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbProductoActualizarProducto.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmbProductoActualizarProducto.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbProductoActualizarProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbProductoActualizarProducto.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbProductoActualizarProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbProductoActualizarProducto.ItemHeight = 30;
+            this.cmbProductoActualizarProducto.Location = new System.Drawing.Point(836, 79);
+            this.cmbProductoActualizarProducto.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.cmbProductoActualizarProducto.Name = "cmbProductoActualizarProducto";
+            this.cmbProductoActualizarProducto.Size = new System.Drawing.Size(298, 36);
+            this.cmbProductoActualizarProducto.TabIndex = 72;
+            this.cmbProductoActualizarProducto.SelectedIndexChanged += new System.EventHandler(this.cmbProductoActualizarProducto_SelectedIndexChanged);
             // 
             // guna2HtmlLabel18
             // 
             this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel18.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel18.Location = new System.Drawing.Point(1041, 132);
+            this.guna2HtmlLabel18.Location = new System.Drawing.Point(1056, 132);
             this.guna2HtmlLabel18.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
             this.guna2HtmlLabel18.Size = new System.Drawing.Size(116, 17);
             this.guna2HtmlLabel18.TabIndex = 73;
             this.guna2HtmlLabel18.Text = "Nombre del producto";
+            this.guna2HtmlLabel18.Click += new System.EventHandler(this.guna2HtmlLabel18_Click);
             // 
             // cmbClienteActualizar
             // 
@@ -854,59 +863,61 @@ namespace SmartManager
             this.guna2Button9.TabIndex = 78;
             this.guna2Button9.Text = "Actualizar cliente";
             // 
-            // guna2Button8
+            // btnActualizarProducto
             // 
-            this.guna2Button8.BorderRadius = 6;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button8.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
-            this.guna2Button8.Location = new System.Drawing.Point(897, 235);
-            this.guna2Button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(121, 28);
-            this.guna2Button8.TabIndex = 63;
-            this.guna2Button8.Text = "Actualizar producto";
+            this.btnActualizarProducto.BorderRadius = 6;
+            this.btnActualizarProducto.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnActualizarProducto.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnActualizarProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnActualizarProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnActualizarProducto.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnActualizarProducto.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarProducto.ForeColor = System.Drawing.Color.White;
+            this.btnActualizarProducto.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
+            this.btnActualizarProducto.Location = new System.Drawing.Point(917, 238);
+            this.btnActualizarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnActualizarProducto.Name = "btnActualizarProducto";
+            this.btnActualizarProducto.Size = new System.Drawing.Size(121, 28);
+            this.btnActualizarProducto.TabIndex = 63;
+            this.btnActualizarProducto.Text = "Actualizar producto";
             // 
-            // guna2Button7
+            // btnActualizarCategoria
             // 
-            this.guna2Button7.BorderRadius = 6;
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
-            this.guna2Button7.Location = new System.Drawing.Point(640, 596);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(121, 28);
-            this.guna2Button7.TabIndex = 62;
-            this.guna2Button7.Text = "Actualizar categoria";
+            this.btnActualizarCategoria.BorderRadius = 6;
+            this.btnActualizarCategoria.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnActualizarCategoria.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnActualizarCategoria.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnActualizarCategoria.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnActualizarCategoria.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnActualizarCategoria.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarCategoria.ForeColor = System.Drawing.Color.White;
+            this.btnActualizarCategoria.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
+            this.btnActualizarCategoria.Location = new System.Drawing.Point(640, 596);
+            this.btnActualizarCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnActualizarCategoria.Name = "btnActualizarCategoria";
+            this.btnActualizarCategoria.Size = new System.Drawing.Size(121, 28);
+            this.btnActualizarCategoria.TabIndex = 62;
+            this.btnActualizarCategoria.Text = "Actualizar categoria";
+            this.btnActualizarCategoria.Click += new System.EventHandler(this.btnActualizarCategoria_Click);
             // 
-            // guna2Button5
+            // btnEliminarProducto
             // 
-            this.guna2Button5.BorderRadius = 6;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Image = global::SmartManager.Properties.Resources.EliminarIcono;
-            this.guna2Button5.Location = new System.Drawing.Point(1215, 132);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(121, 28);
-            this.guna2Button5.TabIndex = 57;
-            this.guna2Button5.Text = "Eliminar producto";
+            this.btnEliminarProducto.BorderRadius = 6;
+            this.btnEliminarProducto.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarProducto.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEliminarProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEliminarProducto.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnEliminarProducto.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarProducto.ForeColor = System.Drawing.Color.White;
+            this.btnEliminarProducto.Image = global::SmartManager.Properties.Resources.EliminarIcono;
+            this.btnEliminarProducto.Location = new System.Drawing.Point(1215, 132);
+            this.btnEliminarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEliminarProducto.Name = "btnEliminarProducto";
+            this.btnEliminarProducto.Size = new System.Drawing.Size(121, 28);
+            this.btnEliminarProducto.TabIndex = 57;
+            this.btnEliminarProducto.Text = "Eliminar producto";
+            this.btnEliminarProducto.Click += new System.EventHandler(this.btnEliminarProducto_Click);
             // 
             // btnEliminarCategoria
             // 
@@ -1038,7 +1049,7 @@ namespace SmartManager
             this.cmbVendedor.Location = new System.Drawing.Point(15, 57);
             this.cmbVendedor.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cmbVendedor.Name = "cmbVendedor";
-            this.cmbVendedor.Size = new System.Drawing.Size(175, 36);
+            this.cmbVendedor.Size = new System.Drawing.Size(298, 36);
             this.cmbVendedor.TabIndex = 82;
             this.cmbVendedor.SelectedIndexChanged += new System.EventHandler(this.cmbVendedor_SelectedIndexChanged);
             // 
@@ -1064,7 +1075,7 @@ namespace SmartManager
             this.btnCrearVenta.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearVenta.ForeColor = System.Drawing.Color.White;
             this.btnCrearVenta.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
-            this.btnCrearVenta.Location = new System.Drawing.Point(143, 100);
+            this.btnCrearVenta.Location = new System.Drawing.Point(249, 100);
             this.btnCrearVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCrearVenta.Name = "btnCrearVenta";
             this.btnCrearVenta.Size = new System.Drawing.Size(129, 28);
@@ -1108,22 +1119,22 @@ namespace SmartManager
             this.Controls.Add(this.guna2ComboBox12);
             this.Controls.Add(this.cmbClienteActualizar);
             this.Controls.Add(this.guna2HtmlLabel18);
-            this.Controls.Add(this.guna2ComboBox10);
-            this.Controls.Add(this.guna2ComboBox9);
+            this.Controls.Add(this.cmbProductoActualizarProducto);
+            this.Controls.Add(this.cmbEliminarProducto);
             this.Controls.Add(this.guna2HtmlLabel15);
             this.Controls.Add(this.guna2HtmlLabel16);
             this.Controls.Add(this.cmbActualizarCategoriaProducto);
-            this.Controls.Add(this.guna2NumericUpDown4);
-            this.Controls.Add(this.guna2NumericUpDown5);
-            this.Controls.Add(this.guna2TextBox8);
+            this.Controls.Add(this.nudActualizarUnidadesProducto);
+            this.Controls.Add(this.nudActualizarProductoPrecio);
+            this.Controls.Add(this.txtActualizarNombreProducto);
             this.Controls.Add(this.guna2HtmlLabel17);
-            this.Controls.Add(this.guna2Button8);
-            this.Controls.Add(this.guna2Button7);
+            this.Controls.Add(this.btnActualizarProducto);
+            this.Controls.Add(this.btnActualizarCategoria);
             this.Controls.Add(this.guna2HtmlLabel14);
             this.Controls.Add(this.guna2HtmlLabel13);
-            this.Controls.Add(this.guna2TextBox7);
+            this.Controls.Add(this.txtActualizarCategoria);
             this.Controls.Add(this.cmbActualizarCategoria);
-            this.Controls.Add(this.guna2Button5);
+            this.Controls.Add(this.btnEliminarProducto);
             this.Controls.Add(this.btnEliminarCategoria);
             this.Controls.Add(this.btnGuardarProducto);
             this.Controls.Add(this.btnGuardarCategoria);
@@ -1152,7 +1163,7 @@ namespace SmartManager
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.guna2ComboBox3);
+            this.Controls.Add(this.cmbVentaDetalleProducto);
             this.Controls.Add(this.cmbVentaDetalleCategoria);
             this.Controls.Add(this.btnBuscarVentaDetalle);
             this.Controls.Add(this.dgwVentasDetalle);
@@ -1168,8 +1179,8 @@ namespace SmartManager
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProductoPrecio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudUnidadesProducto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudActualizarUnidadesProducto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudActualizarProductoPrecio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPrecioUnitarioDetalleVenta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1183,7 +1194,7 @@ namespace SmartManager
         private Guna.UI2.WinForms.Guna2ComboBox cmbCorreoCliente;
         private Guna.UI2.WinForms.Guna2Button btnBuscarVentaDetalle;
         private Guna.UI2.WinForms.Guna2ComboBox cmbVentaDetalleCategoria;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbVentaDetalleProducto;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
@@ -1213,22 +1224,22 @@ namespace SmartManager
         private Guna.UI2.WinForms.Guna2Button btnGuardarCategoria;
         private Guna.UI2.WinForms.Guna2Button btnGuardarProducto;
         private Guna.UI2.WinForms.Guna2Button btnEliminarCategoria;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button btnEliminarProducto;
         private Guna.UI2.WinForms.Guna2ComboBox cmbActualizarCategoria;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
+        private Guna.UI2.WinForms.Guna2TextBox txtActualizarCategoria;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Button btnActualizarCategoria;
+        private Guna.UI2.WinForms.Guna2Button btnActualizarProducto;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
         private Guna.UI2.WinForms.Guna2ComboBox cmbActualizarCategoriaProducto;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown4;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
+        private Guna.UI2.WinForms.Guna2NumericUpDown nudActualizarUnidadesProducto;
+        private Guna.UI2.WinForms.Guna2NumericUpDown nudActualizarProductoPrecio;
+        private Guna.UI2.WinForms.Guna2TextBox txtActualizarNombreProducto;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox9;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox10;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbEliminarProducto;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbProductoActualizarProducto;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
         private Guna.UI2.WinForms.Guna2ComboBox cmbClienteActualizar;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox12;

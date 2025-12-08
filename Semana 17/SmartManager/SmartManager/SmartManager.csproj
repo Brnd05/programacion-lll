@@ -56,6 +56,7 @@
     <Compile Include="Data\D_Categorias.cs" />
     <Compile Include="Data\D_Cliente.cs" />
     <Compile Include="Data\D_Producto.cs" />
+    <Compile Include="Data\D_Vendedores.cs" />
     <Compile Include="Data\D_Venta.cs" />
     <Compile Include="Data\D_VentaDetalle.cs" />
     <Compile Include="Presentation\Login.cs">

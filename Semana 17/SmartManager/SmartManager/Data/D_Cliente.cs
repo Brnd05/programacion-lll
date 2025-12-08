@@ -41,6 +41,7 @@ namespace Datos
         }
 
 
+
         // Insertar cliente: procedimiento "sp_InsertarCliente"
         public string InsertarCliente(string nombre, string apellido, string email)
         {
@@ -128,6 +129,7 @@ namespace Datos
 
             try
             {
+                
                 sqlCon = Conexion.crearInstancia().CrearConexion();
                 sqlCon.Open();
 
