@@ -11,3 +11,4 @@ C:\Users\Brandon\Documents\Progra 3\Semana 17\SmartManager\SmartManager\obj\Debu
 C:\Users\Brandon\Documents\Progra 3\Semana 17\SmartManager\SmartManager\bin\Debug\Guna.UI2.dll
 C:\Users\Brandon\Documents\Progra 3\Semana 17\SmartManager\SmartManager\obj\Debug\SmartMan.6662A163.Up2Date
 C:\Users\Brandon\Documents\Progra 3\Semana 17\SmartManager\SmartManager\obj\Debug\SmartManager.SmartManager.resources
+C:\Users\Brandon\Documents\Progra 3\Semana 17\SmartManager\SmartManager\obj\Debug\SmartManager.Presentation.Login.resources

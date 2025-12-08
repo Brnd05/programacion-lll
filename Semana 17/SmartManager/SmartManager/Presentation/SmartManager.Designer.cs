@@ -34,14 +34,14 @@ namespace SmartManager
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SmartManager));
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.cmbCorreoCliente = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.dgwVentasDetalle = new Guna.UI2.WinForms.Guna2DataGridView();
             this.cmbVentaDetalleCategoria = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtBuscarVentaDetalle = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtNombreCliente = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtEmailCliente = new Guna.UI2.WinForms.Guna2TextBox();
@@ -65,15 +65,6 @@ namespace SmartManager
             this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGuardarProducto = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGuardarCategoria = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGuardarCliente = new Guna.UI2.WinForms.Guna2Button();
-            this.btnBuscarVentaDetalle = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cmbActualizarCategoriaProducto = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -84,45 +75,59 @@ namespace SmartManager
             this.guna2ComboBox9 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox10 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ComboBox11 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmbClienteActualizar = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox12 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.nudPrecioUnitarioDetalleVenta = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEliminarCategoria = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGuardarProducto = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGuardarCategoria = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGuardarCliente = new Guna.UI2.WinForms.Guna2Button();
+            this.btnBuscarVentaDetalle = new Guna.UI2.WinForms.Guna2Button();
+            this.cmbVendedor = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnCrearVenta = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwVentasDetalle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProductoPrecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudUnidadesProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPrecioUnitarioDetalleVenta)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2ComboBox1
+            // cmbCorreoCliente
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Gray;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(54, 62);
-            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(314, 36);
-            this.guna2ComboBox1.TabIndex = 0;
-            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
+            this.cmbCorreoCliente.BackColor = System.Drawing.Color.Transparent;
+            this.cmbCorreoCliente.BorderColor = System.Drawing.Color.Gray;
+            this.cmbCorreoCliente.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbCorreoCliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCorreoCliente.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmbCorreoCliente.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbCorreoCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbCorreoCliente.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbCorreoCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbCorreoCliente.ItemHeight = 30;
+            this.cmbCorreoCliente.Location = new System.Drawing.Point(225, 57);
+            this.cmbCorreoCliente.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.cmbCorreoCliente.Name = "cmbCorreoCliente";
+            this.cmbCorreoCliente.Size = new System.Drawing.Size(215, 36);
+            this.cmbCorreoCliente.TabIndex = 0;
+            this.cmbCorreoCliente.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
-            // guna2DataGridView1
+            // dgwVentasDetalle
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.SystemColors.AppWorkspace;
+            this.dgwVentasDetalle.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgwVentasDetalle.BackgroundColor = System.Drawing.SystemColors.AppWorkspace;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Linux Libertine G", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -130,9 +135,9 @@ namespace SmartManager
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgwVentasDetalle.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgwVentasDetalle.ColumnHeadersHeight = 4;
+            this.dgwVentasDetalle.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Linux Libertine G", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -140,35 +145,36 @@ namespace SmartManager
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(863, 350);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(794, 331);
-            this.guna2DataGridView1.TabIndex = 4;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Linux Libertine G", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Linux Libertine G", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgwVentasDetalle.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgwVentasDetalle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgwVentasDetalle.Location = new System.Drawing.Point(847, 351);
+            this.dgwVentasDetalle.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.dgwVentasDetalle.Name = "dgwVentasDetalle";
+            this.dgwVentasDetalle.RowHeadersVisible = false;
+            this.dgwVentasDetalle.Size = new System.Drawing.Size(794, 331);
+            this.dgwVentasDetalle.TabIndex = 4;
+            this.dgwVentasDetalle.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgwVentasDetalle.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgwVentasDetalle.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgwVentasDetalle.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgwVentasDetalle.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgwVentasDetalle.ThemeStyle.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.dgwVentasDetalle.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgwVentasDetalle.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dgwVentasDetalle.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgwVentasDetalle.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Linux Libertine G", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgwVentasDetalle.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgwVentasDetalle.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgwVentasDetalle.ThemeStyle.HeaderStyle.Height = 4;
+            this.dgwVentasDetalle.ThemeStyle.ReadOnly = false;
+            this.dgwVentasDetalle.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgwVentasDetalle.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgwVentasDetalle.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Linux Libertine G", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgwVentasDetalle.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgwVentasDetalle.ThemeStyle.RowsStyle.Height = 22;
+            this.dgwVentasDetalle.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgwVentasDetalle.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgwVentasDetalle.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwVentasDetalle_CellContentClick);
             // 
             // cmbVentaDetalleCategoria
             // 
@@ -182,10 +188,10 @@ namespace SmartManager
             this.cmbVentaDetalleCategoria.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbVentaDetalleCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbVentaDetalleCategoria.ItemHeight = 30;
-            this.cmbVentaDetalleCategoria.Location = new System.Drawing.Point(193, 108);
+            this.cmbVentaDetalleCategoria.Location = new System.Drawing.Point(87, 235);
             this.cmbVentaDetalleCategoria.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cmbVentaDetalleCategoria.Name = "cmbVentaDetalleCategoria";
-            this.cmbVentaDetalleCategoria.Size = new System.Drawing.Size(175, 36);
+            this.cmbVentaDetalleCategoria.Size = new System.Drawing.Size(211, 36);
             this.cmbVentaDetalleCategoria.TabIndex = 7;
             // 
             // guna2ComboBox3
@@ -200,7 +206,7 @@ namespace SmartManager
             this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox3.ItemHeight = 30;
-            this.guna2ComboBox3.Location = new System.Drawing.Point(157, 154);
+            this.guna2ComboBox3.Location = new System.Drawing.Point(87, 281);
             this.guna2ComboBox3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2ComboBox3.Name = "guna2ComboBox3";
             this.guna2ComboBox3.Size = new System.Drawing.Size(211, 36);
@@ -210,7 +216,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(379, 118);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(309, 249);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(125, 17);
@@ -221,7 +227,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(379, 74);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(288, 37);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(96, 17);
@@ -232,39 +238,40 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(377, 161);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(310, 287);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(168, 17);
             this.guna2HtmlLabel3.TabIndex = 11;
             this.guna2HtmlLabel3.Text = "Cantidad y producto a comprar";
             // 
-            // guna2TextBox1
+            // txtBuscarVentaDetalle
             // 
-            this.guna2TextBox1.BackColor = System.Drawing.Color.Turquoise;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "Buscar una venta realizada";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(930, 313);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(293, 28);
-            this.guna2TextBox1.TabIndex = 13;
+            this.txtBuscarVentaDetalle.BackColor = System.Drawing.Color.Turquoise;
+            this.txtBuscarVentaDetalle.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtBuscarVentaDetalle.DefaultText = "Buscar una venta realizada";
+            this.txtBuscarVentaDetalle.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtBuscarVentaDetalle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtBuscarVentaDetalle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtBuscarVentaDetalle.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtBuscarVentaDetalle.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtBuscarVentaDetalle.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtBuscarVentaDetalle.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarVentaDetalle.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtBuscarVentaDetalle.Location = new System.Drawing.Point(930, 313);
+            this.txtBuscarVentaDetalle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBuscarVentaDetalle.Name = "txtBuscarVentaDetalle";
+            this.txtBuscarVentaDetalle.PlaceholderText = "";
+            this.txtBuscarVentaDetalle.SelectedText = "";
+            this.txtBuscarVentaDetalle.Size = new System.Drawing.Size(293, 28);
+            this.txtBuscarVentaDetalle.TabIndex = 13;
+            this.txtBuscarVentaDetalle.TextChanged += new System.EventHandler(this.txtBuscarVentaDetalle_TextChanged);
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(78, 325);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(51, 485);
             this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(122, 17);
@@ -282,7 +289,7 @@ namespace SmartManager
             this.txtNombreCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNombreCliente.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreCliente.Location = new System.Drawing.Point(54, 349);
+            this.txtNombreCliente.Location = new System.Drawing.Point(27, 509);
             this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.PlaceholderText = "";
@@ -302,7 +309,7 @@ namespace SmartManager
             this.txtEmailCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmailCliente.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmailCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmailCliente.Location = new System.Drawing.Point(54, 433);
+            this.txtEmailCliente.Location = new System.Drawing.Point(27, 593);
             this.txtEmailCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmailCliente.Name = "txtEmailCliente";
             this.txtEmailCliente.PlaceholderText = "";
@@ -322,7 +329,7 @@ namespace SmartManager
             this.txtApellidoCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtApellidoCliente.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtApellidoCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtApellidoCliente.Location = new System.Drawing.Point(54, 391);
+            this.txtApellidoCliente.Location = new System.Drawing.Point(27, 551);
             this.txtApellidoCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtApellidoCliente.Name = "txtApellidoCliente";
             this.txtApellidoCliente.PlaceholderText = "";
@@ -336,7 +343,7 @@ namespace SmartManager
             this.guna2NumericUpDown1.BackColor = System.Drawing.Color.Transparent;
             this.guna2NumericUpDown1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NumericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2NumericUpDown1.Location = new System.Drawing.Point(48, 154);
+            this.guna2NumericUpDown1.Location = new System.Drawing.Point(87, 333);
             this.guna2NumericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2NumericUpDown1.Name = "guna2NumericUpDown1";
             this.guna2NumericUpDown1.Size = new System.Drawing.Size(100, 36);
@@ -346,7 +353,7 @@ namespace SmartManager
             // guna2HtmlLabel10
             // 
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(651, 400);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(661, 587);
             this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(3, 2);
@@ -357,7 +364,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(408, 289);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(416, 476);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(99, 17);
@@ -375,7 +382,7 @@ namespace SmartManager
             this.txtAgregarNombreCategoria.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAgregarNombreCategoria.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAgregarNombreCategoria.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAgregarNombreCategoria.Location = new System.Drawing.Point(368, 313);
+            this.txtAgregarNombreCategoria.Location = new System.Drawing.Point(376, 500);
             this.txtAgregarNombreCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtAgregarNombreCategoria.Name = "txtAgregarNombreCategoria";
             this.txtAgregarNombreCategoria.PlaceholderText = "";
@@ -472,7 +479,7 @@ namespace SmartManager
             this.cmbEliminarCategoria.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbEliminarCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbEliminarCategoria.ItemHeight = 30;
-            this.cmbEliminarCategoria.Location = new System.Drawing.Point(368, 433);
+            this.cmbEliminarCategoria.Location = new System.Drawing.Point(376, 620);
             this.cmbEliminarCategoria.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cmbEliminarCategoria.Name = "cmbEliminarCategoria";
             this.cmbEliminarCategoria.Size = new System.Drawing.Size(197, 36);
@@ -482,7 +489,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(411, 408);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(419, 595);
             this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(97, 17);
@@ -550,7 +557,7 @@ namespace SmartManager
             this.cmbActualizarCategoria.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbActualizarCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbActualizarCategoria.ItemHeight = 30;
-            this.cmbActualizarCategoria.Location = new System.Drawing.Point(596, 313);
+            this.cmbActualizarCategoria.Location = new System.Drawing.Point(606, 500);
             this.cmbActualizarCategoria.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cmbActualizarCategoria.Name = "cmbActualizarCategoria";
             this.cmbActualizarCategoria.Size = new System.Drawing.Size(197, 36);
@@ -567,7 +574,7 @@ namespace SmartManager
             this.guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox7.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Location = new System.Drawing.Point(596, 357);
+            this.guna2TextBox7.Location = new System.Drawing.Point(606, 544);
             this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2TextBox7.Name = "guna2TextBox7";
             this.guna2TextBox7.PlaceholderText = "";
@@ -579,7 +586,7 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel13.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(651, 288);
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(661, 475);
             this.guna2HtmlLabel13.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
             this.guna2HtmlLabel13.Size = new System.Drawing.Size(109, 17);
@@ -591,179 +598,12 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel14.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(159, 35);
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(157, 10);
             this.guna2HtmlLabel14.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
             this.guna2HtmlLabel14.Size = new System.Drawing.Size(87, 17);
             this.guna2HtmlLabel14.TabIndex = 61;
             this.guna2HtmlLabel14.Text = "Crear una venta";
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.BorderRadius = 6;
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
-            this.guna2Button7.Location = new System.Drawing.Point(630, 409);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(121, 28);
-            this.guna2Button7.TabIndex = 62;
-            this.guna2Button7.Text = "Actualizar categoria";
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.BorderRadius = 6;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Image = global::SmartManager.Properties.Resources.EliminarIcono;
-            this.guna2Button5.Location = new System.Drawing.Point(1215, 132);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(121, 28);
-            this.guna2Button5.TabIndex = 57;
-            this.guna2Button5.Text = "Eliminar producto";
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.BorderRadius = 6;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Image = global::SmartManager.Properties.Resources.EliminarIcono;
-            this.guna2Button6.Location = new System.Drawing.Point(391, 473);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(121, 28);
-            this.guna2Button6.TabIndex = 56;
-            this.guna2Button6.Text = "Eliminar categoria";
-            // 
-            // btnGuardarProducto
-            // 
-            this.btnGuardarProducto.BorderRadius = 6;
-            this.btnGuardarProducto.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarProducto.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGuardarProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardarProducto.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnGuardarProducto.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarProducto.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarProducto.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
-            this.btnGuardarProducto.Location = new System.Drawing.Point(651, 189);
-            this.btnGuardarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnGuardarProducto.Name = "btnGuardarProducto";
-            this.btnGuardarProducto.Size = new System.Drawing.Size(121, 28);
-            this.btnGuardarProducto.TabIndex = 52;
-            this.btnGuardarProducto.Text = "Guardar producto";
-            this.btnGuardarProducto.Click += new System.EventHandler(this.btnGuardarProducto_Click);
-            // 
-            // btnGuardarCategoria
-            // 
-            this.btnGuardarCategoria.BorderRadius = 6;
-            this.btnGuardarCategoria.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarCategoria.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarCategoria.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGuardarCategoria.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardarCategoria.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnGuardarCategoria.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarCategoria.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCategoria.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
-            this.btnGuardarCategoria.Location = new System.Drawing.Point(395, 353);
-            this.btnGuardarCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnGuardarCategoria.Name = "btnGuardarCategoria";
-            this.btnGuardarCategoria.Size = new System.Drawing.Size(121, 28);
-            this.btnGuardarCategoria.TabIndex = 51;
-            this.btnGuardarCategoria.Text = "Guardar categoria";
-            this.btnGuardarCategoria.Click += new System.EventHandler(this.guna2Button2_Click);
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BorderRadius = 6;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
-            this.guna2Button3.Location = new System.Drawing.Point(48, 202);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(129, 28);
-            this.guna2Button3.TabIndex = 24;
-            this.guna2Button3.Text = "Guardar Venta";
-            // 
-            // btnGuardarCliente
-            // 
-            this.btnGuardarCliente.BorderRadius = 6;
-            this.btnGuardarCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardarCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGuardarCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardarCliente.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnGuardarCliente.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarCliente.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCliente.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
-            this.btnGuardarCliente.Location = new System.Drawing.Point(114, 475);
-            this.btnGuardarCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnGuardarCliente.Name = "btnGuardarCliente";
-            this.btnGuardarCliente.Size = new System.Drawing.Size(134, 28);
-            this.btnGuardarCliente.TabIndex = 18;
-            this.btnGuardarCliente.Text = "Guardar Cliente";
-            this.btnGuardarCliente.Click += new System.EventHandler(this.btnGuardarCliente_Click);
-            // 
-            // btnBuscarVentaDetalle
-            // 
-            this.btnBuscarVentaDetalle.BorderColor = System.Drawing.Color.Gray;
-            this.btnBuscarVentaDetalle.BorderRadius = 6;
-            this.btnBuscarVentaDetalle.BorderThickness = 1;
-            this.btnBuscarVentaDetalle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscarVentaDetalle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscarVentaDetalle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBuscarVentaDetalle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBuscarVentaDetalle.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnBuscarVentaDetalle.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarVentaDetalle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBuscarVentaDetalle.Image = global::SmartManager.Properties.Resources.BuscarIcono;
-            this.btnBuscarVentaDetalle.Location = new System.Drawing.Point(1231, 313);
-            this.btnBuscarVentaDetalle.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.btnBuscarVentaDetalle.Name = "btnBuscarVentaDetalle";
-            this.btnBuscarVentaDetalle.Size = new System.Drawing.Size(82, 28);
-            this.btnBuscarVentaDetalle.TabIndex = 6;
-            this.btnBuscarVentaDetalle.Text = "Buscar";
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.BorderRadius = 6;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button8.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
-            this.guna2Button8.Location = new System.Drawing.Point(897, 235);
-            this.guna2Button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(121, 28);
-            this.guna2Button8.TabIndex = 63;
-            this.guna2Button8.Text = "Actualizar producto";
             // 
             // guna2HtmlLabel15
             // 
@@ -906,23 +746,23 @@ namespace SmartManager
             this.guna2HtmlLabel18.TabIndex = 73;
             this.guna2HtmlLabel18.Text = "Nombre del producto";
             // 
-            // guna2ComboBox11
+            // cmbClienteActualizar
             // 
-            this.guna2ComboBox11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox11.BorderColor = System.Drawing.Color.Gray;
-            this.guna2ComboBox11.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox11.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ComboBox11.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox11.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox11.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox11.ItemHeight = 30;
-            this.guna2ComboBox11.Location = new System.Drawing.Point(1436, 37);
-            this.guna2ComboBox11.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2ComboBox11.Name = "guna2ComboBox11";
-            this.guna2ComboBox11.Size = new System.Drawing.Size(175, 36);
-            this.guna2ComboBox11.TabIndex = 74;
+            this.cmbClienteActualizar.BackColor = System.Drawing.Color.Transparent;
+            this.cmbClienteActualizar.BorderColor = System.Drawing.Color.Gray;
+            this.cmbClienteActualizar.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbClienteActualizar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbClienteActualizar.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmbClienteActualizar.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbClienteActualizar.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbClienteActualizar.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbClienteActualizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbClienteActualizar.ItemHeight = 30;
+            this.cmbClienteActualizar.Location = new System.Drawing.Point(1436, 37);
+            this.cmbClienteActualizar.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.cmbClienteActualizar.Name = "cmbClienteActualizar";
+            this.cmbClienteActualizar.Size = new System.Drawing.Size(175, 36);
+            this.cmbClienteActualizar.TabIndex = 74;
             // 
             // guna2ComboBox12
             // 
@@ -972,6 +812,30 @@ namespace SmartManager
             this.guna2HtmlLabel6.TabIndex = 77;
             this.guna2HtmlLabel6.Text = "Actualizar cliente";
             // 
+            // guna2HtmlLabel19
+            // 
+            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel19.Location = new System.Drawing.Point(309, 333);
+            this.guna2HtmlLabel19.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
+            this.guna2HtmlLabel19.Size = new System.Drawing.Size(151, 17);
+            this.guna2HtmlLabel19.TabIndex = 80;
+            this.guna2HtmlLabel19.Text = "Precio unitario del producto";
+            // 
+            // nudPrecioUnitarioDetalleVenta
+            // 
+            this.nudPrecioUnitarioDetalleVenta.BackColor = System.Drawing.Color.Transparent;
+            this.nudPrecioUnitarioDetalleVenta.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nudPrecioUnitarioDetalleVenta.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nudPrecioUnitarioDetalleVenta.Location = new System.Drawing.Point(200, 333);
+            this.nudPrecioUnitarioDetalleVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nudPrecioUnitarioDetalleVenta.Name = "nudPrecioUnitarioDetalleVenta";
+            this.nudPrecioUnitarioDetalleVenta.Size = new System.Drawing.Size(100, 36);
+            this.nudPrecioUnitarioDetalleVenta.TabIndex = 81;
+            this.nudPrecioUnitarioDetalleVenta.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.nudPrecioUnitarioDetalleVenta.ValueChanged += new System.EventHandler(this.nudPrecioUnitarioDetalleVenta_ValueChanged);
+            // 
             // guna2Button9
             // 
             this.guna2Button9.BorderRadius = 6;
@@ -990,49 +854,259 @@ namespace SmartManager
             this.guna2Button9.TabIndex = 78;
             this.guna2Button9.Text = "Actualizar cliente";
             // 
-            // guna2TextBox2
+            // guna2Button8
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "00.00$";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(280, 194);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(88, 36);
-            this.guna2TextBox2.TabIndex = 79;
+            this.guna2Button8.BorderRadius = 6;
+            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button8.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.guna2Button8.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button8.ForeColor = System.Drawing.Color.White;
+            this.guna2Button8.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
+            this.guna2Button8.Location = new System.Drawing.Point(897, 235);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.Size = new System.Drawing.Size(121, 28);
+            this.guna2Button8.TabIndex = 63;
+            this.guna2Button8.Text = "Actualizar producto";
             // 
-            // guna2HtmlLabel19
+            // guna2Button7
             // 
-            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel19.Location = new System.Drawing.Point(377, 204);
-            this.guna2HtmlLabel19.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
-            this.guna2HtmlLabel19.Size = new System.Drawing.Size(151, 17);
-            this.guna2HtmlLabel19.TabIndex = 80;
-            this.guna2HtmlLabel19.Text = "Precio unitario del producto";
+            this.guna2Button7.BorderRadius = 6;
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.guna2Button7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.Image = global::SmartManager.Properties.Resources.ActualizarIcono;
+            this.guna2Button7.Location = new System.Drawing.Point(640, 596);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.Size = new System.Drawing.Size(121, 28);
+            this.guna2Button7.TabIndex = 62;
+            this.guna2Button7.Text = "Actualizar categoria";
+            // 
+            // guna2Button5
+            // 
+            this.guna2Button5.BorderRadius = 6;
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.guna2Button5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.Image = global::SmartManager.Properties.Resources.EliminarIcono;
+            this.guna2Button5.Location = new System.Drawing.Point(1215, 132);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.Size = new System.Drawing.Size(121, 28);
+            this.guna2Button5.TabIndex = 57;
+            this.guna2Button5.Text = "Eliminar producto";
+            // 
+            // btnEliminarCategoria
+            // 
+            this.btnEliminarCategoria.BorderRadius = 6;
+            this.btnEliminarCategoria.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarCategoria.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarCategoria.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEliminarCategoria.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEliminarCategoria.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnEliminarCategoria.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarCategoria.ForeColor = System.Drawing.Color.White;
+            this.btnEliminarCategoria.Image = global::SmartManager.Properties.Resources.EliminarIcono;
+            this.btnEliminarCategoria.Location = new System.Drawing.Point(399, 660);
+            this.btnEliminarCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEliminarCategoria.Name = "btnEliminarCategoria";
+            this.btnEliminarCategoria.Size = new System.Drawing.Size(121, 28);
+            this.btnEliminarCategoria.TabIndex = 56;
+            this.btnEliminarCategoria.Text = "Eliminar categoria";
+            this.btnEliminarCategoria.Click += new System.EventHandler(this.guna2Button6_Click);
+            // 
+            // btnGuardarProducto
+            // 
+            this.btnGuardarProducto.BorderRadius = 6;
+            this.btnGuardarProducto.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarProducto.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGuardarProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGuardarProducto.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnGuardarProducto.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarProducto.ForeColor = System.Drawing.Color.White;
+            this.btnGuardarProducto.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
+            this.btnGuardarProducto.Location = new System.Drawing.Point(651, 189);
+            this.btnGuardarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGuardarProducto.Name = "btnGuardarProducto";
+            this.btnGuardarProducto.Size = new System.Drawing.Size(121, 28);
+            this.btnGuardarProducto.TabIndex = 52;
+            this.btnGuardarProducto.Text = "Guardar producto";
+            this.btnGuardarProducto.Click += new System.EventHandler(this.btnGuardarProducto_Click);
+            // 
+            // btnGuardarCategoria
+            // 
+            this.btnGuardarCategoria.BorderRadius = 6;
+            this.btnGuardarCategoria.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarCategoria.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarCategoria.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGuardarCategoria.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGuardarCategoria.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnGuardarCategoria.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCategoria.ForeColor = System.Drawing.Color.White;
+            this.btnGuardarCategoria.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
+            this.btnGuardarCategoria.Location = new System.Drawing.Point(403, 540);
+            this.btnGuardarCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGuardarCategoria.Name = "btnGuardarCategoria";
+            this.btnGuardarCategoria.Size = new System.Drawing.Size(121, 28);
+            this.btnGuardarCategoria.TabIndex = 51;
+            this.btnGuardarCategoria.Text = "Guardar categoria";
+            this.btnGuardarCategoria.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.BorderRadius = 6;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.guna2Button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
+            this.guna2Button3.Location = new System.Drawing.Point(110, 384);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(163, 28);
+            this.guna2Button3.TabIndex = 24;
+            this.guna2Button3.Text = "Guardar en la venta";
+            // 
+            // btnGuardarCliente
+            // 
+            this.btnGuardarCliente.BorderRadius = 6;
+            this.btnGuardarCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGuardarCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGuardarCliente.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnGuardarCliente.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCliente.ForeColor = System.Drawing.Color.White;
+            this.btnGuardarCliente.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
+            this.btnGuardarCliente.Location = new System.Drawing.Point(87, 635);
+            this.btnGuardarCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGuardarCliente.Name = "btnGuardarCliente";
+            this.btnGuardarCliente.Size = new System.Drawing.Size(134, 28);
+            this.btnGuardarCliente.TabIndex = 18;
+            this.btnGuardarCliente.Text = "Guardar Cliente";
+            this.btnGuardarCliente.Click += new System.EventHandler(this.btnGuardarCliente_Click);
+            // 
+            // btnBuscarVentaDetalle
+            // 
+            this.btnBuscarVentaDetalle.BorderColor = System.Drawing.Color.Gray;
+            this.btnBuscarVentaDetalle.BorderRadius = 6;
+            this.btnBuscarVentaDetalle.BorderThickness = 1;
+            this.btnBuscarVentaDetalle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscarVentaDetalle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscarVentaDetalle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBuscarVentaDetalle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBuscarVentaDetalle.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnBuscarVentaDetalle.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarVentaDetalle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBuscarVentaDetalle.Image = global::SmartManager.Properties.Resources.BuscarIcono;
+            this.btnBuscarVentaDetalle.Location = new System.Drawing.Point(1231, 313);
+            this.btnBuscarVentaDetalle.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btnBuscarVentaDetalle.Name = "btnBuscarVentaDetalle";
+            this.btnBuscarVentaDetalle.Size = new System.Drawing.Size(82, 28);
+            this.btnBuscarVentaDetalle.TabIndex = 6;
+            this.btnBuscarVentaDetalle.Text = "Buscar";
+            this.btnBuscarVentaDetalle.Click += new System.EventHandler(this.btnBuscarVentaDetalle_Click);
+            // 
+            // cmbVendedor
+            // 
+            this.cmbVendedor.BackColor = System.Drawing.Color.Transparent;
+            this.cmbVendedor.BorderColor = System.Drawing.Color.Gray;
+            this.cmbVendedor.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbVendedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbVendedor.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmbVendedor.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbVendedor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbVendedor.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbVendedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbVendedor.ItemHeight = 30;
+            this.cmbVendedor.Location = new System.Drawing.Point(15, 57);
+            this.cmbVendedor.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.cmbVendedor.Name = "cmbVendedor";
+            this.cmbVendedor.Size = new System.Drawing.Size(175, 36);
+            this.cmbVendedor.TabIndex = 82;
+            this.cmbVendedor.SelectedIndexChanged += new System.EventHandler(this.cmbVendedor_SelectedIndexChanged);
+            // 
+            // guna2HtmlLabel20
+            // 
+            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel20.Location = new System.Drawing.Point(72, 35);
+            this.guna2HtmlLabel20.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
+            this.guna2HtmlLabel20.Size = new System.Drawing.Size(55, 17);
+            this.guna2HtmlLabel20.TabIndex = 83;
+            this.guna2HtmlLabel20.Text = "Vendedor";
+            // 
+            // btnCrearVenta
+            // 
+            this.btnCrearVenta.BorderRadius = 6;
+            this.btnCrearVenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCrearVenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCrearVenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCrearVenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCrearVenta.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnCrearVenta.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearVenta.ForeColor = System.Drawing.Color.White;
+            this.btnCrearVenta.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
+            this.btnCrearVenta.Location = new System.Drawing.Point(143, 100);
+            this.btnCrearVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCrearVenta.Name = "btnCrearVenta";
+            this.btnCrearVenta.Size = new System.Drawing.Size(129, 28);
+            this.btnCrearVenta.TabIndex = 84;
+            this.btnCrearVenta.Text = "Crear una venta";
+            this.btnCrearVenta.Click += new System.EventHandler(this.btnCrearVenta_Click);
+            // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Gray;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Location = new System.Drawing.Point(4, 185);
+            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(430, 36);
+            this.guna2ComboBox1.TabIndex = 85;
             // 
             // SmartManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(1671, 695);
+            this.ClientSize = new System.Drawing.Size(1924, 695);
+            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.btnCrearVenta);
+            this.Controls.Add(this.guna2HtmlLabel20);
+            this.Controls.Add(this.cmbVendedor);
+            this.Controls.Add(this.nudPrecioUnitarioDetalleVenta);
             this.Controls.Add(this.guna2HtmlLabel19);
-            this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.guna2Button9);
             this.Controls.Add(this.guna2HtmlLabel6);
             this.Controls.Add(this.guna2TextBox9);
             this.Controls.Add(this.guna2ComboBox12);
-            this.Controls.Add(this.guna2ComboBox11);
+            this.Controls.Add(this.cmbClienteActualizar);
             this.Controls.Add(this.guna2HtmlLabel18);
             this.Controls.Add(this.guna2ComboBox10);
             this.Controls.Add(this.guna2ComboBox9);
@@ -1050,7 +1124,7 @@ namespace SmartManager
             this.Controls.Add(this.guna2TextBox7);
             this.Controls.Add(this.cmbActualizarCategoria);
             this.Controls.Add(this.guna2Button5);
-            this.Controls.Add(this.guna2Button6);
+            this.Controls.Add(this.btnEliminarCategoria);
             this.Controls.Add(this.btnGuardarProducto);
             this.Controls.Add(this.btnGuardarCategoria);
             this.Controls.Add(this.guna2HtmlLabel12);
@@ -1074,15 +1148,15 @@ namespace SmartManager
             this.Controls.Add(this.txtNombreCliente);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.btnGuardarCliente);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.txtBuscarVentaDetalle);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2ComboBox3);
             this.Controls.Add(this.cmbVentaDetalleCategoria);
             this.Controls.Add(this.btnBuscarVentaDetalle);
-            this.Controls.Add(this.guna2DataGridView1);
-            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.dgwVentasDetalle);
+            this.Controls.Add(this.cmbCorreoCliente);
             this.Font = new System.Drawing.Font("Linux Libertine G", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -1090,12 +1164,13 @@ namespace SmartManager
             this.Name = "SmartManager";
             this.Text = "SmartManager";
             this.Load += new System.EventHandler(this.SmartManager_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwVentasDetalle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProductoPrecio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudUnidadesProducto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPrecioUnitarioDetalleVenta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1105,15 +1180,15 @@ namespace SmartManager
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbCorreoCliente;
         private Guna.UI2.WinForms.Guna2Button btnBuscarVentaDetalle;
         private Guna.UI2.WinForms.Guna2ComboBox cmbVentaDetalleCategoria;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2TextBox txtBuscarVentaDetalle;
+        private Guna.UI2.WinForms.Guna2DataGridView dgwVentasDetalle;
         private Guna.UI2.WinForms.Guna2Button btnGuardarCliente;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2TextBox txtNombreCliente;
@@ -1137,7 +1212,7 @@ namespace SmartManager
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private Guna.UI2.WinForms.Guna2Button btnGuardarCategoria;
         private Guna.UI2.WinForms.Guna2Button btnGuardarProducto;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button btnEliminarCategoria;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2ComboBox cmbActualizarCategoria;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
@@ -1155,12 +1230,16 @@ namespace SmartManager
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox9;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox10;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox11;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbClienteActualizar;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox12;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
+        private Guna.UI2.WinForms.Guna2NumericUpDown nudPrecioUnitarioDetalleVenta;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbVendedor;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
+        private Guna.UI2.WinForms.Guna2Button btnCrearVenta;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
     }
 }

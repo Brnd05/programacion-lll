@@ -147,6 +147,59 @@ namespace SmartManager.Data
                     SqlCon.Close();
                 }
             }
+
+
         }
+
+        public DataTable MostrarProductosPorCategoria(int idCategoria)
+        {
+            SqlConnection sqlCon = null;
+            try
+            {
+                sqlCon = Conexion.crearInstancia().CrearConexion();
+
+                using (SqlCommand comando = new SqlCommand("sp_MostrarProductosPorCategoria", sqlCon))
+                {
+                    comando.CommandType = CommandType.StoredProcedure;
+                    comando.Parameters.Add("@id_categoria", SqlDbType.Int).Value = idCategoria;
+
+                    sqlCon.Open();
+
+                    using (SqlDataReader reader = comando.ExecuteReader())
+                    {
+                        DataTable tabla = new DataTable();
+                        tabla.Load(reader);
+
+                        // Columna formateada para mostrar en el ComboBox
+                        // Ejemplo: "12 - Mouse óptico | Stock: 35 | Precio: $19.99"
+                        tabla.Columns.Add("DisplayText", typeof(string));
+                        foreach (DataRow row in tabla.Rows)
+                        {
+                            int idProd = (int)row["id_producto"];
+                            string nombre = row["nombre_producto"].ToString();
+                            int stock = (int)row["existencias_producto"];
+
+                            // smallmoney -> decimal en C#
+                            decimal precio = Convert.ToDecimal(row["precio_producto"]);
+
+                            row["DisplayText"] = $"{idProd} - {nombre} | Stock: {stock} | Precio: {precio:C2}";
+                        }
+
+                        return tabla;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // En la capa de datos se recomienda no usar MessageBox; deja que la capa UI decida.
+                throw; // re-lanza para que la UI gestione el mensaje
+            }
+            finally
+            {
+                if (sqlCon != null && sqlCon.State == ConnectionState.Open)
+                    sqlCon.Close();
+            }
+        }
+
     }
 }

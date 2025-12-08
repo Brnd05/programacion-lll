@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\presentation\\smartmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +27,8 @@
       "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\presentation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 126,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,27 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "D_Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
-              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Categorias.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
-              "RelativeToolTip": "SmartManager\\Data\\D_Categorias.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAowEoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SmartManager.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Presentation\\SmartManager.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
+              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAApwC8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T05:24:49.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SmartManager.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.Designer.cs",
-              "RelativeDocumentMoniker": "SmartManager\\Presentation\\SmartManager.Designer.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.Designer.cs",
-              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.Designer.cs",
-              "ViewState": "AgIAABIBAAAAAAAAAAAYwCMBAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T22:37:36.202Z",
+              "WhenOpened": "2025-12-01T22:21:35.794Z",
               "EditorCaption": ""
             },
             {
@@ -87,19 +79,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SmartManager.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
-              "RelativeDocumentMoniker": "SmartManager\\Presentation\\SmartManager.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
-              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.cs",
-              "ViewState": "AgIAAAcBAAAAAAAAAAAowBsBAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "D_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Cliente.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Cliente.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Cliente.cs",
+              "RelativeToolTip": "SmartManager\\Data\\D_Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T22:21:35.794Z"
+              "WhenOpened": "2025-12-01T22:12:46.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "D_Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Categorias.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
+              "RelativeToolTip": "SmartManager\\Data\\D_Categorias.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:24:49.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmartManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.Designer.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Presentation\\SmartManager.Designer.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.Designer.cs",
+              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:37:36.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\Login.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Presentation\\Login.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\Login.cs",
+              "RelativeToolTip": "SmartManager\\Presentation\\Login.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T04:48:20.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\Login.cs",
               "RelativeDocumentMoniker": "SmartManager\\Presentation\\Login.cs",
@@ -107,18 +138,6 @@
               "RelativeToolTip": "SmartManager\\Presentation\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T22:20:18.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "D_Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Cliente.cs",
-              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Cliente.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Cliente.cs",
-              "RelativeToolTip": "SmartManager\\Data\\D_Cliente.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T22:12:46.495Z"
             }
           ]
         }
