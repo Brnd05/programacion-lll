@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\data\\d_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 126,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "SmartManager\\Presentation\\SmartManager.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
               "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.cs",
-              "ViewState": "AgIAAEIDAAAAAAAAAIAwwFoDAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADsBAAAAAAAAAAAIwGUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T22:21:35.794Z",
               "IsPinned": true,
@@ -56,28 +60,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "D_Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
-              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Categorias.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
-              "RelativeToolTip": "SmartManager\\Data\\D_Categorias.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAIwLAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "D_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Cliente.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Cliente.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Cliente.cs",
+              "RelativeToolTip": "SmartManager\\Data\\D_Cliente.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowFQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T06:45:24.505Z",
+              "WhenOpened": "2025-12-08T18:12:32.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "D_Producto.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Producto.cs",
               "RelativeDocumentMoniker": "SmartManager\\Data\\D_Producto.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Producto.cs",
               "RelativeToolTip": "SmartManager\\Data\\D_Producto.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwEQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAQwJoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T06:02:39.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "D_Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Categorias.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Categorias.cs",
+              "RelativeToolTip": "SmartManager\\Data\\D_Categorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:45:24.505Z",
               "EditorCaption": ""
             },
             {

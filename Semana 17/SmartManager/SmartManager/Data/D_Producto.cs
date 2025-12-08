@@ -118,38 +118,38 @@ namespace SmartManager.Data
             }
         }
 
-        public DataTable MostrarProductos()
-        {
-            SqlDataReader Resultado;
-            DataTable Tabla = new DataTable();
-            SqlConnection SqlCon = new SqlConnection();
+        //public DataTable MostrarProductos()
+        //{
+        //    SqlDataReader Resultado;
+        //    DataTable Tabla = new DataTable();
+        //    SqlConnection SqlCon = new SqlConnection();
 
-            try
-            {
-                SqlCon = Conexion.crearInstancia().CrearConexion();
-                SqlCommand comando = new SqlCommand("sp_MostrarProductos", SqlCon);
-                comando.CommandType = CommandType.StoredProcedure;
+        //    try
+        //    {
+        //        SqlCon = Conexion.crearInstancia().CrearConexion();
+        //        SqlCommand comando = new SqlCommand("sp_MostrarProductos", SqlCon);
+        //        comando.CommandType = CommandType.StoredProcedure;
 
-                SqlCon.Open();
-                Resultado = comando.ExecuteReader();
-                Tabla.Load(Resultado);
-                return Tabla;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                throw ex;
-            }
-            finally
-            {
-                if (SqlCon.State == ConnectionState.Open)
-                {
-                    SqlCon.Close();
-                }
-            }
+        //        SqlCon.Open();
+        //        Resultado = comando.ExecuteReader();
+        //        Tabla.Load(Resultado);
+        //        return Tabla;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //        throw ex;
+        //    }
+        //    finally
+        //    {
+        //        if (SqlCon.State == ConnectionState.Open)
+        //        {
+        //            SqlCon.Close();
+        //        }
+        //    }
 
 
-        }
+        //}
 
         public DataTable MostrarProductosPorCategoria(int idCategoria)
         {

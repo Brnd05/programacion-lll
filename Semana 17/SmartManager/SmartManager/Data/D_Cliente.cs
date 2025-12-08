@@ -154,35 +154,7 @@ namespace Datos
             return respuesta;
         }
 
-        // Mostrar cliente por email: procedimiento "sp_MostrarClientes" con @EmailCliente
-        public DataTable MostrarClientePorEmail(string email)
-        {
-            DataTable tabla = new DataTable();
-            SqlConnection sqlCon = null;
-            SqlDataReader resultado = null;
-
-            try
-            {
-                sqlCon = Conexion.crearInstancia().CrearConexion();
-                sqlCon.Open();
-
-                using (SqlCommand cmd = new SqlCommand("sp_MostrarClientes", sqlCon))
-                {
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@EmailCliente", SqlDbType.NVarChar, 100).Value = email;
-
-                    resultado = cmd.ExecuteReader();
-                    tabla.Load(resultado);
-                }
-            }
-            finally
-            {
-                if (resultado != null && !resultado.IsClosed) resultado.Close();
-                if (sqlCon != null && sqlCon.State == ConnectionState.Open) sqlCon.Close();
-            }
-
-            return tabla;
-        }
+       
 
         
         
