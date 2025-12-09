@@ -11,8 +11,11 @@ namespace UMarket.Domain.Entities
         public required int Id { get; set; }
         public required DateTime Fecha { get; set; }
         public required decimal Total { get; set; }
+
         public required int UsuarioId { get; set; }
         public required Usuario Usuario { get; set; }
 
+        // ← Esto te faltaba
+        public List<VentaDetalle> Detalles { get; set; } = new();
     }
 }

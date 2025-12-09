@@ -46,7 +46,7 @@ namespace SmartManager
             this.txtNombreCliente = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtEmailCliente = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtApellidoCliente = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2NumericUpDown1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.nudCantidadVentaDetalle = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtAgregarNombreCategoria = new Guna.UI2.WinForms.Guna2TextBox();
@@ -79,7 +79,6 @@ namespace SmartManager
             this.txtActualizarApellidoCliente = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.nudPrecioUnitarioDetalleVenta = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.btnActualizarCliente = new Guna.UI2.WinForms.Guna2Button();
             this.btnActualizarProducto = new Guna.UI2.WinForms.Guna2Button();
             this.btnActualizarCategoria = new Guna.UI2.WinForms.Guna2Button();
@@ -87,26 +86,26 @@ namespace SmartManager
             this.btnEliminarCategoria = new Guna.UI2.WinForms.Guna2Button();
             this.btnGuardarProducto = new Guna.UI2.WinForms.Guna2Button();
             this.btnGuardarCategoria = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGuardarEnLaVenta = new Guna.UI2.WinForms.Guna2Button();
             this.btnGuardarCliente = new Guna.UI2.WinForms.Guna2Button();
             this.btnBuscarVentaDetalle = new Guna.UI2.WinForms.Guna2Button();
             this.cmbVendedor = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnCrearVenta = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmbSeleccionarVenta = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cmbEliminarCliente = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btnEliminarCliente = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel22 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtActualizarNombreCliente = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtActualizarCorreoCliente = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnFinalizarVenta = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgwVentasDetalle)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadVentaDetalle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProductoPrecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudUnidadesProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudActualizarUnidadesProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudActualizarProductoPrecio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudPrecioUnitarioDetalleVenta)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbCorreoCliente
@@ -345,17 +344,17 @@ namespace SmartManager
             this.txtApellidoCliente.TabIndex = 26;
             this.txtApellidoCliente.TextChanged += new System.EventHandler(this.txtApellidoCliente_TextChanged);
             // 
-            // guna2NumericUpDown1
+            // nudCantidadVentaDetalle
             // 
-            this.guna2NumericUpDown1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2NumericUpDown1.Location = new System.Drawing.Point(87, 333);
-            this.guna2NumericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2NumericUpDown1.Name = "guna2NumericUpDown1";
-            this.guna2NumericUpDown1.Size = new System.Drawing.Size(100, 36);
-            this.guna2NumericUpDown1.TabIndex = 27;
-            this.guna2NumericUpDown1.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.nudCantidadVentaDetalle.BackColor = System.Drawing.Color.Transparent;
+            this.nudCantidadVentaDetalle.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nudCantidadVentaDetalle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nudCantidadVentaDetalle.Location = new System.Drawing.Point(87, 333);
+            this.nudCantidadVentaDetalle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nudCantidadVentaDetalle.Name = "nudCantidadVentaDetalle";
+            this.nudCantidadVentaDetalle.Size = new System.Drawing.Size(100, 36);
+            this.nudCantidadVentaDetalle.TabIndex = 27;
+            this.nudCantidadVentaDetalle.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
             // 
             // guna2HtmlLabel10
             // 
@@ -684,7 +683,7 @@ namespace SmartManager
             // txtActualizarNombreProducto
             // 
             this.txtActualizarNombreProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtActualizarNombreProducto.DefaultText = "(Opcional)";
+            this.txtActualizarNombreProducto.DefaultText = "";
             this.txtActualizarNombreProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtActualizarNombreProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtActualizarNombreProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -815,25 +814,12 @@ namespace SmartManager
             // 
             this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel19.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel19.Location = new System.Drawing.Point(309, 333);
+            this.guna2HtmlLabel19.Location = new System.Drawing.Point(196, 351);
             this.guna2HtmlLabel19.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
             this.guna2HtmlLabel19.Size = new System.Drawing.Size(151, 17);
             this.guna2HtmlLabel19.TabIndex = 80;
             this.guna2HtmlLabel19.Text = "Precio unitario del producto";
-            // 
-            // nudPrecioUnitarioDetalleVenta
-            // 
-            this.nudPrecioUnitarioDetalleVenta.BackColor = System.Drawing.Color.Transparent;
-            this.nudPrecioUnitarioDetalleVenta.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nudPrecioUnitarioDetalleVenta.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nudPrecioUnitarioDetalleVenta.Location = new System.Drawing.Point(200, 333);
-            this.nudPrecioUnitarioDetalleVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.nudPrecioUnitarioDetalleVenta.Name = "nudPrecioUnitarioDetalleVenta";
-            this.nudPrecioUnitarioDetalleVenta.Size = new System.Drawing.Size(100, 36);
-            this.nudPrecioUnitarioDetalleVenta.TabIndex = 81;
-            this.nudPrecioUnitarioDetalleVenta.UpDownButtonFillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.nudPrecioUnitarioDetalleVenta.ValueChanged += new System.EventHandler(this.nudPrecioUnitarioDetalleVenta_ValueChanged);
             // 
             // btnActualizarCliente
             // 
@@ -968,23 +954,24 @@ namespace SmartManager
             this.btnGuardarCategoria.Text = "Guardar categoria";
             this.btnGuardarCategoria.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // guna2Button3
+            // btnGuardarEnLaVenta
             // 
-            this.guna2Button3.BorderRadius = 6;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.SystemColors.MenuHighlight;
-            this.guna2Button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
-            this.guna2Button3.Location = new System.Drawing.Point(110, 384);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(163, 28);
-            this.guna2Button3.TabIndex = 24;
-            this.guna2Button3.Text = "Guardar en la venta";
+            this.btnGuardarEnLaVenta.BorderRadius = 6;
+            this.btnGuardarEnLaVenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarEnLaVenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardarEnLaVenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGuardarEnLaVenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGuardarEnLaVenta.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnGuardarEnLaVenta.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarEnLaVenta.ForeColor = System.Drawing.Color.White;
+            this.btnGuardarEnLaVenta.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
+            this.btnGuardarEnLaVenta.Location = new System.Drawing.Point(110, 384);
+            this.btnGuardarEnLaVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGuardarEnLaVenta.Name = "btnGuardarEnLaVenta";
+            this.btnGuardarEnLaVenta.Size = new System.Drawing.Size(163, 28);
+            this.btnGuardarEnLaVenta.TabIndex = 24;
+            this.btnGuardarEnLaVenta.Text = "Guardar en la venta";
+            this.btnGuardarEnLaVenta.Click += new System.EventHandler(this.btnGuardarEnLaVenta_Click);
             // 
             // btnGuardarCliente
             // 
@@ -1075,23 +1062,24 @@ namespace SmartManager
             this.btnCrearVenta.Text = "Crear una venta";
             this.btnCrearVenta.Click += new System.EventHandler(this.btnCrearVenta_Click);
             // 
-            // guna2ComboBox1
+            // cmbSeleccionarVenta
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Gray;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(51, 186);
-            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(427, 36);
-            this.guna2ComboBox1.TabIndex = 85;
+            this.cmbSeleccionarVenta.BackColor = System.Drawing.Color.Transparent;
+            this.cmbSeleccionarVenta.BorderColor = System.Drawing.Color.Gray;
+            this.cmbSeleccionarVenta.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbSeleccionarVenta.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSeleccionarVenta.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmbSeleccionarVenta.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbSeleccionarVenta.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbSeleccionarVenta.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbSeleccionarVenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbSeleccionarVenta.ItemHeight = 30;
+            this.cmbSeleccionarVenta.Location = new System.Drawing.Point(51, 186);
+            this.cmbSeleccionarVenta.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.cmbSeleccionarVenta.Name = "cmbSeleccionarVenta";
+            this.cmbSeleccionarVenta.Size = new System.Drawing.Size(427, 36);
+            this.cmbSeleccionarVenta.TabIndex = 85;
+            this.cmbSeleccionarVenta.SelectedIndexChanged += new System.EventHandler(this.cmbSeleccionarVenta_SelectedIndexChanged);
             // 
             // guna2HtmlLabel21
             // 
@@ -1191,23 +1179,42 @@ namespace SmartManager
             this.txtActualizarCorreoCliente.Size = new System.Drawing.Size(173, 36);
             this.txtActualizarCorreoCliente.TabIndex = 91;
             // 
+            // btnFinalizarVenta
+            // 
+            this.btnFinalizarVenta.BorderRadius = 6;
+            this.btnFinalizarVenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFinalizarVenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFinalizarVenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFinalizarVenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFinalizarVenta.FillColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnFinalizarVenta.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizarVenta.ForeColor = System.Drawing.Color.White;
+            this.btnFinalizarVenta.Image = global::SmartManager.Properties.Resources.GuardadoIcono;
+            this.btnFinalizarVenta.Location = new System.Drawing.Point(288, 384);
+            this.btnFinalizarVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnFinalizarVenta.Name = "btnFinalizarVenta";
+            this.btnFinalizarVenta.Size = new System.Drawing.Size(163, 28);
+            this.btnFinalizarVenta.TabIndex = 92;
+            this.btnFinalizarVenta.Text = "Finalizar Venta";
+            this.btnFinalizarVenta.Click += new System.EventHandler(this.btnFinalizarVenta_Click);
+            // 
             // SmartManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(1924, 695);
+            this.Controls.Add(this.btnFinalizarVenta);
             this.Controls.Add(this.txtActualizarCorreoCliente);
             this.Controls.Add(this.txtActualizarNombreCliente);
             this.Controls.Add(this.guna2HtmlLabel22);
             this.Controls.Add(this.btnEliminarCliente);
             this.Controls.Add(this.cmbEliminarCliente);
             this.Controls.Add(this.guna2HtmlLabel21);
-            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.cmbSeleccionarVenta);
             this.Controls.Add(this.btnCrearVenta);
             this.Controls.Add(this.guna2HtmlLabel20);
             this.Controls.Add(this.cmbVendedor);
-            this.Controls.Add(this.nudPrecioUnitarioDetalleVenta);
             this.Controls.Add(this.guna2HtmlLabel19);
             this.Controls.Add(this.btnActualizarCliente);
             this.Controls.Add(this.guna2HtmlLabel6);
@@ -1247,9 +1254,9 @@ namespace SmartManager
             this.Controls.Add(this.txtAgregarNombreCategoria);
             this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.guna2HtmlLabel10);
-            this.Controls.Add(this.guna2NumericUpDown1);
+            this.Controls.Add(this.nudCantidadVentaDetalle);
             this.Controls.Add(this.txtApellidoCliente);
-            this.Controls.Add(this.guna2Button3);
+            this.Controls.Add(this.btnGuardarEnLaVenta);
             this.Controls.Add(this.txtEmailCliente);
             this.Controls.Add(this.txtNombreCliente);
             this.Controls.Add(this.guna2HtmlLabel4);
@@ -1271,12 +1278,11 @@ namespace SmartManager
             this.Text = "SmartManager";
             this.Load += new System.EventHandler(this.SmartManager_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgwVentasDetalle)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidadVentaDetalle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProductoPrecio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudUnidadesProducto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudActualizarUnidadesProducto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudActualizarProductoPrecio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudPrecioUnitarioDetalleVenta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1299,9 +1305,9 @@ namespace SmartManager
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2TextBox txtNombreCliente;
         private Guna.UI2.WinForms.Guna2TextBox txtEmailCliente;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnGuardarEnLaVenta;
         private Guna.UI2.WinForms.Guna2TextBox txtApellidoCliente;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown1;
+        private Guna.UI2.WinForms.Guna2NumericUpDown nudCantidadVentaDetalle;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2TextBox txtAgregarNombreCategoria;
@@ -1341,16 +1347,16 @@ namespace SmartManager
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2Button btnActualizarCliente;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nudPrecioUnitarioDetalleVenta;
         private Guna.UI2.WinForms.Guna2ComboBox cmbVendedor;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
         private Guna.UI2.WinForms.Guna2Button btnCrearVenta;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbSeleccionarVenta;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel21;
         private Guna.UI2.WinForms.Guna2ComboBox cmbEliminarCliente;
         private Guna.UI2.WinForms.Guna2Button btnEliminarCliente;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel22;
         private Guna.UI2.WinForms.Guna2TextBox txtActualizarNombreCliente;
         private Guna.UI2.WinForms.Guna2TextBox txtActualizarCorreoCliente;
+        private Guna.UI2.WinForms.Guna2Button btnFinalizarVenta;
     }
 }

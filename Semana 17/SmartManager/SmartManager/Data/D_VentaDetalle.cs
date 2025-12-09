@@ -8,11 +8,7 @@ namespace SmartManager.Data
 {
     public class D_VentaDetalle
     {
-        /// <summary>
-        /// Ejecuta el procedimiento almacenado dbo.sp_BuscarVentasDetalle.
-        /// Si cBusqueda es null o vacío devuelve todos los registros.
-        /// Devuelve un DataTable con las columnas tal como las retorna el SP.
-        /// </summary>
+
         public DataTable BuscarVentaDetalle(string cBusqueda = null)
         {
             SqlDataReader Resultado;
@@ -45,20 +41,18 @@ namespace SmartManager.Data
             {
                 if (SqlCon != null && SqlCon.State == ConnectionState.Open)
                 {
-                    try { SqlCon.Close(); } catch { /* ignorar */ }
+                    try { SqlCon.Close(); } catch {}
                 }
             }
         }
         public string InsertarVentaDetalle(int id_venta, int id_producto, int cantidad)
         {
-            SqlDataReader Resultado;
-            DataTable Tabla = new DataTable();
             SqlConnection SqlCon = new SqlConnection();
 
             try
             {
                 SqlCon = Conexion.crearInstancia().CrearConexion();
-                SqlCommand comando = new SqlCommand("sp_InsertarVentaDetalle", SqlCon);
+                SqlCommand comando = new SqlCommand("sp_InsVentaDetalle", SqlCon);
                 comando.CommandType = CommandType.StoredProcedure;
 
                 comando.Parameters.Add("@id_venta", SqlDbType.Int).Value = id_venta;
@@ -66,34 +60,26 @@ namespace SmartManager.Data
                 comando.Parameters.Add("@cantidad", SqlDbType.Int).Value = cantidad;
 
                 SqlCon.Open();
-                int filas = comando.ExecuteNonQuery();
+                comando.ExecuteNonQuery();
 
-                return filas > 0 ? "Detalle de venta insertado correctamente." : "No se insertó ningún detalle de venta.";
+                return "agregado correctamente.";
             }
             catch (SqlException ex)
             {
-                MessageBox.Show(ex.Message);
-                throw ex;
+                return "Error SQL: " + ex.Message;
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-                throw ex;
+                return "Error: " + ex.Message;
             }
             finally
             {
                 if (SqlCon.State == ConnectionState.Open)
-                {
                     SqlCon.Close();
-                }
             }
         }
 
 
-        /// <summary>
-        /// Inserta un detalle de venta usando el procedimiento sp_InsertarVentaDetalle.
-        /// Devuelve mensaje indicando resultado.
-        /// </summary>
-
+  
     }
 }

@@ -16,6 +16,8 @@ namespace SmartManager
     {
         private readonly D_VentaDetalle _dataVentaDetalle;
         private D_Cliente dCliente;
+        private bool ventaFinalizada = false;
+        private int ventaSeleccionada = 0;
 
 
 
@@ -35,10 +37,10 @@ namespace SmartManager
         private void LlenarComboCliente(ComboBox combo, DataTable tabla)
         {
             combo.DataSource = null;
-            combo.DisplayMember = "email_cliente";   // Cambia si tu columna tiene otro nombre
+            combo.DisplayMember = "email_cliente";   
             combo.ValueMember = "id_cliente";
             combo.DataSource = tabla;
-            combo.SelectedIndex = -1;  // Opcional: deja sin seleccionar nada
+            combo.SelectedIndex = -1;  
         }
         private void llenarComboVendedor(ComboBox combo, DataTable tabla)
         {
@@ -46,20 +48,29 @@ namespace SmartManager
             combo.DisplayMember = "usuario_vendedor";
             combo.ValueMember = "id_vendedor";
             combo.DataSource = tabla;
-            combo.SelectedIndex = -1;  // Opcional: deja sin seleccionar nada
+            combo.SelectedIndex = -1;  
         }
 
         private void LlenarComboProducto(ComboBox combo, DataTable tabla)
         {
             combo.DataSource = null;
-            combo.DisplayMember = "nombre_producto";   // Cambia si tu columna tiene otro nombre
+            combo.DisplayMember = "nombre_producto";   
 
             combo.ValueMember = "id_producto";
             combo.DataSource = tabla;
-            combo.SelectedIndex = -1;  // Opcional: deja sin seleccionar nada
+            combo.SelectedIndex = -1;  
+        }
+        private void CargarVentasEnCombo()
+        {
+            D_Venta dv = new D_Venta ();
+            DataTable tabla = dv.MostrarVentas();
+
+            cmbSeleccionarVenta.DataSource = tabla;
+            cmbSeleccionarVenta.ValueMember = "id_venta";
+            cmbSeleccionarVenta.DisplayMember = "id_venta";
         }
 
-    
+
 
         private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -70,7 +81,7 @@ namespace SmartManager
             int idCategoria;
             object selected = combo.SelectedValue;
 
-            // Si ValueMember no está configurado, SelectedValue puede ser DataRowView
+            //Si ValueMember no está configurado, SelectedValue puede ser DataRowView
             if (selected is DataRowView drv)
             {
                 idCategoria = Convert.ToInt32(drv["id_categoria"]);
@@ -97,32 +108,6 @@ namespace SmartManager
 
 
 
-        //private void CargarClientePorEmail(string email)
-        //{
-        //    try
-        //    {
-        //        D_Cliente datos = new D_Cliente();
-
-        //        DataTable cliente = datos.MostrarClientePorEmail(email);
-
-        //        if (cliente.Rows.Count == 0)
-        //        {
-        //            MessageBox.Show("No se encontró ningún cliente con ese correo.");
-        //            return;
-        //        }
-
-        //        // Llenar varios ComboBox
-        //        LlenarComboCliente(cmbCorreoCliente, cliente);
-        //        LlenarComboCliente(cmbClienteActualizar, cliente);
-        //        LlenarComboCliente(cmbEliminarCliente, cliente);
-
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show("Error al cargar cliente: " + ex.Message);
-        //    }
-        //}
 
         private void CargarClientesEnComboBox()
         {
@@ -163,20 +148,7 @@ namespace SmartManager
             }
         }
 
-        //private void CargarProductosEnComboBox()
-        //{
-        //    try
-        //    {
-        //        D_Productos datos = new D_Productos();
-        //        DataTable productos = datos.MostrarProductos();
-        //        LlenarComboProducto(cmbEliminarProducto, productos);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show("Error al cargar productos: " + ex.Message);
-        //    }
-        //}
-
+   
         private void CargarProductosPorCategoria(int idCategoria)
         {
             try
@@ -225,11 +197,11 @@ namespace SmartManager
                 // Asignar DataTable al DataGridView
                 dgwVentasDetalle.DataSource = dt;
 
-                // Opcional: ajustar ancho de columnas y formato
+                
                 if (dgwVentasDetalle.Columns.Count > 0)
                 {
                     dgwVentasDetalle.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
-                    // Ejemplo: si existe columna precio_unitario formatearla
+                    
                     if (dgwVentasDetalle.Columns.Contains("precio_unitario"))
                     {
                         dgwVentasDetalle.Columns["precio_unitario"].DefaultCellStyle.Format = "N2";
@@ -249,15 +221,6 @@ namespace SmartManager
             CargarClientesEnComboBox();
             CargarVentasDetalle();
             CargarVendedoreEnCombobox();
-            //CargarProductosEnComboBox();
-
-            // Llenar todos los combos de categorías
-            //CargarCombo(cmbVentaDetalleCategoria);
-            //CargarCombo(cmbCategoriaProducto);
-            //CargarCombo(cmbActualizarCategoriaProducto);
-            //CargarCombo(cmbActualizarCategoria);
-            //CargarCombo(cmbEliminarCategoriaProducto);
-            //CargarCombo(cmbEliminarCategoria);
 
 
 
@@ -339,7 +302,7 @@ namespace SmartManager
                 return;
             }
 
-            // Opcional: validación simple de formato de email
+         
             try
             {
                 var addr = new System.Net.Mail.MailAddress(email);
@@ -462,7 +425,6 @@ namespace SmartManager
 
                 MessageBox.Show(resultado, "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // Opcional: limpiar controles después de insertar
                 LimpiarControlesProducto();
             }
             catch (Exception ex)
@@ -488,14 +450,13 @@ namespace SmartManager
             txtNombreCliente.Focus();
         }
 
-        //Guardar categoría
 
         private void CargarCategoriasEnCombos(params ComboBox[] combos)
         {
             D_Categorias dcat = new D_Categorias();
             foreach (var cb in combos)
             {
-                // Evita pasar nulls si algún combo no existe en este formulario
+                
                 if (cb == null) continue;
                 dcat.CargarCombo(cb);
             }
@@ -526,7 +487,7 @@ namespace SmartManager
                 txtAgregarNombreCategoria.Clear();
                 txtAgregarNombreCategoria.Focus();
 
-                //Actualizar todos los ComboBox
+                
                 CargarCategoriasEnCombos(
                     cmbCategoriaProducto,
                     cmbActualizarCategoriaProducto,
@@ -559,25 +520,24 @@ namespace SmartManager
 
         private void nudPrecioUnitarioDetalleVenta_ValueChanged(object sender, EventArgs e)
         {
-            nudPrecioUnitarioDetalleVenta.DecimalPlaces = 2; // ahora acepta hasta 2 decimales
-            nudPrecioUnitarioDetalleVenta.Maximum = 1000000; // valor máximo permitido
+            
         }
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
             try
             {
-                // Validar que se haya seleccionado una categoría
+                
                 if (cmbEliminarCategoria.SelectedIndex == -1)
                 {
                     MessageBox.Show("Debe seleccionar una categoría.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // Obtener el id de la categoría seleccionada
+               
                 int id_categoria = Convert.ToInt32(cmbEliminarCategoria.SelectedValue);
 
-                // Confirmar la acción con el usuario
+                
                 DialogResult confirmacion = MessageBox.Show(
                     "¿Está seguro que desea eliminar esta categoría?",
                     "Confirmar eliminación",
@@ -587,16 +547,16 @@ namespace SmartManager
 
                 if (confirmacion == DialogResult.Yes)
                 {
-                    // Instanciar la clase de datos
+                
                     D_Categorias datos = new D_Categorias();
 
-                    // Llamar al método de eliminación
+                   
                     string resultado = datos.EliminarCategoria(id_categoria);
 
-                    // Mostrar resultado
+                    
                     MessageBox.Show(resultado, "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    // Refrescar ComboBox de categorías (opcional)
+                   
                     CargarCategoriasEnCombos(
                    cmbCategoriaProducto,
                    cmbActualizarCategoriaProducto,
@@ -635,7 +595,7 @@ namespace SmartManager
 
         private void btnCrearVenta_Click(object sender, EventArgs e)
         {
-            // Validar selección de vendedor
+      
             if (cmbVendedor.SelectedValue == null || !int.TryParse(cmbVendedor.SelectedValue.ToString(), out int idVendedor))
             {
                 MessageBox.Show("Seleccione un vendedor válido.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -643,10 +603,10 @@ namespace SmartManager
                 return;
             }
 
-            // Validar selección de cliente
+          
             if (cmbCorreoCliente.SelectedValue == null || !int.TryParse(cmbCorreoCliente.SelectedValue.ToString(), out int idCliente))
             {
-                MessageBox.Show("Seleccione un cliente válido.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Seleccione un cliente .", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 cmbCorreoCliente.Focus();
                 return;
             }
@@ -660,7 +620,7 @@ namespace SmartManager
                 if (idVenta > 0)
                 {
                     MessageBox.Show($"{mensaje}\nID venta: {idVenta}", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    // Aquí puedes limpiar controles o actualizar la UI según convenga
+                    
                 }
                 else
                 {
@@ -676,6 +636,7 @@ namespace SmartManager
                 btnCrearVenta.Enabled = true;
             }
 
+            CargarVentasEnCombo();
         }
         public string InsertarVenta(int id_vendedor, int id_cliente, out int id_venta)
         {
@@ -721,105 +682,17 @@ namespace SmartManager
 
         private void cmbActualizarCategoriaProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (cmbActualizarCategoriaProducto.SelectedValue == null)
-            //    return;
 
-            //int idCategoria;
-
-            //object selected = cmbActualizarCategoriaProducto.SelectedValue;
-
-            //// Si por alguna razón el SelectedValue es un DataRowView (ocurre al bindear tablas),
-            //// extraemos el campo correcto.
-            //if (selected is DataRowView drv)
-            //{
-            //    // Cambia "id_categoria" si tu columna tiene otro nombre
-            //    idCategoria = Convert.ToInt32(drv["id_categoria"]);
-            //}
-            //else if (selected is int) // ya es int
-            //{
-            //    idCategoria = (int)selected;
-            //}
-            //else
-            //{
-            //    // Intentamos convertir a int desde string u otros
-            //    if (!int.TryParse(selected.ToString(), out idCategoria))
-            //    {
-            //        MessageBox.Show("No se pudo obtener el id de la categoría seleccionada.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        return;
-            //    }
-            //}
-
-
-
-            //CargarProductosPorCategoria(idCategoria);
         }
 
         private void cmbEliminarCategoriaProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (cmbEliminarCategoriaProducto.SelectedValue == null)
-            //    return;
 
-            //int idCategoria;
-
-            //object selected = cmbEliminarCategoriaProducto.SelectedValue;
-
-            //// Si por alguna razón el SelectedValue es un DataRowView (ocurre al bindear tablas),
-            //// extraemos el campo correcto.
-            //if (selected is DataRowView drv)
-            //{
-            //    // Cambia "id_categoria" si tu columna tiene otro nombre
-            //    idCategoria = Convert.ToInt32(drv["id_categoria"]);
-            //}
-            //else if (selected is int) // ya es int
-            //{
-            //    idCategoria = (int)selected;
-            //}
-            //else
-            //{
-            //    // Intentamos convertir a int desde string u otros
-            //    if (!int.TryParse(selected.ToString(), out idCategoria))
-            //    {
-            //        MessageBox.Show("No se pudo obtener el id de la categoría seleccionada.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        return;
-            //    }
-            //}
-
-
-
-            //CargarProductosPorCategoria(idCategoria);
         }
 
         private void cmbVentaDetalleCategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (cmbVentaDetalleCategoria.SelectedValue == null)
-            //    return;
-
-            //int idCategoria;
-
-            //object selected = cmbVentaDetalleCategoria.SelectedValue;
-
-            //// Si por alguna razón el SelectedValue es un DataRowView (ocurre al bindear tablas),
-            //// extraemos el campo correcto.
-            //if (selected is DataRowView drv)
-            //{
-            //    // Cambia "id_categoria" si tu columna tiene otro nombre
-            //    idCategoria = Convert.ToInt32(drv["id_categoria"]);
-            //}
-            //else if (selected is int) // ya es int
-            //{
-            //    idCategoria = (int)selected;
-            //}
-            //else
-            //{
-            //    // Intentamos convertir a int desde string u otros
-            //    if (!int.TryParse(selected.ToString(), out idCategoria))
-            //    {
-            //        MessageBox.Show("No se pudo obtener el id de la categoría seleccionada.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        return;
-            //    }
-            //}
-
-            //CargarProductosPorCategoria(idCategoria);
+ 
 
         }
 
@@ -1016,7 +889,7 @@ namespace SmartManager
 
             try
             {
-                // 1. Obtener el ID del cliente seleccionado en el ComboBox
+                //Obtener el ID del cliente seleccionado en el ComboBox
                 if (cmbClienteActualizar.SelectedValue == null)
                 {
                     MessageBox.Show("Debe seleccionar un cliente.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -1025,28 +898,28 @@ namespace SmartManager
 
                 int idCliente = Convert.ToInt32(cmbClienteActualizar.SelectedValue);
 
-                // 2. Obtener los nuevos valores de los TextBox
+                //Obtener los nuevos valores de los TextBox
                 string nombre = txtActualizarNombreCliente.Text.Trim();
                 string apellido = txtActualizarApellidoCliente.Text.Trim();
                 string email = txtActualizarCorreoCliente.Text.Trim();
 
-                // Validación básica
+                //Validación básica
                 if (string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(apellido) || string.IsNullOrEmpty(email))
                 {
                     MessageBox.Show("Debe completar todos los campos.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // 3. Llamar al método ActualizarCliente
+                
                 D_Cliente datos = new D_Cliente();
 
                 string respuesta = datos.ActualizarCliente(idCliente, nombre, apellido, email);
 
-                // 4. Mostrar resultado
+                
                 if (respuesta == "OK")
                 {
                     MessageBox.Show("Cliente actualizado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    // Refrescar ComboBox de clientes
+                    
                     CargarClientesEnComboBox();
                     LimpiarControlesActualizarCliente();
                 }
@@ -1064,15 +937,10 @@ namespace SmartManager
 
         private void btnActualizarProducto_Click(object sender, EventArgs e)
         {
-            //cmbActualizarCategoriaProducto = combobox de categorías
-            //cmbProductoActualizarProducto = combobox de productos
-            //txtActualizarNombreProducto = textbox del nombre del producto
-            //nudActualizarProductoPrecio = numericupdown del precio
-            //nudActualizarProductoExistencias = numericupdown de existencias
-            //btnActualizarProducto = botón para actualizar el producto
+
             try
             {
-                // 1. Validar selección de categoría
+                
                 if (cmbActualizarCategoriaProducto.SelectedValue == null)
                 {
                     MessageBox.Show("Debe seleccionar una categoría.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -1081,7 +949,7 @@ namespace SmartManager
 
                 int idCategoria = Convert.ToInt32(cmbActualizarCategoriaProducto.SelectedValue);
 
-                // 2. Validar selección de producto
+                
                 if (cmbProductoActualizarProducto.SelectedValue == null)
                 {
                     MessageBox.Show("Debe seleccionar un producto.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -1090,9 +958,9 @@ namespace SmartManager
 
                 int idProducto = Convert.ToInt32(cmbProductoActualizarProducto.SelectedValue);
 
-                // 3. Obtener nuevos valores
+                
                 string nombreProducto = txtActualizarNombreProducto.Text.Trim();
-                decimal precioProducto = nudActualizarProductoPrecio.Value; // ya definido para decimales
+                decimal precioProducto = nudActualizarProductoPrecio.Value; 
                 int existenciasProducto = (int)nudActualizarUnidadesProducto.Value;
 
                 if (string.IsNullOrEmpty(nombreProducto))
@@ -1101,15 +969,15 @@ namespace SmartManager
                     return;
                 }
 
-                // 4. Llamar al método ActualizarProducto
+                
                 D_Productos datos = new D_Productos();
                 string respuesta = datos.ActualizarProducto(idProducto, nombreProducto, idCategoria, precioProducto, existenciasProducto);
 
-                // 5. Mostrar resultado
+               
                 if (respuesta == "Actualización exitosa.")
                 {
                     MessageBox.Show("Producto actualizado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    // Refrescar ComboBox de productos
+                    
                     CargarProductosPorCategoria(idCategoria);
                 }
                 else
@@ -1127,12 +995,73 @@ namespace SmartManager
 
         private void nudActualizarProductoPrecio_ValueChanged(object sender, EventArgs e)
         {
-            nudActualizarProductoPrecio.DecimalPlaces = 2; // ahora acepta hasta 2 decimales
-            nudActualizarProductoPrecio.Maximum = 1000000; // valor máximo permitido
+            nudActualizarProductoPrecio.DecimalPlaces = 2;
+            nudActualizarProductoPrecio.Maximum = 1000000; 
 
 
         
 
+        }
+
+        private void cmbSeleccionarVenta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CargarVentasEnCombo();
+
+            if (cmbSeleccionarVenta.SelectedValue != null)
+            {
+                ventaSeleccionada = Convert.ToInt32(cmbSeleccionarVenta.SelectedValue);
+                ventaFinalizada = false;
+
+                cmbVentaDetalleCategoria.SelectedIndex = -1;
+                cmbVentaDetalleProducto.DataSource = null;
+            }
+            
+
+        }
+
+        private void btnGuardarEnLaVenta_Click(object sender, EventArgs e)
+        {
+            if (ventaFinalizada)
+            {
+                MessageBox.Show("Esta venta ya fue finalizada. No se pueden agregar más detalles.");
+                return;
+            }
+
+            if (ventaSeleccionada == 0)
+            {
+                MessageBox.Show("Debe seleccionar una venta primero.");
+                return;
+            }
+
+            if (cmbVentaDetalleProducto.SelectedValue == null)
+            {
+                MessageBox.Show("Debe seleccionar un producto.");
+                return;
+            }
+
+            int idProducto = Convert.ToInt32(cmbVentaDetalleProducto.SelectedValue);
+            int cantidad = (int)nudCantidadVentaDetalle.Value;
+
+            D_VentaDetalle d = new D_VentaDetalle();
+            string respuesta = d.InsertarVentaDetalle(ventaSeleccionada, idProducto, cantidad);
+
+            MessageBox.Show(respuesta);
+
+            // Refrescar datagrid
+            CargarVentasDetalle();
+        }
+
+        private void btnFinalizarVenta_Click(object sender, EventArgs e)
+        {
+            if (ventaSeleccionada == 0)
+            {
+                MessageBox.Show("Debe seleccionar una venta.");
+                return;
+            }
+
+            ventaFinalizada = true;
+
+            MessageBox.Show("Venta finalizada correctamente.");
         }
     }
 }

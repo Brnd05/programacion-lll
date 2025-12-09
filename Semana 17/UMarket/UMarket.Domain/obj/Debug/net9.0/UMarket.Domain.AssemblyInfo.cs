@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UMarket.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50770b093382d8b13bbb5eccfb44af657df361b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e0b4e28f7c0e820c15e8b4ce33916cb37ba6eeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("UMarket.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UMarket.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

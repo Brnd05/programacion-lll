@@ -118,38 +118,7 @@ namespace SmartManager.Data
             }
         }
 
-        //public DataTable MostrarProductos()
-        //{
-        //    SqlDataReader Resultado;
-        //    DataTable Tabla = new DataTable();
-        //    SqlConnection SqlCon = new SqlConnection();
 
-        //    try
-        //    {
-        //        SqlCon = Conexion.crearInstancia().CrearConexion();
-        //        SqlCommand comando = new SqlCommand("sp_MostrarProductos", SqlCon);
-        //        comando.CommandType = CommandType.StoredProcedure;
-
-        //        SqlCon.Open();
-        //        Resultado = comando.ExecuteReader();
-        //        Tabla.Load(Resultado);
-        //        return Tabla;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.Message);
-        //        throw ex;
-        //    }
-        //    finally
-        //    {
-        //        if (SqlCon.State == ConnectionState.Open)
-        //        {
-        //            SqlCon.Close();
-        //        }
-        //    }
-
-
-        //}
 
         public DataTable MostrarProductosPorCategoria(int idCategoria)
         {
@@ -170,8 +139,7 @@ namespace SmartManager.Data
                         DataTable tabla = new DataTable();
                         tabla.Load(reader);
 
-                        // Columna formateada para mostrar en el ComboBox
-                        // Ejemplo: "12 - Mouse óptico | Stock: 35 | Precio: $19.99"
+
                         tabla.Columns.Add("DisplayText", typeof(string));
                         foreach (DataRow row in tabla.Rows)
                         {
@@ -179,7 +147,7 @@ namespace SmartManager.Data
                             string nombre = row["nombre_producto"].ToString();
                             int stock = (int)row["existencias_producto"];
 
-                            // smallmoney -> decimal en C#
+                           
                             decimal precio = Convert.ToDecimal(row["precio_producto"]);
 
                             row["DisplayText"] = $"{idProd} - {nombre} | Stock: {stock} | Precio: {precio:C2}";
@@ -195,7 +163,7 @@ namespace SmartManager.Data
             }
             catch (Exception ex)
             {
-                // En la capa de datos se recomienda no usar MessageBox; deja que la capa UI decida.
+               
                 throw; // re-lanza para que la UI gestione el mensaje
             }
             finally

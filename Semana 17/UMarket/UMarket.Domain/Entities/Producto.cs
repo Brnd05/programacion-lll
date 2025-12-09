@@ -20,6 +20,6 @@ namespace UMarket.Domain.Entities
 
         public required int CategoriaId { get; set; }
 
-        public Categorias Categoria { get; set; }
+        public required Categoria Categoria { get; set; }
     }
 }

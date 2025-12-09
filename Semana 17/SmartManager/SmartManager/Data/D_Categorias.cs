@@ -43,12 +43,12 @@ namespace SmartManager.Data
             }
         }
 
-        // Agregar dentro de la clase D_Categorias
-        public void CargarCombo(ComboBox combo, bool incluirSeleccione = true, string textoSeleccione = "-- Seleccione --")
+     
+        public void CargarCombo(ComboBox combo, bool incluirSeleccione = true)
         {
             try
             {
-                DataTable dt = MostrarCategorias(); // usa tu método existente
+                DataTable dt = MostrarCategorias(); 
                 if (dt == null) return;
 
                 DataTable dtParaCombo = dt.Copy();
@@ -57,7 +57,7 @@ namespace SmartManager.Data
                 {
                     DataRow fila = dtParaCombo.NewRow();
                     fila["id_categoria"] = 0;
-                    fila["nombre_categoria"] = textoSeleccione;
+                    fila["nombre_categoria"] = "";
                     dtParaCombo.Rows.InsertAt(fila, 0);
                 }
 

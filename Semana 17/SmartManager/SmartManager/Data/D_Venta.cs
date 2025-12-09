@@ -40,7 +40,7 @@ namespace SmartManager.Data
                     id_venta = Convert.ToInt32(comando.Parameters["@id_venta"].Value);
                 }
 
-                return filas > 0 ? "Inserción exitosa." : "No se insertó ningún registro.";
+                return "Inserción exitosa.";
             }
             catch (Exception ex)
             {
@@ -53,6 +53,35 @@ namespace SmartManager.Data
                 {
                     SqlCon.Close();
                 }
+            }
+        }
+
+            public DataTable MostrarVentas()
+        {
+            SqlDataReader Resultado;
+            DataTable Tabla = new DataTable();
+            SqlConnection SqlCon = new SqlConnection();
+
+            try
+            {
+                SqlCon = Conexion.crearInstancia().CrearConexion();
+                SqlCommand comando = new SqlCommand("sp_MostrarVentas", SqlCon);
+                comando.CommandType = CommandType.StoredProcedure;
+
+                SqlCon.Open();
+                Resultado = comando.ExecuteReader();
+                Tabla.Load(Resultado);
+
+                return Tabla;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open)
+                    SqlCon.Close();
             }
         }
     }

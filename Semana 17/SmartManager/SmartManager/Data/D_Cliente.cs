@@ -8,9 +8,7 @@ namespace Datos
 {
     public class D_Cliente
     {
-        // CRUD con procedimientos almacenados
-
-        // Mostrar todos los clientes: procedimiento "MostrarClientes"
+       
 
         public DataTable MostrarClientes()
         {
@@ -42,7 +40,6 @@ namespace Datos
 
 
 
-        // Insertar cliente: procedimiento "sp_InsertarCliente"
         public string InsertarCliente(string nombre, string apellido, string email)
         {
             string respuesta = "OK";
@@ -53,19 +50,19 @@ namespace Datos
                 sqlCon = Conexion.crearInstancia().CrearConexion();
                 sqlCon.Open();
 
-                using (SqlCommand cmd = new SqlCommand("sp_InsertarCliente", sqlCon))
+                using (SqlCommand comando = new SqlCommand("sp_InsertarCliente", sqlCon))
                 {
-                    cmd.CommandType = CommandType.StoredProcedure;
+                    comando.CommandType = CommandType.StoredProcedure;
 
-                    cmd.Parameters.Add("@nombre_cliente", SqlDbType.NVarChar, 100).Value = nombre;
-                    cmd.Parameters.Add("@apellido_cliente", SqlDbType.NVarChar, 100).Value = apellido;
-                    cmd.Parameters.Add("@email_cliente", SqlDbType.NVarChar, 250).Value = email;
+                    comando.Parameters.Add("@nombre_cliente", SqlDbType.NVarChar, 100).Value = nombre;
+                    comando.Parameters.Add("@apellido_cliente", SqlDbType.NVarChar, 100).Value = apellido;
+                    comando.Parameters.Add("@email_cliente", SqlDbType.NVarChar, 250).Value = email;
 
-                    int filas = cmd.ExecuteNonQuery();
+                    int filas = comando.ExecuteNonQuery();
                     if (filas < 1) respuesta = "No se insertó ningún registro";
                 }
             }
-            catch (SqlException ex) when (ex.Number == 2627 || ex.Number == 2601) // unique key/email
+            catch (SqlException ex) when (ex.Number == 2627 || ex.Number == 2601) 
             {
                 respuesta = "El email ya existe. Debe ser único.";
             }
@@ -81,7 +78,7 @@ namespace Datos
             return respuesta;
         }
 
-        // Actualizar cliente: procedimiento "sp_ActualizarCliente"
+        
         public string ActualizarCliente(int idCliente, string nombre, string apellido, string email)
         {
             string respuesta = "OK";
@@ -92,16 +89,16 @@ namespace Datos
                 sqlCon = Conexion.crearInstancia().CrearConexion();
                 sqlCon.Open();
 
-                using (SqlCommand cmd = new SqlCommand("sp_ActualizarCliente", sqlCon))
+                using (SqlCommand comando = new SqlCommand("sp_ActualizarCliente", sqlCon))
                 {
-                    cmd.CommandType = CommandType.StoredProcedure;
+                    comando.CommandType = CommandType.StoredProcedure;
 
-                    cmd.Parameters.Add("@id_cliente", SqlDbType.Int).Value = idCliente;
-                    cmd.Parameters.Add("@nombre_cliente", SqlDbType.NVarChar, 100).Value = nombre;
-                    cmd.Parameters.Add("@apellido_cliente", SqlDbType.NVarChar, 100).Value = apellido;
-                    cmd.Parameters.Add("@email_cliente", SqlDbType.NVarChar, 250).Value = email;
+                    comando.Parameters.Add("@id_cliente", SqlDbType.Int).Value = idCliente; 
+                    comando.Parameters.Add("@nombre_cliente", SqlDbType.NVarChar, 100).Value = nombre;
+                    comando.Parameters.Add("@apellido_cliente", SqlDbType.NVarChar, 100).Value = apellido;
+                    comando.Parameters.Add("@email_cliente", SqlDbType.NVarChar, 250).Value = email;
 
-                    int filas = cmd.ExecuteNonQuery();
+                    int filas = comando.ExecuteNonQuery(); 
                     if (filas < 1) respuesta = "No se actualizó ningún registro";
                 }
             }
@@ -121,7 +118,7 @@ namespace Datos
             return respuesta;
         }
 
-        // Eliminar cliente: procedimiento "sp_EliminarCliente"
+    
         public string EliminarCliente(int idCliente)
         {
             string respuesta = "OK";
@@ -133,12 +130,12 @@ namespace Datos
                 sqlCon = Conexion.crearInstancia().CrearConexion();
                 sqlCon.Open();
 
-                using (SqlCommand cmd = new SqlCommand("sp_EliminarCliente", sqlCon))
+                using (SqlCommand comando = new SqlCommand("sp_EliminarCliente", sqlCon))
                 {
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@id_cliente", SqlDbType.Int).Value = idCliente;
+                    comando.CommandType = CommandType.StoredProcedure; // corrected variable name
+                    comando.Parameters.Add("@id_cliente", SqlDbType.Int).Value = idCliente;
 
-                    int filas = cmd.ExecuteNonQuery();
+                    int filas = comando.ExecuteNonQuery();
                     if (filas < 1) respuesta = "No se eliminó ningún registro";
                 }
             }

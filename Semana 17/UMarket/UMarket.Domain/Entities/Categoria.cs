@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UMarket.Domain.Entities
 {
-    public class Categorias
+    public class Categoria
     {
         public required int Id { get; set; }
         public required string Nombre { get; set; }

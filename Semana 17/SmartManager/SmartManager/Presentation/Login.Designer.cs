@@ -87,6 +87,7 @@
             this.btnIngresar.Size = new System.Drawing.Size(85, 39);
             this.btnIngresar.TabIndex = 3;
             this.btnIngresar.Text = "Ingresar";
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // label1
             // 
@@ -151,7 +152,8 @@
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.txtUsuario);
             this.Name = "Login";
-            this.Text = "Form1";
+            this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
