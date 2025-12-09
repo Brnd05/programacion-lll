@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrestamosLibross")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7498e31a3cd56a93860b5dc8aaeb6fed5e940d4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c88c081f10231e62776e1252aa661a2e6522321")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrestamosLibross")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrestamosLibross")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

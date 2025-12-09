@@ -1,0 +1,12 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\bin\Debug\net9.0\EmpresaApp.Models.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\bin\Debug\net9.0\EmpresaApp.Models.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\bin\Debug\net9.0\EmpresaApp.Models.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\EmpresaApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\EmpresaApp.Models.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\EmpresaApp.Models.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\EmpresaApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\EmpresaApp.Models.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\EmpresaApp.Models.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\refint\EmpresaApp.Models.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\EmpresaApp.Models.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 12\EmpresaApp\EmpresaApp.Models\obj\Debug\net9.0\ref\EmpresaApp.Models.dll

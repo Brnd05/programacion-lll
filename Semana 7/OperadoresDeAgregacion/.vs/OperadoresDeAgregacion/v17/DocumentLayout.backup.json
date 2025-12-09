@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 7\\OperadoresDeAgregacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB55BAF-2FD5-4C47-9F76-8EB5C2DC8C92}|OperadoresDeAgregacion\\OperadoresDeAgregacion.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 7\\operadoresdeagregacion\\operadoresdeagregacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB55BAF-2FD5-4C47-9F76-8EB5C2DC8C92}|OperadoresDeAgregacion\\OperadoresDeAgregacion.csproj|solutionrelative:operadoresdeagregacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 7\\OperadoresDeAgregacion\\OperadoresDeAgregacion\\Program.cs",
+              "RelativeDocumentMoniker": "OperadoresDeAgregacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 7\\OperadoresDeAgregacion\\OperadoresDeAgregacion\\Program.cs",
+              "RelativeToolTip": "OperadoresDeAgregacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T12:12:55.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

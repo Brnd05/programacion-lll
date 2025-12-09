@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\bin\Debug\net8.0\CondicionalesDinamicasLINQ.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\bin\Debug\net8.0\CondicionalesDinamicasLINQ.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\bin\Debug\net8.0\CondicionalesDinamicasLINQ.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\bin\Debug\net8.0\CondicionalesDinamicasLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\bin\Debug\net8.0\CondicionalesDinamicasLINQ.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\refint\CondicionalesDinamicasLINQ.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\CondicionalesDinamicasLINQ.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 8\CondicionalesDinamicasLINQ\CondicionalesDinamicasLINQ\obj\Debug\net8.0\ref\CondicionalesDinamicasLINQ.dll

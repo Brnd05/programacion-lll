@@ -27,8 +27,8 @@ namespace PrestamosLibross
         #endregion
         //Guardar en un archivo json
         class Data {
-        public List<Libros> Libros { get; set; }
-            public List<Prestamo> Prestamo { get; set; }
+            public List<Libros> Libros { get; set; } = new ();
+            public List<Prestamo> Prestamo { get; set; } = new ();
 
             public int SiguienteLibroId { get; set; } = 1;
             public int SiguientePrestamoId { get; set; } = 1;
@@ -72,7 +72,152 @@ namespace PrestamosLibross
         static void Main(string[] args)
         {
             CargarDatos();
-            Console.WriteLine("Hello, World!");
+            while (true)
+            {
+                Console.WriteLine("Prestamos de Libros");
+                Console.WriteLine("1) Agregar libro");
+                Console.WriteLine("2) Prestar Libro");
+                Console.WriteLine("3) Devolver libro");
+                Console.WriteLine("4) Mostrar");
+                Console.WriteLine("5) Salir");
+
+                Console.WriteLine("Digitar opcion");
+
+                switch (Console.ReadLine())
+                {
+                    case "1": AgregarLibro(); break;
+                    case "2": PrestarLibro(); break;
+                    case "3": DevolverLibro(); break;
+                    case "4": Mostrar (); break;
+                    case "5": return;
+                    default: Console.WriteLine("Opcion invalida"); break;
+
+                }
+            }
+        }
+
+        //Operaciones
+        static void AgregarLibro()
+        {
+            Console.WriteLine("Nombre: ");
+            var nombre = (Console.ReadLine() ?? "").Trim();
+
+            if (string.IsNullOrWhiteSpace(nombre))
+            {
+                Console.WriteLine("Nombre es requerido.");
+                return;
+            }
+
+            var libro = new Libros { Id = BD.SiguienteLibroId++, Nombre = nombre };
+            BD.Libros.Add(libro);
+            GuardarArchivo();
+            Console.WriteLine($"Libro {libro.Id} agregado.");
+
+        }
+
+        static void PrestarLibro()
+        {
+            var disponible = BD.Libros.Where(libro => libro.Prestado).ToList();
+            if (disponible.Count == 0)
+            {
+                Console.WriteLine("No hay libros disponibles");
+                return;
+            }
+
+            Console.WriteLine("libros disponibles: ");
+            foreach (var l in disponible)
+            {
+                Console.WriteLine($"{l.Id} {l.Nombre}");
+            }
+
+            Console.WriteLine("Id libro: ");
+            if(!int.TryParse(Console.ReadLine(), out int idLibro))
+            {
+                Console.WriteLine("Dato invalido");
+                return;
+            }
+
+            var libro = disponible.FirstOrDefault(l => l.Id == idLibro);
+            if (libro == null)
+            {
+                Console.WriteLine("No encontrado");
+                return;
+            }
+
+            Console.WriteLine("Nombre de usuario");
+            var usuario = (Console.ReadLine() ?? "").Trim();
+            if (string.IsNullOrWhiteSpace(usuario))
+            {
+                Console.WriteLine("Nombre es requerido");
+                return;
+            }
+
+            var p = new Prestamo
+            {
+                Id = BD.SiguientePrestamoId++,
+                LibroId = libro.Id,
+                Usuario = usuario
+            };
+
+            libro.Prestado = true;
+            BD.Prestamo.Add(p);
+
+            GuardarArchivo();
+                Console.WriteLine($"Se ha prestado el libro: {libro.Nombre}");
+        }
+
+        static void DevolverLibro()
+        {
+            var activos = BD.Prestamo.Where(p => p.Activo).ToList();
+            if (activos.Count == 0)
+            {
+                Console.WriteLine("No hay prestamos activos");
+                return;
+            }
+
+            Console.WriteLine("Prestamos activos");
+            foreach (var p in activos)
+            {
+                var libro = BD.Libros.First(l => l.Id == p.LibroId);
+                Console.WriteLine($"{libro.Id} {libro.Nombre} {p.Usuario} {p.FechaPrestamo:g}");
+
+            }
+            Console.WriteLine("Id prestamo a devolver: ");
+            if(!int.TryParse(Console.ReadLine(), out int idPrestamo))
+            {
+                Console.WriteLine("Dato invalido");
+                return;
+            }
+
+            var prestamo = activos.FirstOrDefault(x => x.Id == idPrestamo);
+            if (prestamo == null ) { Console.WriteLine("Prestamo no encontrado");}
+            prestamo.FechaDevolucion = DateTime.Now;
+
+            BD.Libros.First(l => l.Id == prestamo.LibroId).Prestado = false;
+
+            GuardarArchivo();
+            Console.WriteLine("Devolucion registrada.");
+        }
+
+        static void Mostrar()
+        {
+            Console.WriteLine("Informacion Libro:");
+            foreach (var item in BD.Libros)
+            {
+                Console.WriteLine($"{item.Id} {item.Nombre} {(item.Prestado ? "Prestado" : "Dísponible")}");
+            }
+
+            Console.WriteLine("Informacion Prestamo: ");
+            foreach (var p in  BD.Prestamo)
+            {
+                var libro = BD.Libros.FirstOrDefault(l => l.Id == p.LibroId)?.Nombre;
+
+
+                var estado = p.Activo ? "Activo" : $"Devuelto {p.FechaDevolucion}";
+
+
+                Console.WriteLine($"{p.Id} {libro} {p.Usuario} {p.Usuario} {estado}");
+            }
         }
     }
 }

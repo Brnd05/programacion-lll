@@ -1,0 +1,135 @@
+﻿
+@page "/empleados"
+@using System.ComponentModel.DataAnnotations;
+@using EmpresaApp.Business
+@using EmpresaApp.Models
+
+@inject IEmpleadoService EmpleadoService
+@inject IDepartamentoService DepartamentoService
+
+<h5>Nuevo Departamento</h5>
+
+<EditForm Model="@nuevoDepartamento" OnValidSubmit="GuardarDepartamento">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+        <div>
+            <label>Nombre</label>
+            <InputText @bind-Value = "nuevoDepartamento.Nombre" />
+        </div>
+        <button type="submit">Guardar</button>
+</EditForm>
+<ul>
+    @foreach (var d in departamentos)
+    {
+        <li>@d.Nombre</li>
+    
+    }
+</ul>
+
+
+<h5>Nuevo Empleado</h5>
+<EditForm Model = "nuevoEmpleado" OnValidSubmit="GuardarEmpleado"> 
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    <div>
+        <label>Nombre</label>
+        <InputText @bind-Value="nuevoEmpleado.Nombre" />
+    </div>
+    <div>
+        <label>Salario</label>
+        <InputNumber @bind-Value="nuevoEmpleado.Salario" />
+    </div>
+    <div>
+        <label>Departamento</label>
+        <InputSelect @bind-Value="nuevoEmpleado.DepartamentoId">
+            <option value="0">Seleccionar</option>
+            @foreach (var d in departamentos)
+            {
+                <option value="@d.Id">@d.Nombre</option>
+            }
+        </InputSelect>
+     </div>
+            <button type="submit">Guardar</button>
+    
+</EditForm>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Salario
+            </th>
+            <th>
+                Departamento
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var e in empleados)
+        {
+            <tr>
+                <td>@e.Nombre</td>
+                <td>@e.Salario</td>
+                <td>@e.Departamento.Nombre</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@code {
+    // DTOs del formulario
+    //DTO es una copia de una entidad o clase
+    public class NuevoDepartamentoDto
+    {
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string Nombre { get; set; } = string.Empty;
+    }
+
+    public class NuevoEmpleadoDto
+    {
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string Nombre { get; set; } = string.Empty;
+
+        [Range(0.01,double.MaxValue,ErrorMessage ="Salario Invalido")]
+        public decimal Salario { get; set; }
+
+        [Range(1,int.MaxValue,ErrorMessage ="Seleccione un departamento")]
+        public int DepartamentoId { get; set; }
+
+
+    }
+
+    private NuevoDepartamentoDto nuevoDepartamento = new();
+    private NuevoEmpleadoDto nuevoEmpleado = new();
+    private List<Empleado> empleados = new();
+    private List<Departamento> departamentos = new();
+
+    private async Task Recargar()
+    {
+        departamentos = await DepartamentoService.ListarDepartamentosAsync();
+        empleados = await EmpleadoService.ListarEmpleadoAsync(); 
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Recargar();
+    }
+    /// <summary>
+    /// Metodos Crear
+    /// </summary>
+    private async Task GuardarDepartamento()
+    {
+        await DepartamentoService.CrearDepartamentoAsync(nuevoDepartamento.Nombre);
+        nuevoDepartamento = new();
+        await Recargar();
+    }
+
+    private async Task GuardarEmpleado()
+    {
+        await EmpleadoService.AgregarEmpleadoAsync(nuevoEmpleado.Nombre, nuevoEmpleado.Salario,nuevoEmpleado.DepartamentoId);
+        nuevoEmpleado = new();
+        await Recargar();
+    }
+}

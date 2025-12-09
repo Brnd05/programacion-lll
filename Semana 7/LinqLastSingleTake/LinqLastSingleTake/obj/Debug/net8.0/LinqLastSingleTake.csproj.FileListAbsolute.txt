@@ -1,0 +1,15 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\bin\Debug\net8.0\LinqLastSingleTake.exe
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\bin\Debug\net8.0\LinqLastSingleTake.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\bin\Debug\net8.0\LinqLastSingleTake.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\bin\Debug\net8.0\LinqLastSingleTake.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\bin\Debug\net8.0\LinqLastSingleTake.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\refint\LinqLastSingleTake.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\LinqLastSingleTake.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 7\LinqLastSingleTake\LinqLastSingleTake\obj\Debug\net8.0\ref\LinqLastSingleTake.dll

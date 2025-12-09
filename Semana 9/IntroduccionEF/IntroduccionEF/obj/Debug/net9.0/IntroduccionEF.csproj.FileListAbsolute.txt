@@ -1,0 +1,6 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 9\IntroduccionEF\IntroduccionEF\obj\Debug\net9.0\IntroduccionEF.csproj.AssemblyReference.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 9\IntroduccionEF\IntroduccionEF\obj\Debug\net9.0\IntroduccionEF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 9\IntroduccionEF\IntroduccionEF\obj\Debug\net9.0\IntroduccionEF.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 9\IntroduccionEF\IntroduccionEF\obj\Debug\net9.0\IntroduccionEF.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 9\IntroduccionEF\IntroduccionEF\obj\Debug\net9.0\IntroduccionEF.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 9\IntroduccionEF\IntroduccionEF\obj\Debug\net9.0\IntroduccionEF.sourcelink.json

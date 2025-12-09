@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\Colecciones gen\u00E9ricas - Sistema de Control de Pedidos de Restaurante\\Restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\colecciones gen\u00E9ricas - sistema de control de pedidos de restaurante\\restaurante\\restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|solutionrelative:restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\colecciones gen\u00E9ricas - sistema de control de pedidos de restaurante\\restaurante\\restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|solutionrelative:restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\colecciones gen\u00E9ricas - sistema de control de pedidos de restaurante\\restaurante\\restaurante\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|solutionrelative:restaurante\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 4\\colecciones gen\u00E9ricas - sistema de control de pedidos de restaurante\\restaurante\\restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{293DED7C-A176-4045-AED6-B6C73E38FAAD}|Restaurante\\ColeccionesGenericas.csproj|solutionrelative:restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\Colecciones gen\u00E9ricas - Sistema de Control de Pedidos de Restaurante\\Restaurante\\Restaurante\\Menu.cs",
               "RelativeDocumentMoniker": "Restaurante\\Menu.cs",
@@ -39,26 +39,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Restaurante.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\Colecciones gen\u00E9ricas - Sistema de Control de Pedidos de Restaurante\\Restaurante\\Restaurante\\Restaurante.cs",
               "RelativeDocumentMoniker": "Restaurante\\Restaurante.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\Colecciones gen\u00E9ricas - Sistema de Control de Pedidos de Restaurante\\Restaurante\\Restaurante\\Restaurante.cs",
               "RelativeToolTip": "Restaurante\\Restaurante.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwGAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T00:53:32.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\Colecciones gen\u00E9ricas - Sistema de Control de Pedidos de Restaurante\\Restaurante\\Restaurante\\Program.cs",
               "RelativeDocumentMoniker": "Restaurante\\Program.cs",
               "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 4\\Colecciones gen\u00E9ricas - Sistema de Control de Pedidos de Restaurante\\Restaurante\\Restaurante\\Program.cs",
               "RelativeToolTip": "Restaurante\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T00:51:54.641Z",
               "EditorCaption": ""

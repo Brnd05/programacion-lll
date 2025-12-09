@@ -1,0 +1,136 @@
+﻿@page "/academia"
+
+@using System.ComponentModel.DataAnnotations;
+@using AcademiaApp.Business;
+@using AcademiaApp.Models;
+
+@inject IEstudiante EstudianteService
+@inject ICarrera CarreraService
+
+<h5>Nueva carrera</h5>
+
+<EditForm Model="@nuevaCarrera" OnValidSubmit="GuardarCarrera">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    <div>
+        <label>Nombre</label>
+        <InputText @bind-Value="nuevaCarrera.Nombre" />
+    </div>
+    <button type="submit">Guardar</button>
+</EditForm>
+
+
+<h5>Nuevo estudiante</h5>
+<EditForm Model = "nuevoEstudiante" OnValidSubmit="GuardarEstudiante">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div>
+        <label>Nombre</label>
+        <InputText @bind-Value="nuevoEstudiante.Nombre" />
+
+    </div>
+    <div>
+        <label>Carnet</label>
+        <InputText @bind-Value="nuevoEstudiante.Carnet"/>
+    </div>
+    <div>
+        <label>Carrera</label>
+        <InputSelect @bind-Value="nuevoEstudiante.CarreraId">
+            <option value="0">Seleccionar</option>
+            @foreach (var c in carreras)
+            {
+                <option value="@c.Id">@c.Nombre</option>
+            }
+        </InputSelect>
+        
+    </div>
+          <button type="submit">Guardar</button>
+
+</EditForm>
+
+<table>
+   <thead>
+       <tr>
+           <th>
+               Nombre
+           </th>
+           <th>
+               Carnet
+           </th>
+           <th>
+               Carrera
+           </th>
+       </tr>
+   </thead>
+   <tbody>
+       @foreach (var e in estudiantes)
+        {
+            <tr>
+                <td>@e.Nombre</td>
+                <td>@e.Carnet</td>
+                <td>@e.Carrera.Nombre</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@code
+{
+    public class NuevaCarreraDto
+    {
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string Nombre { get; set; } = string.Empty;
+
+    }
+
+    public class NuevoEstudianteDto
+    {
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string Nombre { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string Carnet { get; set; } = string.Empty;
+
+        [Range(1,int.MaxValue, ErrorMessage = "Seleccione una carrera")]
+        public int CarreraId { get; set; }
+    }
+
+
+    private NuevaCarreraDto nuevaCarrera = new();
+    private NuevoEstudianteDto nuevoEstudiante = new();
+    private List<Estudiante> estudiantes = new();
+    private List<Carrera> carreras = new();
+
+    private async Task Recargar()
+    {
+        estudiantes = await EstudianteService.ListarEstudianteAsync();
+        carreras = await CarreraService.ListarCarreraAsync();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Recargar();
+    }
+    private async Task GuardarCarrera()
+    {
+
+        await CarreraService.RegistrarCarrera(nuevaCarrera.Nombre);
+        nuevaCarrera = new();
+        await Recargar();
+    }
+    private async Task GuardarEstudiante()
+    {
+        try
+        {
+            await EstudianteService.AgregarEstudianteAsync(nuevoEstudiante.Nombre, nuevoEstudiante.Carnet, nuevoEstudiante.CarreraId);
+            nuevoEstudiante = new();
+            await Recargar();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine(ex);
+        }
+
+    }
+}
