@@ -1,0 +1,248 @@
+﻿@page "/categorias"
+@using UMarket.Application.DTO
+@inject UMarket.Application.Contracts.ICategoriaService CategoriaService
+
+<h3>Categorías</h3>
+
+@if (isLoading)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <div class="mb-4">
+        <EditForm Model="createDto" OnValidSubmit="CreateCategoriaAsync">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="row">
+                <div class="col-md-6 mb-2">
+                    <label class="form-label">Nombre</label>
+                    <InputText class="form-control" @bind-Value="createDto.Nombre" />
+                </div>
+                <div class="col-md-6 d-flex align-items-end">
+                    <button class="btn btn-primary" type="submit">Crear categoría</button>
+                </div>
+            </div>
+        </EditForm>
+    </div>
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="alert @messageClass">@message</div>
+    }
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Productos</th>
+                <th style="width:220px">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in categorias)
+            {
+                <tr>
+                    <td>
+                        @if (editingId == c.Id)
+                        {
+                            <InputText class="form-control" @bind-Value="editingDto.Nombre" />
+                        }
+                        else
+                        {
+                            @c.Nombre
+                        }
+                    </td>
+                    <td>
+                        @if (c.Productos != null && c.Productos.Any())
+                        {
+                            <ul class="mb-0">
+                                @foreach (var p in c.Productos)
+                                {
+                                    <li>@p.Nombre (@p.Stock) - @p.Precio.ToString("C")</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <em>No hay productos</em>
+                        }
+                    </td>
+                    <td>
+                        @if (editingId == c.Id)
+                        {
+                            <button class="btn btn-success btn-sm me-2" @onclick="() => SaveEditAsync(c.Id)">Guardar</button>
+                            <button class="btn btn-secondary btn-sm" @onclick="CancelEdit">Cancelar</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-outline-primary btn-sm me-2" @onclick="() => StartEdit(c)">Editar</button>
+                            <button class="btn btn-outline-danger btn-sm" @onclick="() => ConfirmDelete(c.Id, c.Nombre)">Eliminar</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (showDeleteConfirm)
+{
+    <div class="modal-backdrop fade show"></div>
+    <div class="modal d-block" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmar eliminación</h5>
+                    <button type="button" class="btn-close" @onclick="CloseDeleteConfirm"></button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Eliminar la categoría <strong>@deleteTargetName</strong>?</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="CloseDeleteConfirm">Cancelar</button>
+                    <button class="btn btn-danger" @onclick="DeleteAsync">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private List<CategoriaDto> categorias = new();
+    private CategoriaCreateDto createDto = new();
+    private CategoriaUpdateDto editingDto = new();
+    private int? editingId;
+    private bool isLoading = true;
+    private string? message;
+    private string messageClass = "alert-info";
+
+    // Confirmación de eliminación
+    private bool showDeleteConfirm;
+    private int deleteTargetId;
+    private string? deleteTargetName;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadAsync();
+    }
+
+    private async Task LoadAsync()
+    {
+        isLoading = true;
+        message = null;
+        try
+        {
+            categorias = await CategoriaService.GetAllAsync();
+        }
+        catch (Exception ex)
+        {
+            message = "Error cargando categorías: " + ex.Message;
+            messageClass = "alert-danger";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task CreateCategoriaAsync()
+    {
+        message = null;
+        try
+        {
+            var id = await CategoriaService.CreateAsync(createDto);
+            message = "Categoría creada correctamente.";
+            messageClass = "alert-success";
+            createDto = new CategoriaCreateDto(); // reset formulario
+            await LoadAsync();
+        }
+        catch (Exception ex)
+        {
+            message = "Error creando categoría: " + ex.Message;
+            messageClass = "alert-danger";
+        }
+    }
+
+    private void StartEdit(CategoriaDto c)
+    {
+        editingId = c.Id;
+        editingDto = new CategoriaUpdateDto { Nombre = c.Nombre };
+        message = null;
+    }
+
+    private void CancelEdit()
+    {
+        editingId = null;
+        editingDto = new CategoriaUpdateDto();
+    }
+
+    private async Task SaveEditAsync(int id)
+    {
+        message = null;
+        try
+        {
+            var ok = await CategoriaService.UpdateAsync(id, editingDto);
+            if (ok)
+            {
+                message = "Categoría actualizada.";
+                messageClass = "alert-success";
+                editingId = null;
+                await LoadAsync();
+            }
+            else
+            {
+                message = "No se encontró la categoría para actualizar.";
+                messageClass = "alert-warning";
+            }
+        }
+        catch (Exception ex)
+        {
+            message = "Error actualizando categoría: " + ex.Message;
+            messageClass = "alert-danger";
+        }
+    }
+
+    private void ConfirmDelete(int id, string nombre)
+    {
+        deleteTargetId = id;
+        deleteTargetName = nombre;
+        showDeleteConfirm = true;
+    }
+
+    private void CloseDeleteConfirm()
+    {
+        showDeleteConfirm = false;
+        deleteTargetId = 0;
+        deleteTargetName = null;
+    }
+
+    private async Task DeleteAsync()
+    {
+        message = null;
+        try
+        {
+            var ok = await CategoriaService.DeleteAsync(deleteTargetId);
+            if (ok)
+            {
+                message = "Categoría eliminada.";
+                messageClass = "alert-success";
+                await LoadAsync();
+            }
+            else
+            {
+                message = "No se encontró la categoría para eliminar.";
+                messageClass = "alert-warning";
+            }
+        }
+        catch (Exception ex)
+        {
+            message = "Error eliminando categoría: " + ex.Message;
+            messageClass = "alert-danger";
+        }
+        finally
+        {
+            CloseDeleteConfirm();
+        }
+    }
+}
