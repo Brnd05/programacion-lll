@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net8.0": {
       "PizzaUNAB.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/PizzaUNAB.Domain.dll": {}
         },
@@ -22,7 +22,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
+    "net8.0": [
       "PizzaUNAB.Domain >= 1.0.0"
     ]
   },
@@ -33,11 +33,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\PizzaUNAB.Application.csproj",
       "projectName": "PizzaUNAB.Application",
       "projectPath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\PizzaUNAB.Application.csproj",
       "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Application\\PizzaUNAB.Application.csproj",
+      "projectName": "PizzaUNAB.Application",
+      "projectPath": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Application\\PizzaUNAB.Application.csproj",
+      "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Application\\obj\\",
+>>>>>>> 6ea0aa80f56089c9019c592fe1f134c8eb71849d
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,7 +56,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -56,11 +64,16 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj": {
               "projectPath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj"
+=======
+            "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj": {
+              "projectPath": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj"
+>>>>>>> 6ea0aa80f56089c9019c592fe1f134c8eb71849d
             }
           }
         }
@@ -78,8 +91,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",

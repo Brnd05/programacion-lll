@@ -1,0 +1,20 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+<<<<<<< HEAD:Semana 16/PizzaUNAB/PizzaUNAB.Infraestructure/obj/Debug/net9.0/PizzaUNAB.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+build_property.RootNamespace = PizzaUNAB.Infraestructure
+build_property.ProjectDir = C:\Users\Brandon\OneDrive\Documentos\Progra 3\Semana 16\PizzaUNAB\PizzaUNAB.Infraestructure\
+=======
+build_property.RootNamespace = PizzaUNAB.Testing
+build_property.ProjectDir = C:\Users\Brandon\Downloads\PizzaUNAB\PizzaUNAB\PizzaUNAB.Testing\
+>>>>>>> 6ea0aa80f56089c9019c592fe1f134c8eb71849d:Semana 16/PizzaUNAB/PizzaUNAB.Testing/obj/Debug/net8.0/PizzaUNAB.Testing.GeneratedMSBuildEditorConfig.editorconfig
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 

@@ -1,0 +1,86 @@
+﻿@page "/clientes"
+@using Microsoft.AspNetCore.Components.Forms
+@inject PizzaUNAB.Application.Contracts.IClienteService ClienteService
+@using PizzaUNAB.Application.DTOs
+
+<h3>Clientes</h3>
+
+@if (list is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <button class="btn btn-primary" @onclick="Nuevo">Nuevo Cliente</button>
+    <table class="table mt-3">
+        <thead><tr><th>Id</th><th>Nombre</th><th>Teléfono</th><th></th></tr></thead>
+        <tbody>
+            @foreach (var c in list)
+            {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Nombre</td>
+                    <td>@c.Telefono</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary" @onclick="() => Editar(c.Id)">Editar</button>
+                        <button class="btn btn-sm btn-danger ms-1" @onclick="() => Eliminar(c.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (showForm)
+{
+    <EditForm Model="form" OnValidSubmit="@Guardar">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-2">
+            <label>Nombre</label>
+            <InputText class="form-control" @bind-Value="form.Nombre" />
+        </div>
+        <div class="mb-2">
+            <label>Teléfono</label>
+            <InputText class="form-control" @bind-Value="form.Telefono" />
+        </div>
+
+        <button class="btn btn-success" type="submit">Guardar</button>
+        <button class="btn btn-light ms-2" type="button" @onclick="Cancelar">Cancelar</button>
+    </EditForm>
+}
+
+@code {
+    List<ClienteDto>? list;
+    bool showForm; int? editId;
+    ClienteUpdateDto form = new();
+
+    protected override async Task OnInitializedAsync() => await Cargar();
+    async Task Cargar() => list = await ClienteService.GetAllAsync();
+
+    void Nuevo() { editId = null; form = new ClienteUpdateDto(); showForm = true; }
+
+    async Task Editar(int id)
+    {
+        var c = await ClienteService.GetByIdAsync(id);
+        if (c is null) return;
+        editId = id;
+        form = new ClienteUpdateDto { Nombre = c.Nombre, Telefono = c.Telefono };
+        showForm = true;
+    }
+
+    async Task Guardar()
+    {
+        if (editId is null)
+            await ClienteService.CreateAsync(new ClienteCreateDto { Nombre = form.Nombre, Telefono = form.Telefono });
+        else
+            await ClienteService.UpdateAsync(editId.Value, form);
+
+        showForm = false;
+        await Cargar();
+    }
+
+    async Task Eliminar(int id) { await ClienteService.DeleteAsync(id); await Cargar(); }
+    void Cancelar() => showForm = false;
+}

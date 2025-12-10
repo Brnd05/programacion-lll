@@ -1,10 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "61uXtNRnS+w=",
   "success": true,
   "projectFilePath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Application\\PizzaUNAB.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brandon\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.301\\microsoft.net.sdk.compilers.toolset.9.0.301.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "RCPaSGnmwmg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Application\\PizzaUNAB.Application.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 6ea0aa80f56089c9019c592fe1f134c8eb71849d
   "logs": []
 }

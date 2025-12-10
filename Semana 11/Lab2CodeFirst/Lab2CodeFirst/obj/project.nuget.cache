@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+Ep6XeeK/js=",
+=======
+  "dgSpecHash": "EmH4W3wad6g=",
+>>>>>>> 6ea0aa80f56089c9019c592fe1f134c8eb71849d
   "success": true,
   "projectFilePath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 11\\Lab2CodeFirst\\Lab2CodeFirst\\Lab2CodeFirst.csproj",
   "expectedPackageFiles": [

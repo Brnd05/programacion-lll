@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab2CodeFirst")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9159abd59b35ab2c797ca5edf0bad5c00af115a4")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50770b093382d8b13bbb5eccfb44af657df361b5")]
+>>>>>>> 6ea0aa80f56089c9019c592fe1f134c8eb71849d
 [assembly: System.Reflection.AssemblyProductAttribute("Lab2CodeFirst")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab2CodeFirst")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj": {}
+    "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj": {
+    "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
         "projectName": "UMarket.Domain",
-        "projectPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
+        "projectPath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\UMarket.Domain.csproj",
         "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 17\\UMarket\\UMarket.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,12 +61,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.301, 9.0.301]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

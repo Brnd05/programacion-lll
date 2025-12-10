@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj",
         "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 16\\PizzaUNAB\\PizzaUNAB.Domain\\obj\\",
+=======
+    "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj",
+        "projectName": "PizzaUNAB.Domain",
+        "projectPath": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Domain\\PizzaUNAB.Domain.csproj",
+        "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brandon\\Downloads\\PizzaUNAB\\PizzaUNAB\\PizzaUNAB.Domain\\obj\\",
+>>>>>>> 6ea0aa80f56089c9019c592fe1f134c8eb71849d
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +36,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +44,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -48,8 +62,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

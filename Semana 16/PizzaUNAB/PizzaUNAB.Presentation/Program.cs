@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using PizzaUNAB.Application.Contracts;
+using PizzaUNAB.Infrastructure.Data;
+using PizzaUNAB.Infrastructure.Services;
 using PizzaUNAB.Presentation.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +9,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+
+builder.Services.AddDbContext<PizzeriaDb>(opt =>
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+
+builder.Services.AddScoped<IPizzaService, PizzaService>();
+builder.Services.AddScoped<IClienteService, ClienteService>();
+builder.Services.AddScoped<IPedidoService, PedidoService>();
 
 var app = builder.Build();
 
@@ -18,10 +30,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
+app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
