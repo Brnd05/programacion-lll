@@ -11,7 +11,7 @@ namespace UMarket.Application.Contracts
     {
         Task<List<CategoriaDto>> GetAllAsync();
 
-        Task<CategoriaDto?> GetAsync(int id);
+        Task<CategoriaDto?> GetByIdAsync(int id);
 
         Task<int> CreateAsync(CategoriaCreateDto dto);
 

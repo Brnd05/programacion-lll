@@ -22,7 +22,7 @@ namespace UMarket.Application.DTO
         public string Nombre { get; set; }
     }
 
-    /
+    
     public class CategoriaUpdateDto
     {
         public int Id { get; set; }

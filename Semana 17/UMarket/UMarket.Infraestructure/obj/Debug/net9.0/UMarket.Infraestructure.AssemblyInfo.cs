@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UMarket.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+554ec164952fece0f12b7c39926e2b393ceece13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fb4267a3b67c5d3c50d525a825f5fd8aa9e391b")]
 [assembly: System.Reflection.AssemblyProductAttribute("UMarket.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UMarket.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

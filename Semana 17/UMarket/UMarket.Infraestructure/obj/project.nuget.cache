@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P6IwcFPdQVE=",
+  "dgSpecHash": "mGdahGQXQdQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brandon\\OneDrive\\Documentos\\Progra 3\\Semana 17\\UMarket\\UMarket.Infraestructure\\UMarket.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\UMarket\\UMarket.Infraestructure\\UMarket.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brandon\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Brandon\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -82,8 +82,7 @@
     "C:\\Users\\Brandon\\.nuget\\packages\\system.text.json\\9.0.11\\system.text.json.9.0.11.nupkg.sha512",
     "C:\\Users\\Brandon\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\Brandon\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Brandon\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Brandon\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.301\\microsoft.net.sdk.compilers.toolset.9.0.301.nupkg.sha512"
+    "C:\\Users\\Brandon\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

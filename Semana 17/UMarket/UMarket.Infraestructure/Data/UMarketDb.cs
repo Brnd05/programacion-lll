@@ -45,19 +45,14 @@ namespace UMarket.Infraestructure.Data
                 e.Property(p => p.Nombre)
                     .IsRequired()
                     .HasMaxLength(100);
-
                 e.Property(p => p.Descripcion)
                     .IsRequired()
                     .HasMaxLength(300);
-
                 e.Property(p => p.Precio)
                     .IsRequired()
                     .HasColumnType("decimal(18,2)");
-
                 e.Property(p => p.Stock)
-                    .IsRequired();
-
-                
+                    .IsRequired();         
                 e.HasOne(p => p.Categoria)
                     .WithMany(c => c.Productos)
                     .HasForeignKey(p => p.CategoriaId)
@@ -87,23 +82,17 @@ namespace UMarket.Infraestructure.Data
   
                 e.Property(v => v.Fecha)
                     .IsRequired();
-
                 e.Property(v => v.Total)
                     .IsRequired()
-                    .HasColumnType("decimal(18,2)");
-
-               
+                    .HasColumnType("decimal(18,2)");              
                 e.HasOne(v => v.Usuario)
                     .WithMany() 
                     .HasForeignKey(v => v.UsuarioId)
                     .OnDelete(DeleteBehavior.Restrict);
-
-              
                 e.HasMany(v => v.Detalles)
                     .WithOne(d => d.Venta)
                     .HasForeignKey(d => d.VentaId)
                     .OnDelete(DeleteBehavior.Cascade);
-               
             });
 
             mb.Entity<VentaDetalle>(e =>
