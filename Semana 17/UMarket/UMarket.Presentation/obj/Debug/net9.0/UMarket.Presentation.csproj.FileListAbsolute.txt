@@ -1,0 +1,8 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\UMarket.Presentation.csproj.AssemblyReference.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\UMarket.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\UMarket.Presentation.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\UMarket.Presentation.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\UMarket.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\UMarket.Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Presentation\obj\Debug\net9.0\UMarket.Presentation.sourcelink.json

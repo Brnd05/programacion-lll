@@ -1,0 +1,6 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.sourcelink.json

@@ -9,9 +9,10 @@ using UMarket.Application.Contracts;
 using UMarket.Application.DTO;
 using UMarket.Domain.Entities;
 using UMarket.Infraestructure.Data;
+
 namespace UMarket.Infraestructure.Services
 {
-     public class UsuarioService
+     public class UsuarioService : IUsuarioService
     {
         private readonly UMarketDb _db;
         public UsuarioService(UMarketDb db) => _db = db;

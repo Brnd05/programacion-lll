@@ -10,9 +10,10 @@ using UMarket.Application.DTO;
 using UMarket.Domain.Entities;
 using UMarket.Infraestructure.Data;
 
+
 namespace UMarket.Infraestructure.Services
 {
-     public class ProductoService
+     public class ProductoService : IProductoService
     {
         private readonly UMarketDb _db;
 
@@ -81,5 +82,6 @@ namespace UMarket.Infraestructure.Services
             await _db.SaveChangesAsync();
             return true;
         }
+
     }
 }

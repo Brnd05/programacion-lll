@@ -10,11 +10,11 @@ namespace UMarket.Application.Contracts
     {
         Task<List<ProductoDto>> GetAllAsync();
 
-        Task<ProductoDto?> GetByIdAsync(Guid id);
+        Task<ProductoDto?> GetByIdAsync(int id);
 
         Task<int> CreateAsync(ProductoCreateDto producto);
 
-        Task<int> UpdateAsync(int id, ProductoUpdateDto dto);
+        Task<bool> UpdateAsync(int id, ProductoUpdateDto dto);
 
         Task<bool> DeleteAsync(int id);
 

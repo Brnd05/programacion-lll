@@ -1,0 +1,16 @@
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\bin\Debug\net9.0\UMarket.Application.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\bin\Debug\net9.0\UMarket.Application.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\bin\Debug\net9.0\UMarket.Application.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\bin\Debug\net9.0\UMarket.Domain.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\bin\Debug\net9.0\UMarket.Domain.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.csproj.AssemblyReference.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.AssemblyInfoInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.AssemblyInfo.cs
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket..54420690.Up2Date
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\refint\UMarket.Application.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\UMarket.Application.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Application\obj\Debug\net9.0\ref\UMarket.Application.dll

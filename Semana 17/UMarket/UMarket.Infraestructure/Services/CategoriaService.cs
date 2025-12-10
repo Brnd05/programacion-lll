@@ -9,6 +9,7 @@ using UMarket.Application.Contracts;
 using UMarket.Application.DTO;
 using UMarket.Domain.Entities;
 using UMarket.Infraestructure.Data;
+
 namespace UMarket.Infraestructure.Services
 {
     public class CategoriaService : ICategoriaService
