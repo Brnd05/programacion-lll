@@ -71,7 +71,7 @@ namespace UMarket.Infraestructure.Services
             return true;
         }
 
-        public async Task<List<VentaDetalleDto>> GetDetallesByVentaIdAsync(int ventaId) => await _db.VentaDetalles
+        public async Task<List<VentaDetalleDto>> GetDetallesByVentaIdAsync(int ventaId) => await _db.VentasDetalles
             .Where(vd => vd.VentaId == ventaId)
             .OrderBy(vd => vd.Id)
             .Select(vd => new VentaDetalleDto

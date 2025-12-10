@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\data\\d_ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\presentation\\smartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\data\\d_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|c:\\users\\brandon\\documents\\progra 3\\semana 17\\smartmanager\\smartmanager\\data\\d_ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\data\\d_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|solutionrelative:smartmanager\\data\\d_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{213942D4-EF00-4F89-97AA-F7FD11F3C9DB}|SmartManager\\SmartManager.csproj|C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\smartmanager\\presentation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,17 +48,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 126,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SmartManager.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
               "RelativeDocumentMoniker": "SmartManager\\Presentation\\SmartManager.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs*",
-              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.cs*",
-              "ViewState": "AgIAAJ4BAAAAAAAAAAAYwMMBAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
+              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.cs",
+              "ViewState": "AgIAAAoEAAAAAAAAAAAAwMMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T22:21:35.794Z",
               "IsPinned": true,
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\Login.cs",
               "RelativeDocumentMoniker": "SmartManager\\Presentation\\Login.cs",
@@ -76,32 +76,6 @@
               "WhenOpened": "2025-12-08T20:55:04.005Z",
               "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "D_Venta.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Venta.cs",
-              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Venta.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Venta.cs*",
-              "RelativeToolTip": "SmartManager\\Data\\D_Venta.cs*",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T23:21:02.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "D_VentaDetalle.cs",
-              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_VentaDetalle.cs",
-              "RelativeDocumentMoniker": "SmartManager\\Data\\D_VentaDetalle.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_VentaDetalle.cs*",
-              "RelativeToolTip": "SmartManager\\Data\\D_VentaDetalle.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwE8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T23:12:19.745Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -117,7 +91,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "D_Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Venta.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Data\\D_Venta.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Venta.cs",
+              "RelativeToolTip": "SmartManager\\Data\\D_Venta.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:21:02.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "D_VentaDetalle.cs",
+              "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_VentaDetalle.cs",
+              "RelativeDocumentMoniker": "SmartManager\\Data\\D_VentaDetalle.cs",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_VentaDetalle.cs",
+              "RelativeToolTip": "SmartManager\\Data\\D_VentaDetalle.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:12:19.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "D_Producto.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Producto.cs",
               "RelativeDocumentMoniker": "SmartManager\\Data\\D_Producto.cs",
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "D_Vendedores.cs",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Data\\D_Vendedores.cs",
               "RelativeDocumentMoniker": "SmartManager\\Data\\D_Vendedores.cs",
@@ -160,8 +160,8 @@
               "Title": "SmartManager.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs",
               "RelativeDocumentMoniker": "SmartManager\\Presentation\\SmartManager.cs",
-              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\Brandon\\Documents\\Progra 3\\Semana 17\\SmartManager\\SmartManager\\Presentation\\SmartManager.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SmartManager\\Presentation\\SmartManager.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T22:21:31.506Z",
               "EditorCaption": " [Dise\u00F1o]"

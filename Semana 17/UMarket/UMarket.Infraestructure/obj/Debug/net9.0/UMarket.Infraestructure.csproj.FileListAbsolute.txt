@@ -4,3 +4,17 @@ C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\ob
 C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.AssemblyInfo.cs
 C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.csproj.CoreCompileInputs.cache
 C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.sourcelink.json
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Infraestructure.deps.json
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Infraestructure.runtimeconfig.json
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Infraestructure.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Infraestructure.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Application.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Domain.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Application.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\bin\Debug\net9.0\UMarket.Domain.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket..126DF203.Up2Date
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\refint\UMarket.Infraestructure.dll
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.pdb
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\UMarket.Infraestructure.genruntimeconfig.cache
+C:\Users\Brandon\Documents\Progra 3\Semana 17\UMarket\UMarket.Infraestructure\obj\Debug\net9.0\ref\UMarket.Infraestructure.dll
